@@ -1,0 +1,56 @@
+.background{
+    background-color: black;
+    padding-top: 25px;
+}
+
+.normalText{
+    font-family: "Courier New";
+}
+
+.importantText{
+    color: lightblue;
+    font-family: "Courier New";
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.tall{
+    height: 100%;
+}
+
+.wide{
+    width: 100%;
+}
+
+.container-fluid{
+    padding: 1%;
+    margin: auto;
+}
+
+.inner-container{
+    padding: 1%;
+    background-color: lightblue;
+}
+
+img{
+    max-height:100%;
+    max-width:100%;
+}
+
+h3{
+    text-align: center;
+}
+
+::selection {
+    background: lightgreen;
+}
+
+::-moz-selection {
+    background: lightgreen;
+}
+
+p{
+    display: inline-flex;
+}
