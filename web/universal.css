@@ -4,12 +4,12 @@
 }
 
 .normalText{
-    font-family: "Courier New";
+    font-family: "Courier New", serif;
 }
 
 .importantText{
     color: lightblue;
-    font-family: "Courier New";
+    font-family: "Courier New", serif;
 }
 
 .rounded{
