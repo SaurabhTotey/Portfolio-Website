@@ -9,6 +9,21 @@
 
 <br/>
 
+<h3>Language Breakdown</h3>
+<table>
+    <tr>
+        <th>Language</th>
+        <th>Bytes written</th>
+    </tr>
+    <tr th:each="language : ${languages}">
+        <td th:text="${language.key}"></td>
+        <td th:text="${language.value}"></td>
+    </tr>
+</table>
+
+<br/>
+
+<h3>Repositories</h3>
 <table>
     <tr>
         <th>Repository Name</th>
