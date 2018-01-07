@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/header :: header"></head>
+
+<body class="background col-md-12 tall">
+
+<nav th:replace="fragments/navbar :: nav ('Projects')"></nav>
+
+<br/>
+
+<table>
+    <tr>
+        <th>Repository Name</th>
+        <th>Description</th>
+        <th>URL</th>
+    </tr>
+    <tr th:each="repo : ${repos}">
+        <td th:text="${repo.name}"></td>
+        <td th:text="${repo.description}"></td>
+        <td th:text="${repo.url}"></td>
+    </tr>
+</table>
+
+<br/>
+
+</body>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</html>
