@@ -43,7 +43,7 @@ dependencies {
         exclude group: 'nz.net.ultraq.thymeleaf', module: 'thymeleaf-layout-dialect'
     }
     compile 'org.postgresql:postgresql:9.4.1212'
-    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'org.webjars:webjars-locator'
     compile 'org.webjars:jquery:2.2.4'

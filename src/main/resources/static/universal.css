@@ -1,45 +1,45 @@
-.background{
+.background {
     background-color: black;
     padding-top: 25px;
 }
 
-.normalText{
+.normalText {
     font-family: "Courier New", serif;
 }
 
-.importantText{
+.importantText {
     color: lightblue;
     font-family: "Courier New", serif;
 }
 
-.rounded{
+.rounded {
     border-radius: 5px;
 }
 
-.tall{
+.tall {
     height: 100%;
 }
 
-.wide{
+.wide {
     width: 100%;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 1%;
     margin: auto;
 }
 
-.inner-container{
+.inner-container {
     padding: 1%;
     background-color: lightblue;
 }
 
-img{
-    max-height:100%;
-    max-width:100%;
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
@@ -51,6 +51,11 @@ h3{
     background: lightgreen;
 }
 
-p{
+p {
     display: inline-flex;
+}
+
+th, td {
+    border: 3px solid lightgreen;
+    border-collapse: collapse;
 }
