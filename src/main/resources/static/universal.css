@@ -1,6 +1,7 @@
-.background {
+/*TODO: add comments to styling*/
+
+body {
     background-color: black;
-    padding-top: 25px;
 }
 
 .normalText {
@@ -49,13 +50,4 @@ h3 {
 
 ::-moz-selection {
     background: lightgreen;
-}
-
-p {
-    display: inline-flex;
-}
-
-th, td {
-    border: 3px solid black;
-    border-collapse: collapse;
 }

@@ -1,15 +1,3 @@
-<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse rounded" th:fragment="nav (page)">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand importantText" href="Home">Saurabh Totey</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" th:with="pageList = ${ {'Home', 'Projects', 'Experience', 'Music', 'Fun'} }">
-            <li class ="nav-item" th:each="pageName : ${pageList}" th:classappend="${pageName} == ${page} ? 'active' : ''">
-                <a class="nav-link importantText" th:href="${pageName}" th:text="${pageName}"></a>
-            </li>
-        </ul>
-    </div>
-    <!--TODO try to include? <span class="sr-only">(current)</span> I don't know what this did-->
+<nav th:fragment="nav (page)">
+    <!--TODO: make killer navbar-->
 </nav>
