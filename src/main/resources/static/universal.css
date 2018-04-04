@@ -26,9 +26,10 @@ body {
     width: 100%;
 }
 
-.inner-container {
+.container {
     padding: 1%;
     background-color: lightblue;
+    border-radius: 5px;
 }
 
 img {
