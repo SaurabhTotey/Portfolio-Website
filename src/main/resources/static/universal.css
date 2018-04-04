@@ -26,11 +26,6 @@ body {
     width: 100%;
 }
 
-.container-fluid {
-    padding: 1%;
-    margin: auto;
-}
-
 .inner-container {
     padding: 1%;
     background-color: lightblue;
