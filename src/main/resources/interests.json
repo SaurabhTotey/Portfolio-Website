@@ -1,0 +1,126 @@
+[
+    {
+        "category": "Programming Languages",
+        "description": "",
+        "items": [
+            {
+                "name": "The D Language",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Kotlin",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Python",
+                "image": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "TV Shows",
+        "description": "",
+        "items": [
+            {
+                "name": "Hunter x Hunter",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Made in Abyss",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Fullmetal Alchemist: Brotherhood",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "The 100",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Game of Thrones",
+                "image": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Pokemon",
+        "description": "",
+        "items": [
+            {
+                "name": "Typhlosion",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Emboar",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Staraptor",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Luxray",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Aggron",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Infernape",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Seismitoad",
+                "image": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "category": "Video Games",
+        "description": "",
+        "items": [
+            {
+                "name": "Hollow Knight",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Super Mario Galaxy",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "The Legend of Zelda: The Minish Cap",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "The Legend of Zelda: Skyward Sword",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Terraria",
+                "image": "",
+                "description": ""
+            }
+        ]
+    }
+]

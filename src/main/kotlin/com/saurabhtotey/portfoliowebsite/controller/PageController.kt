@@ -1,7 +1,9 @@
 package com.saurabhtotey.portfoliowebsite.controller
 
+import com.saurabhtotey.portfoliowebsite.data.interests
 import org.springframework.boot.web.servlet.error.ErrorController
 import org.springframework.stereotype.Controller
+import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.RequestMapping
 
 /**
@@ -14,7 +16,8 @@ open class PageController: ErrorController {
      * Serves the Home page as the first page of the website; is the index
      */
     @RequestMapping("/")
-    fun homePage(): String {
+    fun homePage(model: Model): String {
+        model.addAttribute(interests)
         return "Home"
     }
 
