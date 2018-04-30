@@ -32,4 +32,4 @@ data class InterestCategory(val category: String, val description: String, val i
 }
 
 //A variable of all the loaded interests from the config file as a list of InterestCategories
-val interests: Array<InterestCategory> = Gson().fromJson(ClassPathResource("interests.json").file.inputStream().bufferedReader().use { it.readText() }, Array<InterestCategory>::class.java)
+val interests: Array<InterestCategory> = Gson().fromJson(ClassPathResource("config/interests.json").file.inputStream().bufferedReader().use { it.readText() }, Array<InterestCategory>::class.java)

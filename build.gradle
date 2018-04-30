@@ -21,6 +21,7 @@ mainClassName = 'com.saurabhtotey.portfoliowebsite.Main'
 
 jar {
     baseName = 'saurabhtotey-portfolio-website'
+    version = '0.0.1'
     from {
         (configurations.runtime).collect {
             it.isDirectory() ? it : zipTree(it)
