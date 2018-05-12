@@ -17,7 +17,7 @@ open class PageController: ErrorController {
      */
     @RequestMapping("/")
     fun homePage(model: Model): String {
-        model.addAttribute(interests)
+        model.addAttribute("interests", interests)
         return "Home"
     }
 
