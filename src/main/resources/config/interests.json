@@ -5,18 +5,18 @@
         "items": [
             {
                 "name": "The D Language",
-                "image": "",
-                "description": ""
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/D_Programming_Language_logo.svg/1200px-D_Programming_Language_logo.svg.png",
+                "description": "This is one of my favorite languages because it combines all the features I would think I would like out of C++, but removes all the ugliness. It really gives access to the power of templates without needing to deal with the ugliness of dependencies and the preprocessor. D is nice because it gives a  high level of control over almost everything and is usable in almost every scenario. The only problem with this language is its low usage and lack of libraries and 3rd party support, which is quite unfortunate for such a great language."
             },
             {
                 "name": "Kotlin",
-                "image": "",
-                "description": ""
+                "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png",
+                "description": "This language is really nice to use. It makes coding with it much easier and less taxing to the programmer. I love how this language handles nullity, which is, allowing every type to be null, but only if the variable of the type is declared as nullable beforehand. This means that Integers and Booleans can be nulled if the variable that is holding the Integer or Boolean is declared as nullable. I also love how this language treats the 'val' keyword as non-reassignable, but permits the use of 'var' when reassignment is necessary. Furthermore, this language is great in terms of what it can do. My only complaints with Kotlin are that its lack of meta-programming and the fact that it runs on the JVM, so doing things like connecting with SQL become really ugly and much of the generated JVM bytecode runs inefficiently on the JVM."
             },
             {
                 "name": "Python",
-                "image": "",
-                "description": ""
+                "image": "https://www.python.org/static/opengraph-icon-200x200.png",
+                "description": "Python is a really nice language overall for quick and fun little scripts and small projects. Python has many use cases, and even more libraries. I really like this language for its ease of use and flexibility. Regardless, I dislike the lack of the type system, which is inherent to Python. Some of its smaller warts include that class methods need 'self' as the first parameter, and doing complicated things like making anonymous classes and using functions as first class objects are difficult and have an ugly syntax. Furthermore, Python doesn't lend itself to being a fast language. My last issue with Python is that I dislike using whitespace as a language feature, and I hate the PEP8 standard even more: this makes my code hard to use for me because I can't often make it in my style."
             }
         ]
     },

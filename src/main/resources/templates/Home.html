@@ -10,13 +10,15 @@
 <br/>
 
 <div class="container wide">
+    <!--TODO: personal information/overview-->
     <h1>THIS PAGE IS STILL A WORK IN PROGRESS!</h1>
 </div>
 
 <br/>
 
 <div class="container wide">
-    <h3>Learn about my favorite</h3>
+    <!--Interest selection dropdown-->
+    <h1>Learn about my favorite</h1>
     <div class="dropdown center">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Interests
@@ -26,9 +28,18 @@
         </div>
     </div>
     <br/>
-    <span th:each="category : ${interests}">
-        <div th:replace="fragments/interest :: interest(${category})"></div>
-    </span>
+    <!--Invisible interest carousels-->
+    <div th:each="category : ${interests}" class="container wide carousel slide" style="display:none" th:id="${category.category}" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
+                <h3 th:text="${item.name}"></h3>
+                <div class="row">
+                    <img class="center col-md-4" th:src="${item.image}" height="100%"/>
+                    <p class="center col-md-8" th:text="${item.description}"></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <br/>
