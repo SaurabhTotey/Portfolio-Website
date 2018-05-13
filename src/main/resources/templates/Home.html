@@ -24,7 +24,7 @@
             Interests
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#" th:each="interest : ${interests}" th:text="${interest.category}"></a>
+            <a class="dropdown-item" th:each="interest : ${interests}" th:id="${interest.category} + 'dropDownOption'" th:text="${interest.category}" href="javascript:;"></a>
         </div>
     </div>
     <br/>
@@ -40,6 +40,24 @@
             </div>
         </div>
     </div>
+    <!--JavaScript to handle linking the dropdown with the carousels-->
+    <script>
+        var notSelectedString = document.getElementById("dropdownMenuButton").innerText;
+        var interestIds = Array.from(document.getElementsByClassName("dropdown-item")).map(function(item) { return item.id; });
+        interestIds.forEach(function(interestId) {
+            var element = document.getElementById(interestId);
+            element.onclick = function () {
+                var oldText = document.getElementById("dropdownMenuButton").innerText;
+                document.getElementById("dropdownMenuButton").innerText = element.innerText;
+                element.innerText = oldText;
+                var currentText = document.getElementById("dropdownMenuButton").innerText;
+                Array.from(document.getElementsByClassName("carousel")).forEach(function(carousel) { carousel.style.display = "none"; });
+                if (currentText !== notSelectedString) {
+                    document.getElementById(currentText).style.display = "";
+                }
+            }
+        });
+    </script>
 </div>
 
 <br/>
