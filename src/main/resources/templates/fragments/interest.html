@@ -1,0 +1,8 @@
+<div th:fragment="interest (category)" class="container wide carousel slide" style="display:none" th:id="${category.category}">
+    <div class="carousel-inner">
+        <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
+            <img class="d-block w-100" th:src="${item.image}"/>
+            <p th:text="${item.description}"></p>
+        </div>
+    </div>
+</div>

@@ -25,6 +25,10 @@
             <a class="dropdown-item" href="#" th:each="interest : ${interests}" th:text="${interest.category}"></a>
         </div>
     </div>
+    <br/>
+    <span th:each="category : ${interests}">
+        <div th:replace="fragments/interest :: interest(${category})"></div>
+    </span>
 </div>
 
 <br/>

@@ -39,6 +39,12 @@ body {
     border-radius: 5px;
 }
 
+.container .container {
+    padding: 1%;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
 img {
     max-height: 100%;
     max-width: 100%;
