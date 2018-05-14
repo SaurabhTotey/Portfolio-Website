@@ -20,16 +20,14 @@
     <!--Interest selection dropdown-->
     <h1>Learn about my favorite</h1>
     <div class="dropdown center">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Interests
-        </button>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Interests</button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" th:each="interest : ${interests}" th:id="${interest.category} + 'dropDownOption'" th:text="${interest.category}" href="javascript:;"></a>
+            <a class="dropdown-item" th:each="interest : ${interests}" th:id="${interest.id} + 'dropDownOption'" th:text="${interest.category}" href="javascript:"></a>
         </div>
     </div>
     <br/>
     <!--Invisible interest carousels-->
-    <div th:each="category : ${interests}" class="container wide carousel slide" style="display:none" th:id="${category.category}" data-ride="carousel">
+    <div th:each="category : ${interests}" class="container wide carousel slide" style="display:none" th:id="${category.id} + 'carousel'" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
                 <h3 th:text="${item.name}"></h3>
@@ -53,7 +51,7 @@
                 var currentText = document.getElementById("dropdownMenuButton").innerText;
                 Array.from(document.getElementsByClassName("carousel")).forEach(function(carousel) { carousel.style.display = "none"; });
                 if (currentText !== notSelectedString) {
-                    document.getElementById(currentText).style.display = "";
+                    document.getElementById(interestId.replace("dropDownOption", "carousel")).style.display = "";
                 }
             }
         });
