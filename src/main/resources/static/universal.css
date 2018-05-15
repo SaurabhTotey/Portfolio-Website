@@ -5,15 +5,6 @@ body {
     padding: 1%;
 }
 
-.normalText {
-    font-family: "Courier New", serif;
-}
-
-.importantText {
-    color: lightblue;
-    font-family: "Courier New", serif;
-}
-
 .rounded {
     border-radius: 5px;
 }

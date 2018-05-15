@@ -27,13 +27,17 @@
     </div>
     <br/>
     <!--Invisible interest carousels-->
-    <div th:each="category : ${interests}" class="container wide carousel slide" style="display:none" th:id="${category.id} + 'carousel'" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
-                <h3 th:text="${item.name}"></h3>
-                <div class="row">
-                    <img class="center col-md-4" th:src="${item.image}" height="100%"/>
-                    <p class="center col-md-8" th:text="${item.description}"></p>
+    <div class="interestContainer" th:each="category : ${interests}" style="display:none" th:id="${category.id} + 'carousel'">
+        <p class="center" th:text="${category.description}"></p>
+        <br/>
+        <div class="container wide carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
+                    <h3 th:text="${item.name}"></h3>
+                    <div class="row">
+                        <img class="center col-md-4" th:src="${item.image}" height="100%"/>
+                        <p class="center col-md-8" th:text="${item.description}"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,7 +53,7 @@
                 document.getElementById("dropdownMenuButton").innerText = element.innerText;
                 element.innerText = oldText;
                 var currentText = document.getElementById("dropdownMenuButton").innerText;
-                Array.from(document.getElementsByClassName("carousel")).forEach(function(carousel) { carousel.style.display = "none"; });
+                Array.from(document.getElementsByClassName("interestContainer")).forEach(function(carousel) { carousel.style.display = "none"; });
                 if (currentText !== notSelectedString) {
                     document.getElementById(interestId.replace("dropDownOption", "carousel")).style.display = "";
                 }

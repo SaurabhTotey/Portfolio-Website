@@ -1,7 +1,7 @@
 [
     {
         "category": "Programming Languages",
-        "description": "",
+        "description": "As someone who regularly codes, I work a lot with programming languages. These languages are a few of my favorite ones due to how much I enjoyed working in them.",
         "items": [
             {
                 "name": "The D Language",
@@ -22,104 +22,104 @@
     },
     {
         "category": "TV Shows",
-        "description": "",
+        "description": "I spend a large amount of my time watching television. These shows either all impacted me and my way of looking at things or just were genuinely very interesting to watch. I really enjoy shows with a large or rich world, as world building is one of my favorite aspects of any fictional universe.",
         "items": [
             {
                 "name": "Hunter x Hunter",
-                "image": "",
-                "description": ""
+                "image": "https://img1.ak.crunchyroll.com/i/spire3/cbb55a6382682bf71e91f685c6473c5a1487736090_full.jpg",
+                "description": "This show is one of the greatest shows I have ever seen. Though it is unfinished, it is a completely continuous story and has a great sense of world-building and scale. What makes this show so great is that its story is very interesting and the author, Yoshihiro Togashi, has a fine attention to detail. I love how this story starts off light-hearted, but ends up becoming really dark."
             },
             {
                 "name": "Made in Abyss",
-                "image": "",
-                "description": ""
+                "image": "https://myanimelist.cdn-dena.com/images/anime/1922/91900.jpg",
+                "description": "This show, similar to Hunter x Hunter, has a great sense of world and scale. There is a lot of world-building going on and one can feel the rich history that Akihito Tsukushi creates for the world. I enjoy the story's many mysteries and how every explanation creates more loose ends to eventually explain. This show also gets very dark as it progresses, despite starting off very light and being seemingly childish."
             },
             {
                 "name": "Fullmetal Alchemist: Brotherhood",
-                "image": "",
-                "description": ""
+                "image": "https://vignette.wikia.nocookie.net/fma/images/e/e9/Fmab-poster.png/revision/latest?cb=20131124145205",
+                "description": "Fullmetal Alchemist: Brotherhood was my gateway into anime. This show is a great start for anybody new to the genre as it has a little something for everyone. It manages to be all types of genres, but also cover dark topics such as war, amputations, racism, genocide, and implications of scientific discovery. Hiromu Arakawa masterfully manages to convey a really meaningful and dense story in Fullmetal Alchemist: Brotherhood, and I love the conveyance of all the different themes expressed throughout."
             },
             {
                 "name": "The 100",
-                "image": "",
-                "description": ""
+                "image": "https://vignette.wikia.nocookie.net/thehundred/images/0/0d/The-100-poster.png/revision/latest?cb=20140410034446",
+                "description": "The 100, while scientifically inaccurate, is a really entertaining show. It is a great drama with nice action. I enjoy the world-building and characterization, but sometimes the plot can be a little contrived."
             },
             {
                 "name": "Game of Thrones",
-                "image": "",
-                "description": ""
+                "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/250px-Game_of_Thrones_title_card.jpg",
+                "description": "Game of Thrones isn't a critically acclaimed show for nothing. While I enjoyed A Song of Ice and Fire, the show is also really good. While some of the Dorne parts could have been made better, the rich history is what really drives the universe of Game of Thrones. I love the lore, and I also greatly enjoy how they show many diverging plot lines for each character."
             }
         ]
     },
     {
         "category": "Pokémon",
-        "description": "",
+        "description": "Pokémon was about 50% of the time I spent during my elementary school. Past elementary school, I have spent more hours on the videogames than I care to admit. Regardless, I love Pokémon as a videogame franchise for all of its enjoyability and possible depth. These were a few of my favorite Pokémon in the videogames or conceptwise.",
         "items": [
             {
                 "name": "Typhlosion",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/4/47/157Typhlosion.png/250px-157Typhlosion.png",
+                "description": "Typhlosion was my first ever Pokémon. What was so endearing about Typhlosion was I initially didn't know about the ability to switch Pokémon, so I only ever used my Typhlosion, and it was my first level 100. Typhlosion forever endeared me to fire types."
             },
             {
                 "name": "Emboar",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/1/18/500Emboar.png/250px-500Emboar.png",
+                "description": "Pokémon Black and White were my favorite Pokémon games, so naturally, I chose Emboar due to my obsession with Fire-types."
             },
             {
                 "name": "Staraptor",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/5/5e/398Staraptor.png/250px-398Staraptor.png",
+                "description": "Staraptor was my first ever regularly used flying type, and it was on my permanent Pokémon Diamond team. Good memories."
             },
             {
                 "name": "Luxray",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/a/a7/405Luxray.png/250px-405Luxray.png",
+                "description": "Luxray was my first ever electric type, and I love the design and the type and everything about Luxray. Of course, Luxray isn't the best Pokémon, but I still had good memories with it."
             },
             {
                 "name": "Aggron",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/6/6d/306Aggron.png/250px-306Aggron.png",
+                "description": "Aggron looks cool. 'Nuff said."
             },
             {
                 "name": "Infernape",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/f/fb/392Infernape.png/250px-392Infernape.png",
+                "description": "Infernape is a cool monkey. It was also my first starter on Pokémon Diamond. While it was still novel, I really enjoyed the now overdone Fire-Fighting type."
             },
             {
                 "name": "Seismitoad",
-                "image": "",
-                "description": ""
+                "image": "https://cdn.bulbagarden.net/upload/thumb/3/35/537Seismitoad.png/250px-537Seismitoad.png",
+                "description": "I didn't initially really like Water types because they were strong against fire, but Seismitoad was my first Water Pokémon that I used and enjoyed. Its Water-Ground typing makes it only susceptible to the elusive Grass type, which was I initially picked it up."
             }
         ]
     },
     {
         "category": "Video Games",
-        "description": "",
+        "description": "Video Games are a part of my soul or essence. I cannot survive without Video Games, and a good game will keep my content for years. Videogames, much like TV Shows are a form of artwork, and I someday aspire to make a great game that can inspire others. These are a few games that I enjoy that really inspired me.",
         "items": [
             {
                 "name": "Hollow Knight",
-                "image": "",
-                "description": ""
+                "image": "https://steamcdn-a.akamaihd.net/steam/apps/367520/header.jpg?t=1524206817",
+                "description": "This game is great for building up a rich history and lore. The world in Hollow Knight has so many corners and crevices to reach and explore. I sunk a lot of time into this game, and it was worth every second. The bosses, world, and combat were all extremely fun and worthwhile. Combine that with the ability to do the story in any order, and this becomes one the greatest games of all time, or, at least in my opinion."
             },
             {
                 "name": "Super Mario Galaxy",
-                "image": "",
-                "description": ""
+                "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/SuperMarioGalaxy.jpg/220px-SuperMarioGalaxy.jpg",
+                "description": "Super Mario Galaxy was one of my first games on the Wii. Not only did the space theme tickle my fancy, but I also enjoyed the gameplay. At the time, this game was difficult for me, but I still enjoyed the depth and detail that this game had achieved. This game isn't known as one of 'the greats' for nothing. I also throughly enjoyed Super Mario Galaxy 2 and Super Mario Odyssey."
             },
             {
                 "name": "The Legend of Zelda: The Minish Cap",
-                "image": "",
-                "description": ""
+                "image": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_TheLegendOfZeldaTheMinishCap_image1600w.jpg",
+                "description": "Minish Cap was one of my first introductions to The Legend of Zelda Series, and it has been one of my favorite top down games. I enjoyed the combat and the exploration aspect of this game, as a staple of all Legend of Zelda games. I loved how it just had so much to do and many secrets to uncover."
             },
             {
                 "name": "The Legend of Zelda: Skyward Sword",
-                "image": "",
-                "description": ""
+                "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png/220px-Legend_of_Zelda_Skyward_Sword_boxart.png",
+                "description": "While Skyward Sword has been disliked by many, it was one of my favorite, if not favorite, Legend of Zelda game. Like all Legend of Zelda games, I loved the inordinate amount of things to do, and I love how the game was essentially double of how much I thought it was going to be. While the game was linear, I didn't mind it too much, as the storytelling and world-building of this game was really impactful to me. My only qualm with Skyward Sword was the pumpkin minigame being impossible but necessary for a heart container."
             },
             {
                 "name": "Terraria",
-                "image": "",
-                "description": ""
+                "image": "https://images-na.ssl-images-amazon.com/images/I/A1rMTA3SciL.png",
+                "description": "Terraria is one of my favorite games of all time. Whenever I just need to spend time for a few months, Terraria is always my go-to. There is just so much to do that an endless possibilities of things to try is always available. The aesthetic is charming and the gameplay is riveting. Terraria often blew my mind with how much content and detail it had as an indie game for only $10. This game is a must-have for anyone with a computer."
             }
         ]
     }
