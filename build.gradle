@@ -26,13 +26,6 @@ jar {
         (configurations.runtime).collect {
             it.isDirectory() ? it : zipTree(it)
         }
-        sourceSets {
-            main {
-                resources {
-                    srcDirs "src/main/resources"
-                }
-            }
-        }
     }
     manifest {
         attributes 'Main-Class': 'com.saurabhtotey.portfoliowebsite.Main'

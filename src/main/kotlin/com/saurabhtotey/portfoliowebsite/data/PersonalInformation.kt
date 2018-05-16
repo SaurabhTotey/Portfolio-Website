@@ -11,5 +11,5 @@ import org.springframework.core.io.ClassPathResource
 data class PersonalInformation(val firstName: String, val middleName: String, val lastName: String, val birthday: String, val address: String, val phone: String, val email: String)
 
 //Gets the JSON data and decodes it to a PersonalInformation object
-val personalInformationJson = ClassPathResource("config/personalInformation.json").file.inputStream().bufferedReader().use { it.readText() }
+val personalInformationJson = ClassPathResource("config/personalInformation.json").inputStream.bufferedReader().use { it.readText() }
 val personalInformation = Gson().fromJson(personalInformationJson, PersonalInformation::class.java)

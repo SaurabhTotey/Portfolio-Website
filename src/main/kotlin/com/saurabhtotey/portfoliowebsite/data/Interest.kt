@@ -17,5 +17,5 @@ data class InterestCategory(val category: String, val description: String, val i
 }
 
 //A variable of all the loaded interests from the config file as a list of InterestCategories
-val interestsJson = ClassPathResource("config/interests.json").file.inputStream().bufferedReader().use { it.readText() }
+val interestsJson = ClassPathResource("config/interests.json").inputStream.bufferedReader().use { it.readText() }
 val interests = Gson().fromJson(interestsJson, Array<InterestCategory>::class.java).map { e -> InterestCategory(e.category, e.description, e.items) }.toTypedArray()
