@@ -32,12 +32,15 @@
     </div>
     <br/>
     <!--Invisible interest carousels-->
-    <div class="interestContainer" th:each="category : ${interests}" style="display:none" th:id="${category.id} + 'carousel'">
+    <div class="interestContainer" th:each="category, categoryStatus : ${interests}" style="display:none" th:id="${category.id} + 'carousel'">
         <p class="center" th:text="${category.description}"></p>
         <br/>
-        <div class="container wide carousel slide" data-ride="carousel">
+        <div class="container wide carousel slide" data-ride="carousel" th:id="${category.id} + '-actualCarousel'">
+            <ol class="carousel-indicators">
+                <li th:each="item, itemStatus : ${category.items}" th:data-target="'#' + ${category.id} + '-actualCarousel'" th:data-slide-to="${itemStatus.index}" th:classappend="${itemStatus.index == 0}? 'active' : ''"></li>
+            </ol>
             <div class="carousel-inner">
-                <div class="carousel-item" th:each="item : ${category.items}" th:classappend="${item.name} == ${category.items[0].name} ? 'active' : ''">
+                <div class="carousel-item" th:each="item, itemStatus : ${category.items}" th:classappend="${itemStatus.index == 0} ? 'active' : ''">
                     <h3 th:text="${item.name}"></h3>
                     <div class="row">
                         <img class="center col-md-4" th:src="${item.image}" height="100%"/>
