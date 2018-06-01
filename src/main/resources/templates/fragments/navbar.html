@@ -4,7 +4,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mr-auto" th:with="pageList = ${ {'Home', 'Experience', 'Programming', 'Music', 'Fun'} }">
+        <ul class="navbar-nav mr-auto" th:with="pageList = ${ {'Home', 'Qualifications', 'Programming', 'Music', 'Fun'} }">
             <li class ="nav-item" th:each="pageName : ${pageList}" th:classappend="${pageName} == ${page} ? 'active' : ''">
                 <a class="nav-link importantText" th:href="${pageName}" th:text="${pageName}"></a>
             </li>

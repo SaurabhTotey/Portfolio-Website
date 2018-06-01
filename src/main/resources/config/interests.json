@@ -53,6 +53,11 @@
                 "name": "Last Week Tonight",
                 "image": "https://static.next-episode.net/tv-shows-images/huge/last-week-tonight-with-john-oliver.jpg",
                 "description": "I love this show because while I enjoy keeping up with the news, this show not only conveys the news in a humorous manner, but also manages to go really in-depth for each story and explain the contexts and details very well. This show is a great way to just passively spend time. My only gripe with the show is that many episodes don't age well: it's a show that one must keep up on, rather than binge-watch or rewatch."
+            },
+            {
+                "name": "Avatar: The Last Airbender",
+                "image": "https://cdn-images-1.medium.com/max/1600/0*zJajlQiZbHDdGGxG.",
+                "description": "I have yet to meet anyone who dislikes Avatar: The Last Airbender. It is a great show that does great characterization and really develops its characters well and has a really novel and intriguing plot. I always end up rewatching this show every few years due to how well made and easily accessible this show is. My only gripe is that there are a few episodes that are really not worth watching, but considering that is the only downside, this show is truly something special."
             }
         ]
     },
@@ -104,7 +109,7 @@
             {
                 "name": "Hollow Knight",
                 "image": "https://steamcdn-a.akamaihd.net/steam/apps/367520/header.jpg?t=1524206817",
-                "description": "I love myself some good world-building. Naturally, Hollow Knight is one of my favorite games because of its rich and deep lore. The story hidden throughout the game adds a nice touch and gives a nice reward to those who decide to do extra exploration. I also love the combat and fluidity of the game, which makes the difficult boss fights all the more difficult. I love exploring the world, and I also love the platforming that all the hidden corners of the world have to offer. I can also not mention the great artwork and sountrack for this game. It shows how high quality Hollow Knight actually feels and how much work was poured into it. Hollow Knight is just a great game overall."
+                "description": "I love myself some good world-building. Naturally, Hollow Knight is one of my favorite games because of its rich and deep lore. The story clues hidden throughout the game adds a nice touch and gives a nice reward to those who decide to do extra exploration. I also love the combat and fluidity of the game, which makes the difficult boss fights all the more fun. I love exploring the world, and I also love the platforming that all the hidden corners of the world have to offer. I can also not mention the great artwork and sountrack for this game. It shows how high quality Hollow Knight actually feels and how much work was poured into it. Hollow Knight is just a great game overall."
             },
             {
                 "name": "Super Mario Galaxy",

@@ -1,0 +1,190 @@
+{
+    "experience": [
+        {
+            "name": "Kumon",
+            "objective": "To help guide and teach school kids of varying ages different concepts in math and reading. Math concepts range from learning to count through simple calculus. Reading concepts range from learning to read through analyzing advanced literature.",
+            "role": "Assistant Instructor",
+            "contributions": [
+                "Taught junior students who were usually just beginning the program",
+                "Graded all students' work and gave them corrections",
+                "Aided all students with their issues in the reading program and occasionally the math program."
+            ],
+            "location": "535 W South Boulder Rd Suite #230, Lafayette, CO 80026",
+            "start": "02 September 2016",
+            "end": "present"
+        },
+        {
+            "name": "PhET",
+            "objective": "To make simulations for classrooms all around the world that make learning scientific and mathematical concepts easier",
+            "role": "Intern",
+            "contributions": [
+                "In progress"
+            ],
+            "location": "2000 Colorado Ave, Boulder, CO 80305",
+            "start": "30 May 2018",
+            "end": "present"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Fairview High School",
+            "degree": "High School Diploma (in progress)",
+            "location": "1515 Greenbriar Blvd, Boulder, CO 80305",
+            "start": "19 August 2015",
+            "end": "23 May 2019",
+            "gpa": {
+                "weighted": 4.7,
+                "unweighted": 3.95
+            }
+        }
+    ],
+    "affiliations": [
+        {
+            "name": "Fairview Speech and Debate",
+            "start": "",
+            "end": "",
+            "role": "Captain of Public Forum Debate"
+        },
+        {
+            "name": "Fairview Robotics",
+            "start": "",
+            "end": "",
+            "role": "Programming Lead"
+        },
+        {
+            "name": "Fairview Code Club",
+            "start": "",
+            "end": "",
+            "role": "Co-Leader"
+        },
+        {
+            "name": "Fairview Future Business Leaders of America",
+            "start": "",
+            "end": "",
+            "role": "Member"
+        },
+        {
+            "name": "Fairview Web Development Club",
+            "start": "",
+            "end": "",
+            "role": "Co-Founder"
+        },
+        {
+            "name": "Fairview NACLO Club",
+            "start": "",
+            "end": "",
+            "role": "Member"
+        },
+        {
+            "name": "Fairview National Honor Society",
+            "start": "",
+            "end": "",
+            "role": "Member"
+        },
+        {
+            "name": "Fairview Stock Market Club",
+            "start": "",
+            "end": "",
+            "role": "Technology Master"
+        }
+    ],
+    "skills": [
+        "Full-Stack programming",
+        "Playing the Piano and Cello",
+        "Understanding circuit diagrams and constructing circuits using solderless and solderable breadboards",
+        "Basic 3D modelling with Blender",
+        "Cardiopulmonary Resuscitation (licensed)",
+        "Using G-Suite services and Microsoft Office",
+        "Teaching children"
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "proficiency": "fluent"
+        },
+        {
+            "name": "Spanish",
+            "proficiency": "simple"
+        },
+        {
+            "name": "Marathi",
+            "proficiency": "Can understand fluent marathi, but cannot speak"
+        }
+    ],
+    "volunteering": [
+        {
+            "name": "Fairview Freeze Debate Tournament",
+            "hours": 30,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "Comfort Dental Annual Christmas Free Care Day",
+            "hours": 10,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "Vidarbha Maharogi Seva Mandal Tapovan Retirement Home for Leprosy Patients",
+            "hours": 40,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "thing in India; TODO: get name",
+            "hours": 40,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "University Of Colorado Boulder Science Discovery Camp",
+            "hours": 76,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "Various National Honor Society Projects",
+            "hours": 40,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "NCAR Super Science Saturday",
+            "hours": 6,
+            "start": "",
+            "end": ""
+        },
+        {
+            "name": "Various Science National Honor Society Projects",
+            "hours": 2,
+            "start": "",
+            "end": ""
+        }
+    ],
+    "awards": [
+        {
+            "description": "Speech and Debate CHSAA State Competitor",
+            "dates": [
+
+            ]
+        },
+        {
+            "description": "3rd Place Stock Market Game Competitor",
+            "dates": [
+
+            ]
+        },
+        {
+            "description": "Future Business Leaders of America Nationals Qualifier",
+            "dates": [
+
+            ]
+        },
+        {
+            "description": "Lockheed Martin CodeQuest 1st Place Winner",
+            "dates": [
+
+            ]
+        }
+    ]
+}
