@@ -2,6 +2,7 @@ package com.saurabhtotey.portfoliowebsite.controller
 
 import com.saurabhtotey.portfoliowebsite.data.interestsJson
 import com.saurabhtotey.portfoliowebsite.data.personalInformationJson
+import com.saurabhtotey.portfoliowebsite.data.qualificationsJson
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RestController
@@ -27,6 +28,14 @@ class API {
     @RequestMapping(value = ["/api/info"], method = [RequestMethod.GET])
     fun info(): String {
         return personalInformationJson
+    }
+
+    /**
+     * The method for getting my resume
+     */
+    @RequestMapping(value = ["/api/qualifications"], method = [RequestMethod.GET])
+    fun qualifications(): String {
+        return qualificationsJson
     }
 
 }

@@ -41,51 +41,75 @@
     "affiliations": [
         {
             "name": "Fairview Speech and Debate",
-            "start": "",
-            "end": "",
-            "role": "Captain of Public Forum Debate"
+            "start": "19 August 2015",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Captain of Public Forum Debate",
+                "duration": 2
+            }
         },
         {
             "name": "Fairview Robotics",
-            "start": "",
-            "end": "",
-            "role": "Programming Lead"
+            "start": "19 August 2015",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Currently a member, but hoping for Programming Lead",
+                "duration": 1
+            }
         },
         {
             "name": "Fairview Code Club",
-            "start": "",
-            "end": "",
-            "role": "Co-Leader"
+            "start": "19 August 2016",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Co-Leader",
+                "duration": 2
+            }
         },
         {
             "name": "Fairview Future Business Leaders of America",
-            "start": "",
-            "end": "",
-            "role": "Member"
+            "start": "19 August 2015",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Currently a member, but hoping to run for leadership",
+                "duration": 3
+            }
         },
         {
             "name": "Fairview Web Development Club",
-            "start": "",
-            "end": "",
-            "role": "Co-Founder"
+            "start": "16 August 2018",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Co-Founder",
+                "duration": 1
+            }
         },
         {
             "name": "Fairview NACLO Club",
-            "start": "",
-            "end": "",
-            "role": "Member"
+            "start": "19 August 2016",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Member",
+                "duration": 3
+            }
         },
         {
             "name": "Fairview National Honor Society",
-            "start": "",
-            "end": "",
-            "role": "Member"
+            "start": "19 August 2016",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Member",
+                "duration": 3
+            }
         },
         {
             "name": "Fairview Stock Market Club",
-            "start": "",
-            "end": "",
-            "role": "Technology Master"
+            "start": "19 August 2015",
+            "end": "23 May 2019",
+            "role": {
+                "title": "Technology Master",
+                "duration": 2
+            }
         }
     ],
     "skills": [
@@ -115,75 +139,77 @@
         {
             "name": "Fairview Freeze Debate Tournament",
             "hours": 30,
-            "start": "",
-            "end": ""
+            "start": "19 August 2015",
+            "end": "23 May 2019"
         },
         {
             "name": "Comfort Dental Annual Christmas Free Care Day",
             "hours": 10,
-            "start": "",
-            "end": ""
+            "start": "25 December 2016",
+            "end": "25 December 2018"
         },
         {
             "name": "Vidarbha Maharogi Seva Mandal Tapovan Retirement Home for Leprosy Patients",
             "hours": 40,
-            "start": "",
-            "end": ""
+            "start": "26 May 2017",
+            "end": "17 August 2017"
         },
         {
             "name": "thing in India; TODO: get name",
             "hours": 40,
-            "start": "",
-            "end": ""
+            "start": "26 May 2017",
+            "end": "17 August 2017"
         },
         {
             "name": "University Of Colorado Boulder Science Discovery Camp",
             "hours": 76,
-            "start": "",
-            "end": ""
+            "start": "26 May 2017",
+            "end": "16 August 2018"
         },
         {
             "name": "Various National Honor Society Projects",
             "hours": 40,
-            "start": "",
-            "end": ""
+            "start": "17 August 2017",
+            "end": "23 May 2019"
         },
         {
             "name": "NCAR Super Science Saturday",
             "hours": 6,
-            "start": "",
-            "end": ""
+            "start": "4 November 2017",
+            "end": "4 November 2017"
         },
         {
             "name": "Various Science National Honor Society Projects",
             "hours": 2,
-            "start": "",
-            "end": ""
+            "start": "17 August 2017",
+            "end": "23 May 2019"
         }
     ],
     "awards": [
         {
             "description": "Speech and Debate CHSAA State Competitor",
-            "dates": [
-
+            "years": [
+                "2018",
+                "2016"
             ]
         },
         {
             "description": "3rd Place Stock Market Game Competitor",
-            "dates": [
-
+            "years": [
+                "2016"
             ]
         },
         {
             "description": "Future Business Leaders of America Nationals Qualifier",
-            "dates": [
-
+            "years": [
+                "2017",
+                "2018"
             ]
         },
         {
             "description": "Lockheed Martin CodeQuest 1st Place Winner",
-            "dates": [
-
+            "years": [
+                "2018"
             ]
         }
     ]
