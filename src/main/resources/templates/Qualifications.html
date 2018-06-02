@@ -10,14 +10,30 @@
 <br/>
 
 <div class="container wide">
-    <h1>THIS PAGE IS STILL A WORK IN PROGRESS!</h1>
+    <h1>Saurabh Totey Résumé</h1>
+    <br/>
+    <br/>
+    <h2>Education</h2>
+    <div class="container wide">
+        <div th:each="institution, institutionStatus : ${qualifications.education}">
+            <h4 class="center" th:text="${institution.institution}"></h4>
+            <br/>
+            <h5 class="center" th:text="${institution.degree}"></h5>
+            <p class="center" th:text="'Attended from ' + ${institution.start} + ' through ' + ${institution.end}"></p>
+            <p class="center" th:if="${institution.gpa != null}" th:text="'Grade Point Average: ' + ${institution.gpa.toString()}"></p>
+            <span th:if="${institutionStatus.index != qualifications.education.length - 1}"><br/><br/></span>
+        </div>
+    </div>
+    <br/>
+    <h2>Experience</h2>
+    <div class="container wide">
+        <h4>TODO: in progress</h4>
+    </div>
 </div>
 
 <br/>
 
 </body>
-
-<br/>
 
 <footer th:replace="fragments/footer :: footer"></footer>
 

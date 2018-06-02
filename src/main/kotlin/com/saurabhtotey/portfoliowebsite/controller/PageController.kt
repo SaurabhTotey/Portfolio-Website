@@ -1,6 +1,7 @@
 package com.saurabhtotey.portfoliowebsite.controller
 
 import com.saurabhtotey.portfoliowebsite.data.interests
+import com.saurabhtotey.portfoliowebsite.data.qualifications
 import org.springframework.boot.web.servlet.error.ErrorController
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -50,6 +51,15 @@ open class PageController: ErrorController {
     @RequestMapping("/error")
     fun redirectToErrorPage(): String {
         return "redirect:/Error"
+    }
+
+    /**
+     * Serves the qualifications page if asked for
+     */
+    @RequestMapping("/Qualifications")
+    fun qualificationsPage(model: Model): String {
+        model.addAttribute("qualifications", qualifications)
+        return "Qualifications"
     }
 
 }

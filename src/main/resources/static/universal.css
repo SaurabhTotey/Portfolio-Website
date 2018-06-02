@@ -10,7 +10,7 @@ body {
 }
 
 img {
-    border-radius: 5px;
+    border-radius: 10%;
 }
 
 .tall {
@@ -26,6 +26,10 @@ img {
 .center {
     margin: auto;
     text-align: center;
+}
+
+.left {
+    text-align: left;
 }
 
 .container {

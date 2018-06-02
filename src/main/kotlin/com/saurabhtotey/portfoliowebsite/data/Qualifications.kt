@@ -16,7 +16,21 @@ data class Employment(val name: String, val objective: String, val role: String,
 /**
  * A structure for storing information about grade point average
  */
-data class GPA(val weighted: Double, val unweighted: Double)
+data class GPA(val weighted: Double?, val unweighted: Double?) {
+    override fun toString(): String {
+        var gpaString = ""
+        if (weighted != null) {
+            gpaString += "$weighted weighted"
+        }
+        if (unweighted != null) {
+            gpaString += "${if(gpaString.isEmpty()) "" else ", "}$unweighted un-weighted"
+        }
+        if (gpaString.isEmpty()) {
+            return "N/A"
+        }
+        return gpaString
+    }
+}
 
 /**
  * A structure for storing information about schooling
