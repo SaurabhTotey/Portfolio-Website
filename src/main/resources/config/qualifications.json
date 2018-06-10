@@ -7,7 +7,7 @@
             "contributions": [
                 "Taught junior students who were usually just beginning the program",
                 "Graded all students' work and gave them corrections",
-                "Aided all students with their issues in the reading program and occasionally the math program."
+                "Aided all students with their issues in the reading and math programs."
             ],
             "location": "535 W South Boulder Rd Suite #230, Lafayette, CO 80026",
             "start": "02 September 2016",
@@ -15,7 +15,7 @@
         },
         {
             "name": "PhET",
-            "objective": "To make simulations for classrooms all around the world that make learning scientific and mathematical concepts easier",
+            "objective": "To make web-based scientific and mathematical simulations for classrooms and students all around the world.",
             "role": "Intern",
             "contributions": [
                 "In progress"
@@ -33,8 +33,8 @@
             "start": "19 August 2015",
             "end": "23 May 2019",
             "gpa": {
-                "weighted": 4.70,
-                "unweighted": 3.95
+                "weighted": 4.708,
+                "unweighted": 3.938
             }
         }
     ],
@@ -54,7 +54,7 @@
             "end": "23 May 2019",
             "role": {
                 "title": "Currently a member, but hoping for Programming Lead",
-                "duration": 1
+                "duration": 3
             }
         },
         {
@@ -124,15 +124,15 @@
     "languages": [
         {
             "name": "English",
-            "proficiency": "fluent"
+            "proficiency": "Fluent"
         },
         {
             "name": "Spanish",
-            "proficiency": "simple"
+            "proficiency": "Simple"
         },
         {
             "name": "Marathi",
-            "proficiency": "Can understand fluent marathi, but cannot speak"
+            "proficiency": "Can understand fluent speech, but cannot speak myself"
         }
     ],
     "volunteering": [
@@ -167,8 +167,8 @@
             "end": "16 August 2018"
         },
         {
-            "name": "Various National Honor Society Projects",
-            "hours": 40,
+            "name": "Various other National Honor Society Projects",
+            "hours": 30,
             "start": "17 August 2017",
             "end": "23 May 2019"
         },
