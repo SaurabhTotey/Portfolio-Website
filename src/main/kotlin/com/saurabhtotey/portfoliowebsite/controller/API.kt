@@ -1,7 +1,6 @@
 package com.saurabhtotey.portfoliowebsite.controller
 
 import com.saurabhtotey.portfoliowebsite.data.interestsJson
-import com.saurabhtotey.portfoliowebsite.data.personalInformationJson
 import com.saurabhtotey.portfoliowebsite.data.qualificationsJson
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
@@ -20,14 +19,6 @@ class API {
     @RequestMapping(value = ["/api/interests"], method = [RequestMethod.GET])
     fun interests(): String {
         return interestsJson
-    }
-
-    /**
-     * The method for getting personal information
-     */
-    @RequestMapping(value = ["/api/info"], method = [RequestMethod.GET])
-    fun info(): String {
-        return personalInformationJson
     }
 
     /**
