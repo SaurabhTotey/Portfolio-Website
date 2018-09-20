@@ -16,7 +16,7 @@
         {
             "name": "PhET",
             "objective": "To make web-based scientific and mathematical simulations for classrooms and students all around the world.",
-            "role": "Intern",
+            "role": "Student Developer",
             "contributions": [
                 "Contributed to the Blackbody Spectrum simulation"
             ],
@@ -133,56 +133,6 @@
         {
             "name": "Marathi",
             "proficiency": "Can understand fluent speech, but cannot speak myself"
-        }
-    ],
-    "volunteering": [
-        {
-            "name": "Fairview Freeze Debate Tournament",
-            "hours": 30,
-            "start": "19 August 2015",
-            "end": "23 May 2019"
-        },
-        {
-            "name": "Comfort Dental Annual Christmas Free Care Day",
-            "hours": 10,
-            "start": "25 December 2016",
-            "end": "25 December 2018"
-        },
-        {
-            "name": "Vidarbha Maharogi Seva Mandal Tapovan Retirement Home for Leprosy Patients",
-            "hours": 40,
-            "start": "26 May 2017",
-            "end": "17 August 2017"
-        },
-        {
-            "name": "AAI Workshop on Begging and Children’s Rights",
-            "hours": 40,
-            "start": "26 May 2017",
-            "end": "17 August 2017"
-        },
-        {
-            "name": "University Of Colorado Boulder Science Discovery Camp",
-            "hours": 76,
-            "start": "26 May 2017",
-            "end": "16 August 2018"
-        },
-        {
-            "name": "Various other National Honor Society Projects",
-            "hours": 30,
-            "start": "17 August 2017",
-            "end": "23 May 2019"
-        },
-        {
-            "name": "NCAR Super Science Saturday",
-            "hours": 6,
-            "start": "4 November 2017",
-            "end": "4 November 2017"
-        },
-        {
-            "name": "Various Science National Honor Society Projects",
-            "hours": 2,
-            "start": "17 August 2017",
-            "end": "23 May 2019"
         }
     ],
     "awards": [
