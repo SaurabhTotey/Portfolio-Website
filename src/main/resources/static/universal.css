@@ -60,3 +60,14 @@ h1, h3, h5 {
 ::-moz-selection {
     background: lightgreen;
 }
+
+.TODO {
+    text-align: center;
+}
+
+.TODO::after {
+    content: 'TODO';
+    color: lawngreen;
+    font-size: 25px;
+    width: 100%;
+}

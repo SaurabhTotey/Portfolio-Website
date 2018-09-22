@@ -43,7 +43,7 @@
                 <div class="carousel-item" th:each="item, itemStatus : ${category.items}" th:classappend="${itemStatus.index == 0} ? 'active' : ''">
                     <h3 th:text="${item.name}"></h3>
                     <div class="row">
-                        <img class="center col-md-4" th:src="${item.image}" height="100%"/>
+                        <img class="center col-md-4" th:src="${item.image}" height="350"/>
                         <p class="center col-md-8" th:text="${item.description}"></p>
                     </div>
                 </div>
