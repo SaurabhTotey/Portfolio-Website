@@ -1,6 +1,7 @@
 package com.saurabhtotey.portfoliowebsite.controller
 
 import com.saurabhtotey.portfoliowebsite.data.interests
+import com.saurabhtotey.portfoliowebsite.data.languageUsageAmount
 import com.saurabhtotey.portfoliowebsite.data.qualifications
 import org.springframework.boot.web.servlet.error.ErrorController
 import org.springframework.stereotype.Controller
@@ -60,6 +61,15 @@ open class PageController: ErrorController {
     fun qualificationsPage(model: Model): String {
         model.addAttribute("qualifications", qualifications)
         return "Qualifications"
+    }
+
+    /**
+     * Serves the programming page if asked for
+     */
+    @RequestMapping("/Programming")
+    fun programmingPage(model: Model): String {
+        model.addAttribute("languageUsageAmount", languageUsageAmount)
+        return "Programming"
     }
 
 }
