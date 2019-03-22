@@ -7,10 +7,7 @@ export default () => (
 	<div>
 		<Header />
 		<Tooltip TransitionComponent={Fade} enterDelay={10000} enterTouchDelay={10000} title="Just in case you didn't know whose website you were on.">
-			<h1>Saurabh Totey</h1>
+			<h1 style={{textAlign: "center"}}>Saurabh Totey</h1>
 		</Tooltip>
-		<style jsx>{`
-			text-align: center;
-		`}</style>
 	</div>
 )

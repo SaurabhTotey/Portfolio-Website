@@ -4,7 +4,7 @@
   "description": "A website about Saurabh Totey.",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build && mv public docs",
+    "build": "gatsby build && rm -rf docs && mv public docs",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
