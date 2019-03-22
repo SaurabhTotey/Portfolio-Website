@@ -1,28 +1,30 @@
 {
- "name": "saurabh-totey-portfolio-website",
- "version": "0.0.0",
- "description": "A website about Saurabh Totey.",
- "main": "index.js",
- "scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start",
-  "export": "npm run build && next export -o docs"
- },
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/SaurabhTotey/Portfolio-Website.git"
- },
- "author": "Saurabh Totey",
- "license": "MIT",
- "bugs": {
-  "url": "https://github.com/SaurabhTotey/Portfolio-Website/issues"
- },
- "homepage": "https://github.com/SaurabhTotey/Portfolio-Website#readme",
- "dependencies": {
-  "@material-ui/core": "^3.9.2",
-  "next": "^8.0.3",
-  "react": "^16.8.4",
-  "react-dom": "^16.8.4"
- }
+  "name": "saurabh-totey-portfolio-website",
+  "version": "0.0.0",
+  "description": "A website about Saurabh Totey.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build && mv public docs",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "deploy": "npm run build && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaurabhTotey/Portfolio-Website.git"
+  },
+  "author": "Saurabh Totey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaurabhTotey/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/SaurabhTotey/Portfolio-Website#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "gatsby": "^2.2.5",
+    "gatsby-plugin-material-ui": "^1.2.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
 }
