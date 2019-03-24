@@ -4,6 +4,7 @@ export default () => (
 	<div>
 		<head>
 			<title>Saurabh Totey</title>
+			<link rel={"icon"} href={"images/SaurabhToteyBoulderMountains.jpg"} />
 		</head>
 		<style jsx global>{`
 			body {
