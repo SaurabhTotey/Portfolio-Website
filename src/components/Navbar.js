@@ -1,41 +1,19 @@
 import React, {Component} from "react";
-
-/**
- * CSS styling for the ul list component
- */
-const listStyle = {
-	listStyleType: "none",
-	margin: 0,
-	padding: 0,
-	overflow: "hidden",
-	position: "sticky",
-	top: 0
-};
-
-/**
- * CSS styling for all li components
- */
-const itemStyle = {
-	float: "left",
-	display: "block",
-	textAlign: "center"
-};
-
-/**
- * CSS styling for the li component that represents the current page
- */
-const currentItemStyle = {
-	...itemStyle,
-	...{
-		backgroundColor: "gray"
-	}
-};
+import { Link } from "gatsby";
+import "../styles/Navbar.css";
 
 /**
  * React component that represents a single item on the navbar
  */
 function NavbarItem(props) {
-	return (<li style={props.isActive? currentItemStyle : itemStyle}>{props.currentItem}</li>);
+	let style = { width: `${props.width}%` };
+	if (props.isActive) {
+		style = {
+			...style,
+			backgroundColor: "silver"
+		}
+	}
+	return (<li className={"navbarItem"} style={style}><Link className={"navbarLink"} to={props.currentItem.location}>{props.currentItem.name}</Link></li>);
 }
 
 /**
@@ -45,9 +23,12 @@ function NavbarItem(props) {
 class Navbar extends Component {
 
 	render() {
+		const pageNames = Object.keys(this.props.pages);
 		return (
-			<ul style={listStyle}>{
-				this.props.pages.map(pageName => <NavbarItem isActive={this.props.currentPage === pageName} currentItem={pageName} />)
+			<ul className={"navbar"}>{
+				pageNames.map(pageName =>
+					<NavbarItem isActive={this.props.currentPage === pageName} width={100 / pageNames.length} currentItem={{name: pageName, location: this.props.pages[pageName]}} />
+				)
 			}</ul>
 		)
 	}

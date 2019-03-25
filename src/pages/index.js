@@ -7,6 +7,6 @@ export default () => (
 	<div>
 		<Meta />
 		<Header />
-		<Navbar pages={["Home", "Qualifications"]} currentPage={"Home"}/>
+		<Navbar pages={{"Home": "/", "Qualifications": "/Qualifications"}} currentPage={"Home"}/>
 	</div>
 )
