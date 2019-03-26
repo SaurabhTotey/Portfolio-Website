@@ -1,10 +1,9 @@
 .navbar {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	border-top: 1px solid #454545;
+	border-bottom: 1px solid #454545;
 }
 
 .navbarItem {
@@ -14,6 +13,8 @@
 .navbarItem .navbarLink {
 	display: block;
 	text-align: center;
+	text-decoration: none;
+	color: #454545;
 }
 
 .navbarItem .navbarLink:hover {
