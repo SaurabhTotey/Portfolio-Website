@@ -1,0 +1,16 @@
+body {
+	background-color: #EEEEEE;
+	color: #454545;
+	font-size: 120%;
+	line-height: 1.4;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+a {
+	color: #0077AA;
+}
