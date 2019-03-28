@@ -4,7 +4,7 @@
   "description": "A website about Saurabh Totey.",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build && rm -rf docs && mv public docs",
+    "build": "gatsby build && rm -rf docs && mv public docs && git add docs",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/SaurabhTotey/Portfolio-Website#readme",
   "dependencies": {
-    "@material-ui/core": "^3.9.2",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "gatsby": "^2.2.5",
-    "gatsby-plugin-material-ui": "^1.2.4",
     "react": "^16.8.4",
+    "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.4"
   }
 }
