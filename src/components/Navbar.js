@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
 import "../styles/Navbar.css";
+import Nav from "react-bootstrap/Nav";
 
 //A map of page names to relative page paths
 const pages = {
@@ -17,14 +17,12 @@ const pageNames = Object.keys(pages);
  * React component that represents a single item on the navbar
  */
 function NavbarItem(props) {
-	let style = { width: `${props.width}%` };
-	if (props.isActive) {
-		style = {
-			...style,
-			backgroundColor: "silver"
-		}
-	}
-	return (<li className={"navbarItem"} style={style}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>);
+	const location = pages[props.page];
+	return <Nav.Item as={"li"}>
+		<Nav.Link href={location}>
+			{props.page}
+		</Nav.Link>
+	</Nav.Item>
 }
 
 /**
@@ -45,12 +43,9 @@ class Navbar extends React.Component {
 	}
 
 	render() {
-		return <ul className={"navbar"}>{
-			pageNames.map(pageName => {
-				const pageLocation = pages[pageName];
-				return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} width={100 / pageNames.length} currentPageName={pageName} />
-			})
-		}</ul>
+		return <Nav justify={true} activeKey={this.state.currentRelativePath} as={"ul"}>{
+			pageNames.map(pageName => <NavbarItem page={pageName}/>)
+		}</Nav>
 	}
 
 }
