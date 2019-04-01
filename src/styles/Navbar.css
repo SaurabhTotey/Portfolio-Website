@@ -1,16 +1,22 @@
 ul {
 	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
 	border-top: 1px solid #454545;
 	border-bottom: 1px solid #454545;
 }
 
+li {
+	float: left;
+}
+
 li a {
 	display: block;
+	text-align: center;
 	text-decoration: none;
 	color: #454545;
 }
 
 li a:hover {
 	background-color: silver;
-	color: #454545;
 }
