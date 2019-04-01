@@ -1,0 +1,19 @@
+h1, #title-container {
+	margin-bottom: -5px;
+}
+
+#title-container {
+	text-align: center;
+}
+
+#secret-tooltip {
+	visibility: hidden;
+	text-align: center;
+	font-size: 10px;
+}
+
+#title-container:hover #secret-tooltip {
+	visibility: visible;
+	transition-property: visibility;
+	transition-delay: 10s;
+}
