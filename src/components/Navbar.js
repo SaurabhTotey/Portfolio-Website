@@ -16,15 +16,42 @@ const pageNames = Object.keys(pages);
 /**
  * React component that represents a single item on the navbar
  */
-function NavbarItem(props) {
-	let style = { width: `${props.width}%` };
-	if (props.isActive) {
-		style = {
-			...style,
-			backgroundColor: "silver"
-		}
+class NavbarItem extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+			isVertical: false
+		};
 	}
-	return (<li className={"navbarItem"} style={style}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>);
+
+	onWindowResize() {
+		this.setState({ isVertical: window.innerWidth < 900 });
+	}
+
+	componentDidMount() {
+		this.onWindowResize();
+		window.addEventListener("resize", this.onWindowResize.bind(this));
+	}
+
+	render() {
+		let style;
+		if (this.state.isVertical) {
+			style = { width: "100%", margin: "auto" };
+		} else {
+			style = { width: `${this.props.width}%`, float: "left" };
+		}
+
+		if (this.props.isActive) {
+			style = {
+				...style,
+				backgroundColor: "silver"
+			}
+		}
+
+		return (<li className={"navbarItem"} style={style}><Link className={"navbarLink"} to={pages[this.props.currentPageName]}>{this.props.currentPageName}</Link></li>);
+	}
+
 }
 
 /**

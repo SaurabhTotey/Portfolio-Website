@@ -6,10 +6,6 @@ ul {
 	border-bottom: 1px solid #454545;
 }
 
-li {
-	float: left;
-}
-
 li a {
 	display: block;
 	text-align: center;
