@@ -1,9 +1,35 @@
 import React from "react";
 import {FaRegEnvelope, FaGithub, FaSpotify, FaSteam, FaYoutube, FaPhone} from "react-icons/fa";
 import ResponsiveContainer from "./ResponsiveContainer";
+import "../styles/Footer.css";
 
-const icons = [<FaRegEnvelope/>, <FaPhone/>, <FaGithub/>, <FaYoutube/>, <FaSpotify/>, <FaSteam/>];
-const iconWidth = 100 / icons.length;
+const icons = {
+	email: {
+		icon: FaRegEnvelope,
+		path: "mailto:SaurabhTotey@gmail.com"
+	},
+	phone: {
+		icon: FaPhone,
+		path: "tel:7206482674"
+	},
+	github: {
+		icon: FaGithub,
+		path: "https://www.github.com/SaurabhTotey"
+	},
+	youtube: {
+		icon: FaYoutube,
+		path: "https://www.youtube.com/channel/UCXubVdV4RlI7ByEEDxziNcg"
+	},
+	spotify: {
+		icon: FaSpotify,
+		path: "https://open.spotify.com/user/saurabh-totey?si=QaRE9wybTc6FbwRiQayTWA"
+	},
+	steam: {
+		icon: FaSteam,
+		path: "https://steamcommunity.com/id/Lord_Strainer"
+	}
+};
+const iconWidth = 100 / Object.keys(icons).length;
 
 /**
  * A component that is the footer that should be at the bottom of all pages
@@ -38,9 +64,9 @@ class Footer extends React.Component {
 		}
 		return <footer style={style}>
 			<ResponsiveContainer>
-				<div responsiveWidth="25%" style={{width: "100%", textAlign: "center"}}>Contact me:&nbsp;</div>
+				<div responsiveWidth="25%" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
 				<div responsiveWidth="75%" style={{width: "100%"}}>{
-					icons.map(icon => <div style={{width:`${iconWidth}%`, display: "inline-block", textAlign: "center"}}>{icon}</div>)
+					Object.keys(icons).map(icon => <a href={icons[icon].path} style={{width:`${iconWidth}%`}}>{icons[icon].icon()}</a>)
 				}</div>
 			</ResponsiveContainer>
 		</footer>
