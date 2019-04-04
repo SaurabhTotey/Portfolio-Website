@@ -1,10 +1,10 @@
-a {
+.footerLink {
 	display: inline-block;
 	text-align: center;
 	padding-top: 3px;
 	color: #454545;
 }
 
-a:hover {
+.footerLink:hover {
 	background-color: silver;
 }

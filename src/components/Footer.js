@@ -66,7 +66,7 @@ class Footer extends React.Component {
 			<ResponsiveContainer>
 				<div responsiveWidth="25%" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
 				<div responsiveWidth="75%" style={{width: "100%"}}>{
-					Object.keys(icons).map(icon => <a href={icons[icon].path} style={{width:`${iconWidth}%`}}>{icons[icon].icon()}</a>)
+					Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}}>{icons[icon].icon()}</a>)
 				}</div>
 			</ResponsiveContainer>
 		</footer>

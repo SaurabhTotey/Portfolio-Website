@@ -72,7 +72,7 @@ class Navbar extends React.Component {
 	}
 
 	render() {
-		return <ul className={"navbar"}>{
+		return <ul id={"navbar"}>{
 			pageNames.map(pageName => {
 				const pageLocation = pages[pageName];
 				return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} width={100 / pageNames.length} currentPageName={pageName} />

@@ -1,4 +1,4 @@
-ul {
+#navbar {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
@@ -6,13 +6,13 @@ ul {
 	border-bottom: 1px solid #454545;
 }
 
-li a {
+.navbarItem .navbarLink {
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	color: #454545;
 }
 
-li a:hover {
+.navbarItem .navbarLink:hover {
 	background-color: silver;
 }
