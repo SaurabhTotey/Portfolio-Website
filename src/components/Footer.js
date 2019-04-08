@@ -63,7 +63,7 @@ class Footer extends React.Component {
 			style = {
 				...style,
 				position: "absolute",
-				bottom: "5px",
+				bottom: "10px",
 				width: "97%"
 			}
 		}

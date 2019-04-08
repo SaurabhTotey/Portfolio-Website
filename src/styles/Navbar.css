@@ -6,6 +6,11 @@
 	border-bottom: 1px solid #454545;
 }
 
+.navbarLink {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .navbarItem .navbarLink {
 	display: block;
 	text-align: center;
