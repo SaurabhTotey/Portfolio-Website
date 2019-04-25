@@ -1,8 +1,10 @@
 import React from "react";
+import "../styles/SelectionList.css"
 
 /**
  * A class that shows a list of items that can be selected
  * Is vertical and can have listeners attached
+ * Requires that an item is always selected
  */
 class SelectionList extends React.Component {
 
@@ -15,9 +17,9 @@ class SelectionList extends React.Component {
 	}
 
 	render() {
-		return <ul>
-
-		</ul>
+		return <ul className={"selectionList"}>{
+			this.state.items.map(item => <li className={"selectionItem"}>{item}</li>)
+		}</ul>
 	}
 
 }

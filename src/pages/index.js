@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Meta from "../components/Meta";
 import ResponsiveContainer from "../components/ResponsiveContainer";
+import SelectionList from "../components/SelectionList";
 
 export default () => (
 	<div>
@@ -16,7 +17,7 @@ export default () => (
 		<br/>
 		<h2>Things I like</h2>
 		<ResponsiveContainer>
-			<div responsiveWidth="33%">TODO: a vertical list of my interest categories will show up here (eg. programming languages, pokemon, etc)</div>
+			<SelectionList responsiveWidth="33%" items={["Programming Languages", "TV Shows", "Video Games", "Pokémon", "Subreddits"]} />
 			<div responsiveWidth="67%">TODO: a carousel of my favorite things in the selected category will show up (eg. a carousel of my favorite programming languages, or a carousel of my favorite pokemon, etc)</div>
 		</ResponsiveContainer>
 		<br/>

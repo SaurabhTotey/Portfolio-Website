@@ -45,7 +45,7 @@ class NavbarItem extends React.Component {
 		if (this.props.isActive) {
 			style = {
 				...style,
-				backgroundColor: "silver"
+				backgroundColor: "lightgray"
 			}
 		}
 

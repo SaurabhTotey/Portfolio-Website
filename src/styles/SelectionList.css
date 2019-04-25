@@ -1,0 +1,19 @@
+
+.selectionList {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+.selectionItem {
+	display: block;
+	padding: 10px;
+}
+
+.selectionItem:nth-child(even) {
+	background-color: lightgray;
+}
+
+.selectionItem:hover {
+	background-color: silver;
+}
