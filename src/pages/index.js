@@ -16,9 +16,10 @@ export default () => (
 		</ResponsiveContainer>
 		<br/>
 		<h2>Things I like</h2>
+		<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 		<ResponsiveContainer>
 			<SelectionList responsiveWidth="33%" items={["Programming Languages", "TV Shows", "Video Games", "Pokémon", "Subreddits"]} />
-			<div responsiveWidth="67%">TODO: a carousel of my favorite things in the selected category will show up (eg. a carousel of my favorite programming languages, or a carousel of my favorite pokemon, etc)</div>
+			<div responsiveWidth="67%" style={{margin: "10px"}}>TODO: a carousel of my favorite things in the selected category will show up (eg. a carousel of my favorite programming languages, or a carousel of my favorite pokemon, etc)</div>
 		</ResponsiveContainer>
 		<br/>
 		<Footer />
