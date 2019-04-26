@@ -9,10 +9,15 @@
 .selectionItem {
 	display: block;
 	padding: 10px;
-	color: #454545;
+	color: inherit;
+	width: 100%;
+	background: none;
+	border: none;
+	font: inherit;
+	outline: inherit;
 }
 
-.selectionItem:not(:first-child) {
+.selectionListItem:not(:first-child) {
 	border-top: 1px outset silver;
 }
 

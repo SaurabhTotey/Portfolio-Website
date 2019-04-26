@@ -18,7 +18,7 @@ class SelectionList extends React.Component {
 
 	render() {
 		return <ul className={"selectionList"}>{
-			this.state.items.map((item, index) => <li className={`selectionItem ${index === this.state.selectedItemIndex? "active" : ""}`} onClick={() => this.setState({ ...this.state, selectedItemIndex: index })} tabIndex={0}>{item}</li>)
+			this.state.items.map((item, index) => <li className={"selectionListItem"}><button className={`selectionItem ${index === this.state.selectedItemIndex? "active" : ""}`} onClick={() => this.setState({ ...this.state, selectedItemIndex: index })}>{item}</button></li>)
 		}</ul>
 	}
 

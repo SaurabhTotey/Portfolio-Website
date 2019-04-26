@@ -2,7 +2,7 @@
 	display: inline-block;
 	text-align: center;
 	padding-top: 3px;
-	color: #454545;
+	color: inherit;
 }
 
 .footerLink:hover {

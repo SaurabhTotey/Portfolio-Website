@@ -15,7 +15,7 @@
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	color: #454545;
+	color: inherit;
 }
 
 .navbarItem .navbarLink:hover {
