@@ -15,5 +15,5 @@
 #title-container:hover #secret-tooltip {
 	visibility: visible;
 	transition-property: visibility;
-	transition-delay: 10s;
+	transition-delay: 30s;
 }
