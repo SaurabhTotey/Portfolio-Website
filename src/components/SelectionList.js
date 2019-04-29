@@ -16,8 +16,19 @@ class SelectionList extends React.Component {
 		};
 	}
 
-	componentDidUpdate(prevProps, prevState, snapshot) {
+	onSelection() {
 		this.props.onSelection(this.state.items[this.state.selectedItemIndex]);
+	}
+
+	componentDidMount() {
+		this.onSelection();
+	}
+
+	componentDidUpdate(prevProps, prevState, snapshot) {
+		if (prevState.selectedItemIndex === this.state.selectedItemIndex) {
+			return;
+		}
+		this.onSelection();
 	}
 
 	render() {

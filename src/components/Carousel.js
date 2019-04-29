@@ -12,7 +12,11 @@ class Carousel extends React.Component {
 	}
 
 	render() {
-
+		return <div style={{textAlign: "center"}}>
+			Sorry, this carousel is a work in progress!
+		</div>;
 	}
 
 }
+
+export default Carousel;
