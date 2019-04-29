@@ -12,7 +12,7 @@ class SelectionList extends React.Component {
 		super(props);
 		this.state = {
 			items: this.props.items,
-			selectedItemIndex: this.props.selectedItemIndex ? this.props.selectedItemIndex : 0
+			selectedItemIndex: this.props.selectedItemIndex | 0
 		};
 	}
 

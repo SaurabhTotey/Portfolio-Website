@@ -9,13 +9,33 @@ class Carousel extends React.Component {
 
 	constructor(props) {
 		super(props);
+		this.state = {
+			currentItemIndex: 0,
+			showTimeLength: this.props.showTimeLength | 5000
+		};
+	}
+
+	componentDidMount() {
+		this.numberOfChildren = React.Children.toArray(this.props.children).length;
+		this.carouselTimer = window.setInterval(() => this.setState({
+			...this.state,
+			currentItemIndex: (this.state.currentItemIndex + 1) % this.numberOfChildren
+		}), this.state.showTimeLength);
+	}
+
+	componentWillUnmount() {
+		window.clearInterval(this.carouselTimer);
 	}
 
 	render() {
 		return <div style={{textAlign: "center"}}>
-			Sorry, this carousel is a work in progress!
-		</div>;
+			<h4>{this.props.title}</h4>
+			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
+			<p>{this.props.description}</p>
+		</div>
 	}
+
+
 
 }
 

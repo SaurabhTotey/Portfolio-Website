@@ -7,11 +7,31 @@ import ResponsiveContainer from "../components/ResponsiveContainer";
 import SelectionList from "../components/SelectionList";
 
 const carousels = {
-	"Programming Languages": <Carousel></Carousel>,
-	"TV Shows": <Carousel></Carousel>,
-	"Video Games": <Carousel></Carousel>,
-	"Pokémon": <Carousel></Carousel>,
-	"Subreddits": <Carousel></Carousel>
+	"Programming Languages": <Carousel title={"Programming Languages"} description={"I write code mostly as a hobby. As such, I use a lot of programming languages. I really like languages that have object oriented features, functional features, and metaprogramming. I think that the value of a language should be deemed not only on what can be made with the language, but also with how hard it is to make mistakes when writing code with that language."}>
+		<p>Items are a WIP 1</p>
+		<p>Items are a WIP 2</p>
+		<p>Items are a WIP 3</p>
+	</Carousel>,
+	"TV Shows": <Carousel title={"TV Shows"} description={"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show, but I want to see how a show would take an interesting premise and develop it into a fascinating story with an interesting plot."}>
+		<p>Items are a WIP 1</p>
+		<p>Items are a WIP 2</p>
+		<p>Items are a WIP 3</p>
+	</Carousel>,
+	"Video Games": <Carousel title={"Video Games"} description={"There is nothing more satisfying than playing video games. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on video games than I should."}>
+		<p>Items are a WIP 1</p>
+		<p>Items are a WIP 2</p>
+		<p>Items are a WIP 3</p>
+	</Carousel>,
+	"Pokémon": <Carousel title={"Pokémon"} description={"WIP Description"}>
+		<p>Items are a WIP 1</p>
+		<p>Items are a WIP 2</p>
+		<p>Items are a WIP 3</p>
+	</Carousel>,
+	"Subreddits": <Carousel title={"Subreddits"} description={"WIP Description"}>
+		<p>Items are a WIP 1</p>
+		<p>Items are a WIP 2</p>
+		<p>Items are a WIP 3</p>
+	</Carousel>
 };
 
 /**
