@@ -39,4 +39,4 @@ class SelectionList extends React.Component {
 
 }
 
-export default SelectionList;
+export default SelectionList
