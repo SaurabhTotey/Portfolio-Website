@@ -8,9 +8,11 @@ import SelectionList from "../components/SelectionList";
 
 const carousels = {
 	"Programming Languages": <Carousel title={"Programming Languages"} description={"I write code mostly as a hobby. As such, I use a lot of programming languages. I really like languages that have object oriented features, functional features, and metaprogramming. I think that the value of a language should be deemed not only on what can be made with the language, but also with how hard it is to make mistakes when writing code with that language."}>
-		<p>Items are a WIP 1</p>
-		<p>Items are a WIP 2</p>
-		<p>Items are a WIP 3</p>
+		<div>
+			<h4>Kotlin</h4>
+			<img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png"} alt={"Kotlin"} height={"100"} />
+			<p style={{fontSize: "80%"}}>Kotlin is by far my favorite programming language. Kotlin boasts easy-to-use functional programming, great support for object oriented, and overall general ease of use. Pair this with its great cross-platform capabilities and easy integration with existing Java code, and you are left with no reason not to use Kotlin. It is very clear that Kotlin was made by people who write code, and I am really upset writing projects in languages that aren't Kotlin. The only thing I wish Kotlin had is metaprogramming.</p>
+		</div>
 	</Carousel>,
 	"TV Shows": <Carousel title={"TV Shows"} description={"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show, but I want to see how a show would take an interesting premise and develop it into a fascinating story with an interesting plot."}>
 		<p>Items are a WIP 1</p>

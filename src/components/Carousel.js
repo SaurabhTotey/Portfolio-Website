@@ -29,7 +29,7 @@ class Carousel extends React.Component {
 
 	render() {
 		return <div style={{textAlign: "center"}}>
-			<h4>{this.props.title}</h4>
+			<h3>{this.props.title}</h3>
 			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
 			<p>{this.props.description}</p>
 		</div>
