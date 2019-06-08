@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ResponsiveContainer.css";
 
 /**
  * A class that represents a responsive container
@@ -24,25 +25,15 @@ class ResponsiveContainer extends React.Component {
 	}
 
 	render() {
-		return <div style={{overflow: "hidden"}}>{
-			this.props.children.map(child => {
-				let style;
+		return <div className={"responsiveContainer"}>{
+			this.props.children.map( child => {
+				let span = child.props.responsiveWidth;
 				if (this.state.isVertical) {
-					style = { width: "100%", display: "block" };
-				} else {
-					style = { width: child.props.responsiveWidth, display: "inline-block" };
+					span = 1;
 				}
-				style = {
-					...style,
-					float: "left"
-				};
-
-				return <div style={style}>
-					{child}
-				</div>
-			})}
-			<div style={{clear: "both"}} />
-		</div>
+				return <div className={"responsiveContainerItem"} style={{gridArea: `span 1 / span ${span}`}}>{child}</div>
+			})
+		}</div>
 	}
 
 }
