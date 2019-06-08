@@ -62,7 +62,9 @@ class App extends React.Component {
 			<h2>Things I like</h2>
 			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 			<ResponsiveContainer>
-				<SelectionList responsiveWidth="4" items={Object.keys(carousels)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} />
+				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
+					<SelectionList items={Object.keys(carousels)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} />
+				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}}>{carousels[this.state.currentSelectedCategory]}</div>
 			</ResponsiveContainer>
 			<br/>
