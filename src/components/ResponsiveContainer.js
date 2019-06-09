@@ -29,11 +29,7 @@ class ResponsiveContainer extends React.Component {
 	render() {
 		const containerStyling = { display: "grid", gridTemplateColumns: "100%" };
 		if (!this.state.isVertical) {
-			const columnWidth = `${100 / 12}% `;
-			containerStyling.gridTemplateColumns = "";
-			for (let i = 0; i < 12; i++) {
-				containerStyling.gridTemplateColumns += columnWidth;
-			}
+			containerStyling.gridTemplateColumns = "repeat(12, 1fr)";
 		}
 		return <div style={containerStyling}>{
 			this.props.children.map( child => {
