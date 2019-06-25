@@ -44,18 +44,16 @@ class Footer extends React.Component {
 	}
 
 	/**
-	 * After a 50ms time delay, checks whether the footer should be vertical
-	 * 50ms delay is to allow for all other components to resize first
-	 * TODO: bind to state of responsivecontainers rather than having an arbitrary flat 50ms delay
-	 * TODO: sometimes this doesn't work as I want it to and it overlays on top of the body content when reducing window size
+	 * Checks whether the footer should stay where it is, or whether it needs to position itself manually at the bottom of the page
+	 * TODO: this definitely won't be necessary when I have content on all the pages
 	 */
 	onWindowResize() {
-		setTimeout(() => this.setState({ stickToBottom: window.innerHeight > document.body.clientHeight + document.getElementsByTagName("footer")[0].clientHeight + 10 }), 50);
+		this.setState({ stickToBottom: window.innerHeight > document.body.clientHeight + document.getElementsByTagName("footer")[0].clientHeight + 10 })
 	}
 
 	componentDidMount() {
 		this.onWindowResize();
-		window.addEventListener("resize", this.onWindowResize.bind(this));
+		window.addEventListener("resize", () => this.onWindowResize());
 	}
 
 	render() {
