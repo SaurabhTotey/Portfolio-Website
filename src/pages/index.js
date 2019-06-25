@@ -19,7 +19,7 @@ const carousels = {
 			<p>D is how I first learned about the beauty and joys of functional programming. I originally only picked up D because it had the syntax of Java without being limited in the same ways as Java. However, I stayed because of the powerful metaprogramming capabilities. I only wish other languages had the power of D in regards to this aspect. I wish D had more support with external libraries, because it really is a very pleasant language to work in. One of the only complaints I have with the language itself is that it has very cryptic error messages that make it hard to debug.</p>
 		</div>
 	</Carousel>,
-	"TV Shows": <Carousel title={"TV Shows"} showTimeLength={"60000"} description={"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show, but I want to see how a show would take an interesting premise and develop it into a fascinating story with an interesting plot."}>
+	"TV Shows": <Carousel title={"TV Shows"} showTimeLength={"60000"} description={"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show, but I want to see how a show takes an interesting premise and develops it into a fascinating story with an interesting plot."}>
 		<div>
 			<h4>Game of Thrones</h4>
 			<img src={"https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/1/game-of-thrones-1-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg"} alt={"Game of Thrones"} height={"100"} />
@@ -33,19 +33,27 @@ const carousels = {
 		<div>
 			<h4>Hunter X Hunter</h4>
 			<img src={"https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg"} alt={"Hunter X Hunter"} height={"100"} />
-			<p>What starts off as an innocent journey for a kid to get his Hunter's License turns into a world-spanning adventure trying to survive the world's horrors. I love so many aspects of this show, such as how the story never takes a break and is one continuous series of events. Another aspect of this show that I love is how each character really does grow, even after they have achieved their supposed "main goals". My only gripe about this show is that it has a slow start, which makes it really hard to convince others to watch this show far enough.</p>
+			<p>What starts off as an innocent journey for a kid to get his Hunter's License turns into a world-spanning adventure trying to survive the world's horrors. I love so many aspects of this show, such as how the story never takes a break and is one continuous series of events. Another aspect of this show that I love is how each character really does grow, even after they have achieved their supposed "main goals". My favorite part of this show is near the ending where there is a consistent theme of humans becoming crueler and more like monsters while the literal monsters start gaining more emotions and becoming more human. My only gripe about this show is that it has a slow start, which makes it really hard to convince others to watch this show far enough to actually enjoy it.</p>
 		</div>
 		<div>
 			<h4>Re:Zero − Starting Life in Another World</h4>
+			<img src={"https://img1.ak.crunchyroll.com/i/spire2/95445cd55c37ce2ff04ef1adde79f50c1529088362_full.jpg"} alt={"Re:Zero − Starting Life in Another World"} height={"100"} />
+			<p>I was initially very hesitant to start watching this show. I thought it was just another show where the protagonist gets transported into another world and has a great time. I couldn't be more wrong. Watching this show felt like I was watching torture taking place. The protagonist undergoes so much trouble, and the fact that the protagonist cannot tell anyone about the problems that he has to face alone is what really makes his situations feel unfair. I really like how this story is one of failure and then redemption: the protagonist repeatedly fails to take actions in a sane way and then gets punished for it, but he ends up having to redeem himself for his failures.</p>
 		</div>
 		<div>
 			<h4>Code Geass: Lelouch of the Rebellion</h4>
+			<img src={"https://derf9v1xhwwx1.cloudfront.net/image/upload/c_fill,q_60,h_750,w_1920/oth/FunimationStoreFront/1498654/Japanese/1498654_Japanese_ShowDetailHeaderDesktop_5412210a-e3ab-e811-8175-020165574d09.jpg"} alt={"Code Geass: Lelouch of the Rebellion"} height={"100"} />
+			<p>This show was a rollercoaster. It really made me think about whether the protagonist was a "good guy" or a "bad guy". It was really hard watching everyone even remotely close to the protagonist betray him, even though he only had the best of intentions for all of them and the world. This show was extremely captivating the entire way through, and really knew how to make a great ending that tied everything together. However, I must file my extremely small and nitpicky gripe that chess is supposed to be a huge metaphor in the show, but at one point, two main characters play chess, and one makes an illegal move.</p>
 		</div>
 		<div>
 			<h4>Made in Abyss</h4>
+			<img src={"https://images-na.ssl-images-amazon.com/images/I/911d5AdE4pL._RI_.jpg"} alt={"Made in Abyss"} height={"100"} />
+			<p>Whenever I try and convince others to try watching anime, I recommend they start with this show. It has a great art style, an extremely intriguing plot with many mysteries, and lots and lots of suffering. The show asks the question of when life is worth living in a really interesting way, and breaks my heart many times along the journey.</p>
 		</div>
 		<div>
-			<h4>Adam Ruins Everything</h4>
+			<h4>Attack on Titan</h4>
+			<img src={"https://ib3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=hummus&base_image=d13c235d-7145-45ff-adaa-b99f79254521&size=400x600&format=jpeg"} alt={"Attack on Titan"} height={"100"} />
+			<p>This show is about fighting and surviving in a hopeless and seemingly tiny world. Every character faces their moments of despair, and watching the characters learn about the worlds mysteries is extremely interesting. It is also interesting seeing how each "side" of this story at some point is required to devolve to cruelty and monstrosity in order to win to help the greater good. I also love how this show is littered with symbolism and really does prioritize on telling a captivating if yet heartbreaking story about a human struggle for freedom.</p>
 		</div>
 	</Carousel>,
 	"Video Games": <Carousel title={"Video Games"} showTimeLength={"60000"} description={"There is nothing more satisfying than playing video games. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on video games than I should."}>
