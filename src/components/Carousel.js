@@ -17,8 +17,18 @@ class Carousel extends React.Component {
 	componentDidMount() {
 		this.carouselTimer = window.setInterval(() => this.setState({
 			...this.state,
-			currentItemIndex: (this.state.currentItemIndex + 1) % React.Children.toArray(this.props.children).length
+			currentItemIndex: this.state.currentItemIndex + 1
 		}), this.props.showTimeLength);
+	}
+
+	componentWillUpdate(nextProps, nextState, nextContext) {
+		const numberChildren = React.Children.toArray(nextProps.children).length;
+		if (nextState.currentItemIndex >= numberChildren) {
+			this.setState({
+				...this.state,
+				currentItemIndex: this.state.currentItemIndex % numberChildren
+			});
+		}
 	}
 
 	componentWillUnmount() {
