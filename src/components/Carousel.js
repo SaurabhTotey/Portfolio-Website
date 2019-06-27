@@ -15,18 +15,26 @@ class Carousel extends React.Component {
 	}
 
 	componentDidMount() {
-		this.carouselTimer = window.setInterval(() => this.setState({
+		this.carouselTimer = window.setInterval(() => this.movePosition(1), this.props.showTimeLength);
+	}
+
+	movePosition(amount) {
+		this.setState({
 			...this.state,
-			currentItemIndex: this.state.currentItemIndex + 1
-		}), this.props.showTimeLength);
+			currentItemIndex: this.state.currentItemIndex + amount
+		});
 	}
 
 	componentWillUpdate(nextProps, nextState, nextContext) {
 		const numberChildren = React.Children.toArray(nextProps.children).length;
-		if (nextState.currentItemIndex >= numberChildren) {
+		let newPosition = nextState.currentItemIndex % numberChildren;
+		if (newPosition < 0) {
+			newPosition = numberChildren - 1;
+		}
+		if (nextState.currentItemIndex !== newPosition) {
 			this.setState({
-				...this.state,
-				currentItemIndex: this.state.currentItemIndex % numberChildren
+				...nextState,
+				currentItemIndex: newPosition
 			});
 		}
 	}
@@ -40,6 +48,10 @@ class Carousel extends React.Component {
 			<h3>{this.props.title}</h3>
 			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
 			<p style={{fontSize: "80%"}}>{this.props.description}</p>
+			<div style={{width: "100%"}}>
+				<button style={{width: "50%"}} onClick={() => this.movePosition(-1)}>&#10094;</button>
+				<button style={{width: "50%"}} onClick={() => this.movePosition(1)}>&#10095;</button>
+			</div>
 		</div>
 	}
 
