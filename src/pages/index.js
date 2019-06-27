@@ -52,7 +52,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Hunter X Hunter",
 				"https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg",
-				"What starts off as an innocent journey for a kid to get his Hunter's License turns into a world-spanning adventure trying to survive the world's horrors. I love so many aspects of this show, such as how the story never takes a break and is one continuous series of events. Another aspect of this show that I love is how each character really does grow, even after they have achieved their supposed \"main goals\". My favorite part of this show is near the ending where there is a consistent theme of humans becoming crueler and more like monsters while the literal monsters start gaining more emotions and becoming more human. My only gripe about this show is that it has a slow start, which makes it really hard to convince others to watch this show far enough to actually enjoy it."
+				"What starts off as a journey for a kid to get his Hunter's License turns into a world-spanning adventure of revenge, reunion, and horror. I love so many aspects of this show, such as how the story is one continuous stream of events, or how each character really does grow, even after they have achieved their \"main goals\". My favorite part of this show is near the ending where there is a consistent theme of humans becoming crueler and more like monsters while the literal monsters start gaining more emotions and becoming more human. My only gripe about this show is that it has a slow start, which makes it impossible to convince others to watch this show far enough to actually enjoy it."
 			),
 			new CarouselItem(
 				"Re:Zero − Starting Life in Another World",

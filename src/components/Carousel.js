@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Carousel.css";
 
 /**
  * A class that runs through a list of html components
@@ -44,13 +45,15 @@ class Carousel extends React.Component {
 	}
 
 	render() {
-		return <div style={{textAlign: "center", minHeight: 600}}>
-			<h3>{this.props.title}</h3>
+		return <div className={"carousel"}>
+			<h3 className={"carouselTitle"}>{this.props.title}</h3>
 			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
-			<p style={{fontSize: "80%"}}>{this.props.description}</p>
-			<div style={{width: "100%"}}>
-				<button style={{width: "50%"}} onClick={() => this.movePosition(-1)}>&#10094;</button>
-				<button style={{width: "50%"}} onClick={() => this.movePosition(1)}>&#10095;</button>
+			<div>
+				<p className={"carouselDescription"}>{this.props.description}</p>
+				<div>
+					<button className={"carouselControl"} onClick={() => this.movePosition(-1)}>&#10094;</button>
+					<button className={"carouselControl"} onClick={() => this.movePosition(1)}>&#10095;</button>
+				</div>
 			</div>
 		</div>
 	}
