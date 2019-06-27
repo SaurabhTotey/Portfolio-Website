@@ -18,5 +18,18 @@
 }
 
 .carouselControl {
+	color: inherit;
 	width: 50%;
+	background: none;
+	font: inherit;
+	outline: inherit;
+	padding: 0;
+	border: none;
+	border-top: 1px solid #454545;
+	border-bottom: 1px solid #454545;
+}
+
+.carouselControl:hover {
+	background-color: silver;
+	cursor: pointer;
 }
