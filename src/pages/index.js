@@ -153,7 +153,7 @@ class App extends React.Component {
 					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} />
 				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}}>
-					<Carousel title={this.currentInformation.title} description={this.currentInformation.description} showTimeLength={60000}>{
+					<Carousel title={this.currentInformation.title} description={this.currentInformation.description}>{
 						this.currentInformation.items.map(item => <div>
 							<h4>{item.name}</h4>
 							<img src={item.imageUrl} alt={item.name} height={150} style={{maxWidth: "295px"}} />

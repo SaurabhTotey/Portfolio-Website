@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/Carousel.css";
 
 /**
- * A class that runs through a list of html components
- * Allows for user control, but also goes through each element on a timer
+ * A class that has a circular list of html components
+ * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
  */
 class Carousel extends React.Component {
@@ -13,10 +13,6 @@ class Carousel extends React.Component {
 		this.state = {
 			currentItemIndex: 0
 		};
-	}
-
-	componentDidMount() {
-		this.carouselTimer = window.setInterval(() => this.movePosition(1), this.props.showTimeLength);
 	}
 
 	movePosition(amount) {
@@ -38,10 +34,6 @@ class Carousel extends React.Component {
 				currentItemIndex: newPosition
 			});
 		}
-	}
-
-	componentWillUnmount() {
-		window.clearInterval(this.carouselTimer);
 	}
 
 	render() {
