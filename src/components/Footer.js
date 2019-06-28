@@ -36,37 +36,8 @@ const iconWidth = 100 / Object.keys(icons).length;
  */
 class Footer extends React.Component {
 
-	constructor(props) {
-		super(props);
-		this.state = {
-			stickToBottom: false
-		};
-	}
-
-	/**
-	 * Checks whether the footer should stay where it is, or whether it needs to position itself manually at the bottom of the page
-	 * TODO: this definitely won't be necessary when I have content on all the pages
-	 */
-	onWindowResize() {
-		this.setState({ stickToBottom: window.innerHeight > document.body.clientHeight + document.getElementsByTagName("footer")[0].clientHeight + 10 })
-	}
-
-	componentDidMount() {
-		this.onWindowResize();
-		window.addEventListener("resize", () => this.onWindowResize());
-	}
-
 	render() {
-		let style = { borderTop: "1px solid #454545", borderBottom: "1px solid #454545" };
-		if (this.state.stickToBottom) {
-			style = {
-				...style,
-				position: "absolute",
-				bottom: "10px",
-				width: "97%"
-			}
-		}
-		return <footer style={style}>
+		return <footer>
 			<ResponsiveContainer>
 				<div responsiveWidth="3" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
 				<div responsiveWidth="9" style={{width: "100%"}}>{
