@@ -72,12 +72,14 @@ class Navbar extends React.Component {
 	}
 
 	render() {
-		return <ul id={"navbar"}>{
-			pageNames.map(pageName => {
-				const pageLocation = pages[pageName];
-				return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} width={100 / pageNames.length} currentPageName={pageName} />
-			})
-		}</ul>
+		return <nav role={"navigation"} aria-label={"Page Navigation"}>
+			<ul id={"navbar"}>{
+				pageNames.map(pageName => {
+					const pageLocation = pages[pageName];
+					return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} width={100 / pageNames.length} currentPageName={pageName} />
+				})
+			}</ul>
+		</nav>
 	}
 
 }
