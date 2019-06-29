@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "../components/Carousel"
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Meta from "../components/Meta";
 import ResponsiveContainer from "../components/ResponsiveContainer";
 import SelectionList from "../components/SelectionList";
 
@@ -138,7 +137,6 @@ class App extends React.Component {
 
 	render() {
 		return <div>
-			<Meta />
 			<Header />
 			<h2>About me</h2>
 			<ResponsiveContainer>
