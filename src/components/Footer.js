@@ -31,22 +31,13 @@ const icons = {
 };
 const iconWidth = 100 / Object.keys(icons).length;
 
-/**
- * A component that is the footer that should be at the bottom of all pages
- */
-class Footer extends React.Component {
-
-	render() {
-		return <footer>
-			<ResponsiveContainer>
-				<div responsiveWidth="3" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
-				<div responsiveWidth="9" style={{width: "100%"}}>{
-					Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}}>{icons[icon].icon()}</a>)
-				}</div>
-			</ResponsiveContainer>
-		</footer>
-	}
-
-}
-
-export default Footer
+export default () => (
+	<footer>
+		<ResponsiveContainer>
+			<div responsiveWidth="3" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
+			<div responsiveWidth="9" style={{width: "100%"}}>{
+				Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}} key={icon}>{icons[icon].icon()}</a>)
+			}</div>
+		</ResponsiveContainer>
+	</footer>
+)

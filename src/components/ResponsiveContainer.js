@@ -32,12 +32,12 @@ class ResponsiveContainer extends React.Component {
 			containerStyling.gridTemplateColumns = "repeat(12, 1fr)";
 		}
 		return <div style={containerStyling}>{
-			this.props.children.map( child => {
+			this.props.children.map( (child, index) => {
 				const itemStyling = { placeSelf: "stretch", gridArea: "span 1 / span 1" };
 				if (!this.state.isVertical) {
 					itemStyling.gridArea = `span 1 / span ${child.props.responsiveWidth}`;
 				}
-				return <div style={itemStyling}>{child}</div>
+				return <div style={itemStyling} key={index}>{child}</div>
 			})
 		}</div>
 	}

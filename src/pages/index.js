@@ -152,7 +152,7 @@ class App extends React.Component {
 				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}}>
 					<Carousel title={this.currentInformation.title} description={this.currentInformation.description}>{
-						this.currentInformation.items.map(item => <div>
+						this.currentInformation.items.map(item => <div key={item}>
 							<h4>{item.name}</h4>
 							<img src={item.imageUrl} alt={item.name} height={150} style={{maxWidth: "295px"}} />
 							<p>{item.description}</p>
