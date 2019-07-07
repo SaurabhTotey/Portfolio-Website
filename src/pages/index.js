@@ -77,16 +77,48 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Video Games",
-		"This carousel is WIP! There is nothing more satisfying than playing video games. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on video games than I should.",
+		"There is nothing more satisfying than playing video games. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on video games than I should.",
 		[
-			new CarouselItem("Hollow Knight"),
-			new CarouselItem("Legend of Zelda: Skyward Sword"),
-			new CarouselItem("Legend of Zelda: The Minish Cap"),
-			new CarouselItem("Super Mario Galaxy"),
-			new CarouselItem("New Super Mario Bros."),
-			new CarouselItem("Monster Hunter World"),
-			new CarouselItem("Terraria"),
-			new CarouselItem("Minecraft")
+			new CarouselItem(
+				"Hollow Knight",
+				"https://ksr-ugc.imgix.net/assets/020/108/042/722ae9a8bcadd5ca2b87b687d341d8a8_original.jpg?ixlib=rb-2.1.0&w=700&fit=max&v=1517649022&auto=format&frame=1&q=92&s=e502f26aae4456246a7a72df523abaef",
+				"I am always amazed at the quality of work that went in to such a low-cost game. For only $15, I was able to get an unforgettable experience playing a game about bugs in the dark depths of a post-apocalyptic underground civilization. The gameplay is fluid and satisfying, and I really loved exploring and uncovering the mysteries of what had happened."
+			),
+			new CarouselItem(
+				"Legend of Zelda: Skyward Sword",
+				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_TheLegendOfZeldaSkywardSword_image1600w.jpg",
+				"This was one of my first 3D Legend of Zelda games, and I am glad it was. The gameplay is fun, the bosses are inventive and imaginative, and the story is captivating. When I first got the beetle item, I knew that buying this game was a good choice. I am also a fan of the fact that this game has a lot of content, especially when compared to other modern triple-A titles. I especially loved how vast and interesting each of the dungeons were. The only issue that I have with this game is that the motion controls can be a bit hard to use and deal with."
+			),
+			new CarouselItem(
+				"Legend of Zelda: The Minish Cap",
+				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_TheLegendOfZeldaTheMinishCap_image1600w.jpg",
+				""
+			),
+			new CarouselItem(
+				"Super Mario Galaxy",
+				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_SuperMarioGalaxy_image1600w.jpg",
+				""
+			),
+			new CarouselItem(
+				"New Super Mario Bros.",
+				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_NewSuperMarioBrosDS_image1600w.jpg",
+				""
+			),
+			new CarouselItem(
+				"Monster Hunter World",
+				"https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1554771889",
+				""
+			),
+			new CarouselItem(
+				"Terraria",
+				"https://steamcdn-a.akamaihd.net/steam/apps/105600/header.jpg?t=1548954652",
+				""
+			),
+			new CarouselItem(
+				"Minecraft",
+				"https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png",
+				""
+			)
 		]
 	),
 	new CarouselInformation(
