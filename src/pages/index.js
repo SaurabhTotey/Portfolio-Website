@@ -107,7 +107,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Monster Hunter World",
 				"https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1554771889",
-				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy this game with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. By the way, I am an insect-glaive diehard. With the insect-glaive, even winged monsters look grounded when compared to me!"
+				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy the games with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. By the way, I am an insect-glaive diehard. With the insect-glaive, even winged monsters look grounded when compared to me!"
 			),
 			new CarouselItem(
 				"Terraria",
@@ -123,14 +123,38 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Pokémon",
-		"This carousel is WIP!",
+		"I have spent a lot of my youth playing Pokémon games. My first Pokémon game was Pokémon SoulSilver. Here are some of my subjective favorite Pokémon.",
 		[
-			new CarouselItem("Typhlosion"),
-			new CarouselItem("Slurpuff"),
-			new CarouselItem("Shuckle"),
-			new CarouselItem("Magnezone"),
-			new CarouselItem("Ferrothorn"),
-			new CarouselItem("Mewtwo")
+			new CarouselItem(
+				"Typhlosion",
+				"https://cdn.bulbagarden.net/upload/thumb/4/47/157Typhlosion.png/250px-157Typhlosion.png",
+				"Typhlosion was not only my first Pokémon, but also my first level 100 Pokémon. My favorite type is also fire type."
+			),
+			new CarouselItem(
+				"Slurpuff",
+				"https://cdn.bulbagarden.net/upload/thumb/8/8d/685Slurpuff.png/250px-685Slurpuff.png",
+				"I always loved surprising people with an attack Slurpuff that had the belly drum move, a sitrus berry, and the unburden ability. This moveset usually was enough to sweep most opposing teams."
+			),
+			new CarouselItem(
+				"Shuckle",
+				"https://cdn.bulbagarden.net/upload/thumb/c/c7/213Shuckle.png/250px-213Shuckle.png",
+				"Shuckle is the best wall ever. With huge amounts of defense, I was able to absorb almost any hit with Shuckle. Pair that with the rest move, and you get an invincible Shuckle."
+			),
+			new CarouselItem(
+				"Magnezone",
+				"https://cdn.bulbagarden.net/upload/thumb/5/53/462Magnezone.png/250px-462Magnezone.png",
+				"I just think Magnezone looks cool. I also just generally like steel type Pokémon."
+			),
+			new CarouselItem(
+				"Ferrothorn",
+				"https://cdn.bulbagarden.net/upload/thumb/6/6c/598Ferrothorn.png/250px-598Ferrothorn.png",
+				"I just think Ferrothorn looks cool. I also just generally like steel type Pokémon."
+			),
+			new CarouselItem(
+				"Mewtwo",
+				"https://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/250px-150Mewtwo.png",
+				"I like the concepts behind a lot of legendary Pokémon. I do, however, think that out of those legendaries, Mewtwo has the coolest concept. I personally think that the idea of a GMO Pokémon is pretty epic. That, and Mewtwo also looks pretty weird and cool."
+			)
 		]
 	),
 	new CarouselInformation(
