@@ -77,7 +77,7 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Video Games",
-		"There is nothing more satisfying than playing video games. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on video games than I should.",
+		"There is nothing more satisfying than playing videogames. The feeling of accomplishment I get after finishing some endeavor makes me feel unimaginably satisfied. I like videogames that either are imaginative and force me to think outside the box, give me a sense of exploration, or have an interesting story. My love for overcoming challenges has probably caused me to spend more time on videogames than I should.",
 		[
 			new CarouselItem(
 				"Hollow Knight",
@@ -92,32 +92,32 @@ const carouselInformation = [
 			new CarouselItem(
 				"Legend of Zelda: The Minish Cap",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_TheLegendOfZeldaTheMinishCap_image1600w.jpg",
-				""
+				"If someone says '2D game,' I think of this specific Legend of Zelda game. This game was a really fun time overall, and I really enjoyed the inventive dungeons and creative items. To me, the extra sword skill mechanics were really cool. I can still remember the feelings of satisfaction I got whenever I would accidentally stumble into one of the blade brothers after spending a long time exploring. I really think this game is quite underrated, and I hope that it gets a remake at some point."
 			),
 			new CarouselItem(
 				"Super Mario Galaxy",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_SuperMarioGalaxy_image1600w.jpg",
-				""
+				"I don't think there are many people that actually don't like this game. It seems to be universally loved, and all for good reason. I believe this game is partially responsible for forever changing the landscape of 3D games due to how innovative the ideas from this game are. It is a 'platformer' unlike any other. The graphics from this game especially stand out to me for some reason, even though they are not too high in resolution."
 			),
 			new CarouselItem(
 				"New Super Mario Bros.",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_NewSuperMarioBrosDS_image1600w.jpg",
-				""
+				"I have really fond memories of this game. This is probably partially in part due to the fact that this game is the first videogame I have ever played in my life. For a platformer, this game really has it all: great level design, lots of thematic levels, really cool easter eggs, and cooperative play. What isn't there to love about this game? However, I mostly just love this game because to me, it marks my introduction to gaming, and I am super glad that I was introduced with an extremely fun and entertaining game."
 			),
 			new CarouselItem(
 				"Monster Hunter World",
 				"https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1554771889",
-				""
+				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy this game with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. By the way, I am an insect-glaive diehard. With the insect-glaive, even winged monsters look grounded when compared to me!"
 			),
 			new CarouselItem(
 				"Terraria",
 				"https://steamcdn-a.akamaihd.net/steam/apps/105600/header.jpg?t=1548954652",
-				""
+				"Terraria is the ultimate power-fantasy. I really appreciate how well Terraria handles power-scaling and mastery. Even though Terraria has hit critical success, I feel like it is still underrated. I do try to do my part though: I have gifted this game to many friends over the years just so we can have a ton of fun together. From fishing to exploring to fighting, this game really has it all. I have probably done dozens of run-throughs of this game, and each time is a completely different experience. My only issue with this game is its lack of good inventory management."
 			),
 			new CarouselItem(
 				"Minecraft",
 				"https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png",
-				""
+				"Minecraft is a great and fun game. Everyone knows that already. However, with mods, the game is transformed into something completely different. It turns into a simulator where I must manage resources like time, energy, food, and materials with the utmost precision. However, I mostly enjoy Minecraft because it allows me to really do anything I want with anyone I want. This game has so much to do and allows for so many experiences, that it, despite its $30 cost, is really invaluable."
 			)
 		]
 	),
