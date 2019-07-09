@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "../components/Carousel"
+import Carousel from "../components/Carousel";
+import { carouselCounter } from "../components/Carousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ResponsiveContainer from "../components/ResponsiveContainer";
@@ -212,7 +213,7 @@ class App extends React.Component {
 			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 			<ResponsiveContainer>
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
-					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carousel0"} />
+					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={`carousel${carouselCounter - 1}`} />
 				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}}>
 					<Carousel title={this.currentInformation.title} description={this.currentInformation.description}>{

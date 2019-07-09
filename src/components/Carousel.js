@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Carousel.css";
 
 //A counter for carousels to determine a carousel's ID
-let carouselCounter = 0;
+export let carouselCounter = 0;
 
 /**
  * A class that has a circular list of html components
