@@ -159,10 +159,18 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Movies",
-		"This carousel is WIP!",
+		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter and much more approachable to a wider audience.",
 		[
-			new CarouselItem("The Avengers"),
-			new CarouselItem("Spiderman: Into the Spiderverse"),
+			new CarouselItem(
+				"The Avengers",
+				"https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
+				"This movie is groundbreaking. I believe this is the first movie to really sculpt its own movie universe in a large and satisfying way. What I would normally think only accomplishable with more time in TV series was instead achieved for a massive audience on the big screen. I really enjoyed how they brought together a collection of what used to be individual characters into a larger group that pushes forwards in some grander narrative. I think that what this movie has accomplished is really amazing and has yet to be emulated elsewhere."
+			),
+			new CarouselItem(
+				"Spider-Man",
+				"https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+				"I used to watch this movie a lot when I was younger. This movie was probably my favorite for a long time. I overall just have fond memories repeatedly watching this movie. I think what fascinated me so much was the dual nature of Peter's life juggling being a hero with his personal life. Probably due to this movie, Spider-Man has always been one of my favorite superheroes."
+			),
 			new CarouselItem("Star Wars: Revenge of the Sith"),
 			new CarouselItem("Indiana Jones and the Last Crusade"),
 			new CarouselItem("Interstellar")
@@ -204,7 +212,7 @@ class App extends React.Component {
 			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 			<ResponsiveContainer>
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
-					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} />
+					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carousel0"} />
 				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}}>
 					<Carousel title={this.currentInformation.title} description={this.currentInformation.description}>{

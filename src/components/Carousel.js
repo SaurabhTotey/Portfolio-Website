@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/Carousel.css";
 
+//A counter for carousels to determine a carousel's ID
+let carouselCounter = 0;
+
 /**
  * A class that has a circular list of html components
  * Allows for user control but does NOT automatically go through elements with a timer
@@ -13,6 +16,8 @@ class Carousel extends React.Component {
 		this.state = {
 			currentItemIndex: 0
 		};
+		this.carouselNumber = carouselCounter;
+		carouselCounter++;
 	}
 
 	movePosition(amount) {
@@ -37,15 +42,16 @@ class Carousel extends React.Component {
 	}
 
 	render() {
-		return <div className={"carousel"}>
+		const id = `carousel${this.carouselNumber}`;
+		return <div className={"carousel"} id={id} aria-live={"polite"}>
 			<h3 className={"carouselTitle"}>{this.props.title}</h3>
 			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
 			<div>
 				<p className={"carouselDescription"}>{this.props.description}</p>
-				<div>
-					<button className={"carouselControl"} onClick={() => this.movePosition(-1)}>&#10094;</button>
-					<button className={"carouselControl"} onClick={() => this.movePosition(1)}>&#10095;</button>
-				</div>
+				<fieldset className={"carouselControlBox"} aria-label={"carousel controls"} aria-controls={id}>
+					<button className={"carouselControl"} onClick={() => this.movePosition(-1)} aria-label={"previous"}>&#10094;</button>
+					<button className={"carouselControl"} onClick={() => this.movePosition(1)} aria-label={"next"}>&#10095;</button>
+				</fieldset>
 			</div>
 		</div>
 	}
