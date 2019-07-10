@@ -160,7 +160,7 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Movies",
-		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter and much more approachable to a wider audience.",
+		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter, more approachable, and more palatable for a wider audience.",
 		[
 			new CarouselItem(
 				"The Avengers",
@@ -172,9 +172,21 @@ const carouselInformation = [
 				"https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg",
 				"I used to watch this movie a lot when I was younger. This movie was probably my favorite for a long time. I overall just have fond memories repeatedly watching this movie. I think what fascinated me so much was the dual nature of Peter's life juggling being a hero with his personal life. Probably due to this movie, Spider-Man has always been one of my favorite superheroes."
 			),
-			new CarouselItem("Star Wars: Revenge of the Sith"),
-			new CarouselItem("Indiana Jones and the Last Crusade"),
-			new CarouselItem("Interstellar")
+			new CarouselItem(
+				"Star Wars: Revenge of the Sith",
+				"https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg/220px-Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
+				"I remember watching this movie at least once every day for a period in my life. I really enjoy the Star Wars series, but I think this movie is especially good and holds up quite well. On my most recent rewatch, I found it really cool how lighting was used to foreshadow Anakin's turn to the dark side. Even when I was younger, I was a huge fan of the CG (contrary to the opinions of most), and Anakin's turn to the dark side always tugged on my heartstrings a little."
+			),
+			new CarouselItem(
+				"Indiana Jones and the Last Crusade",
+				"https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+				"Just as I have always been a fan of Star Wars, I have similarly always been a fan of Indiana Jones. I never really understood the movies when I was younger, and I just enjoyed the action. However, this movie is my favorite of the series just because of its intriguing story and cool little attentions to detail. Just from how much detail was put into this, I feel like this movie was made with a huge amount of love, care, and attention."
+			),
+			new CarouselItem(
+				"Interstellar",
+				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
+			)
 		]
 	)
 ];
