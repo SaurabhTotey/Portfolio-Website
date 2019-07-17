@@ -15,6 +15,7 @@ const pageNames = Object.keys(pages);
 
 /**
  * React component that represents a single item on the navbar
+ * TODO: use CSS @media rules instead of JS detection
  */
 class NavbarItem extends React.Component {
 

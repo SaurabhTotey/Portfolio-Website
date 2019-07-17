@@ -7,6 +7,7 @@ import React from "react";
  * Requires all children to define their 'responsiveWidth' prop
  * responsiveWidth determines how much space a child takes up horizontally on large screens
  * responsiveWidths of all children must add up to 12
+ * TODO: use CSS @media rules instead of JS detection
  */
 class ResponsiveContainer extends React.Component {
 

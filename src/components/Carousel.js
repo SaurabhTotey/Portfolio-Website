@@ -8,6 +8,8 @@ export let carouselCounter = 0;
  * A class that has a circular list of html components
  * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
+ * TODO: figure out aria-checked or aria-current or whatever is needed to finish accessibility
+ * TODO: CSS transitions
  */
 class Carousel extends React.Component {
 
