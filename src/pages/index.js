@@ -73,6 +73,11 @@ const carouselInformation = [
 				"Attack on Titan",
 				"https://ib3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=hummus&base_image=d13c235d-7145-45ff-adaa-b99f79254521&size=400x600&format=jpeg",
 				"This show is about fighting and surviving in a hopeless and seemingly tiny world. Every character faces their moments of despair, and watching the characters learn about the worlds mysteries is extremely interesting. It is also interesting seeing how each \"side\" of this story at some point is required to devolve to cruelty and monstrosity in order to win to help the greater good. I also love how this show is littered with symbolism and really does prioritize on telling a captivating if yet heartbreaking story about a human struggle for freedom."
+			),
+			new CarouselItem(
+				"Fullmetal Alchemist: Brotherhood",
+				"https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+				"Fullmetal Alchemist: Brotherhood is a great show that makes promises about what its plot will entail, and then delivers on those promises. It is overall just a great show that is very well thought with a satisfying ending."
 			)
 		]
 	),
@@ -123,6 +128,37 @@ const carouselInformation = [
 		]
 	),
 	new CarouselInformation(
+		"Movies",
+		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter, more approachable, and more palatable for a wider audience.",
+		[
+			new CarouselItem(
+				"The Avengers",
+				"https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
+				"This movie is groundbreaking. I believe this is the first movie to really sculpt its own movie universe in a large and satisfying way. What I would normally think only accomplishable with more time in TV series was instead achieved for a massive audience on the big screen. I really enjoyed how they brought together a collection of what used to be individual characters into a larger group that pushes forwards in some grander narrative. I think that what this movie has accomplished is really amazing and has yet to be emulated elsewhere."
+			),
+			new CarouselItem(
+				"Spider-Man",
+				"https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+				"I used to watch this movie a lot when I was younger. This movie was probably my favorite for a long time. I overall just have fond memories repeatedly watching this movie. I think what fascinated me so much was the dual nature of Peter's life juggling being a hero with his personal life. Probably due to this movie, Spider-Man has always been one of my favorite superheroes."
+			),
+			new CarouselItem(
+				"Star Wars: Revenge of the Sith",
+				"https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg/220px-Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
+				"I remember watching this movie at least once every day for a period in my life. I really enjoy the Star Wars series, but I think this movie is especially good and holds up quite well. On my most recent rewatch, I found it really cool how lighting was used to foreshadow Anakin's turn to the dark side. Even when I was younger, I was a huge fan of the CG (contrary to the opinions of most), and Anakin's turn to the dark side always tugged on my heartstrings a little."
+			),
+			new CarouselItem(
+				"Indiana Jones and the Last Crusade",
+				"https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+				"Just as I have always been a fan of Star Wars, I have similarly always been a fan of Indiana Jones. I never really understood the movies when I was younger, and I just enjoyed the action. However, this movie is my favorite of the series just because of its intriguing story and cool little attentions to detail. Just from how much detail was put into this, I feel like this movie was made with a huge amount of love, care, and attention."
+			),
+			new CarouselItem(
+				"Interstellar",
+				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
+			)
+		]
+	),
+	new CarouselInformation(
 		"Pokémon",
 		"I have spent a lot of my youth playing Pokémon games. My first Pokémon game was Pokémon SoulSilver. Here are some of my subjective favorite Pokémon.",
 		[
@@ -159,36 +195,36 @@ const carouselInformation = [
 		]
 	),
 	new CarouselInformation(
-		"Movies",
-		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter, more approachable, and more palatable for a wider audience.",
+		"Bloons TD 6 Monkeys",
+		"",
 		[
 			new CarouselItem(
-				"The Avengers",
-				"https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
-				"This movie is groundbreaking. I believe this is the first movie to really sculpt its own movie universe in a large and satisfying way. What I would normally think only accomplishable with more time in TV series was instead achieved for a massive audience on the big screen. I really enjoyed how they brought together a collection of what used to be individual characters into a larger group that pushes forwards in some grander narrative. I think that what this movie has accomplished is really amazing and has yet to be emulated elsewhere."
+				"Druid",
+				"",
+				""
 			),
 			new CarouselItem(
-				"Spider-Man",
-				"https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg",
-				"I used to watch this movie a lot when I was younger. This movie was probably my favorite for a long time. I overall just have fond memories repeatedly watching this movie. I think what fascinated me so much was the dual nature of Peter's life juggling being a hero with his personal life. Probably due to this movie, Spider-Man has always been one of my favorite superheroes."
+				"Monkey Buccaneer",
+				"",
+				""
 			),
 			new CarouselItem(
-				"Star Wars: Revenge of the Sith",
-				"https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg/220px-Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
-				"I remember watching this movie at least once every day for a period in my life. I really enjoy the Star Wars series, but I think this movie is especially good and holds up quite well. On my most recent rewatch, I found it really cool how lighting was used to foreshadow Anakin's turn to the dark side. Even when I was younger, I was a huge fan of the CG (contrary to the opinions of most), and Anakin's turn to the dark side always tugged on my heartstrings a little."
+				"Alchemist",
+				"",
+				""
 			),
 			new CarouselItem(
-				"Indiana Jones and the Last Crusade",
-				"https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
-				"Just as I have always been a fan of Star Wars, I have similarly always been a fan of Indiana Jones. I never really understood the movies when I was younger, and I just enjoyed the action. However, this movie is my favorite of the series just because of its intriguing story and cool little attentions to detail. Just from how much detail was put into this, I feel like this movie was made with a huge amount of love, care, and attention."
+				"Ninja",
+				"",
+				""
 			),
 			new CarouselItem(
-				"Interstellar",
-				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
+				"Benjamin",
+				"",
+				""
 			)
 		]
-	)
+	),
 ];
 
 /**

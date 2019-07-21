@@ -34,7 +34,7 @@ class SelectionList extends React.Component {
 	render() {
 		return <nav role={"menu"} aria-label={this.props.ariaLabel} aria-controls={this.props.ariaControls}>
 			<ul className={"selectionList"}>{
-				this.state.items.map((item, index) => <li className={"selectionListItem"} key={item} role={"menuitemradio"}><button className={`selectionItem ${index === this.state.selectedItemIndex? "active" : ""}`} onClick={() => this.setState({ ...this.state, selectedItemIndex: index })}>{item}</button></li>)
+				this.state.items.map((item, index) => <li className={"selectionListItem"} key={item} role={"menuitemradio"} aria-checked={index === this.state.selectedItemIndex}><button className={`selectionItem ${index === this.state.selectedItemIndex? "active" : ""}`} onClick={() => this.setState({ ...this.state, selectedItemIndex: index })}>{item}</button></li>)
 			}</ul>
 		</nav>
 	}
