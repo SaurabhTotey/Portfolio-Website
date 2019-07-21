@@ -200,27 +200,32 @@ const carouselInformation = [
 		[
 			new CarouselItem(
 				"Druid",
-				"",
+				"https://vignette.wikia.nocookie.net/b__/images/b/be/500-Druid.png/revision/latest/scale-to-width-down/620?cb=20190522024840&path-prefix=bloons",
 				""
 			),
 			new CarouselItem(
 				"Monkey Buccaneer",
-				"",
+				"https://vignette.wikia.nocookie.net/b__/images/f/ff/500-MonkeyBuccaneer.png/revision/latest/scale-to-width-down/620?cb=20190522024713&path-prefix=bloons",
 				""
 			),
 			new CarouselItem(
 				"Alchemist",
-				"",
+				"https://vignette.wikia.nocookie.net/b__/images/5/5e/500-Alchemist.png/revision/latest/scale-to-width-down/620?cb=20190522005559&path-prefix=bloons",
 				""
 			),
 			new CarouselItem(
-				"Ninja",
-				"",
+				"Ninja Monkey",
+				"https://vignette.wikia.nocookie.net/b__/images/a/a5/500-NinjaMonkey.png/revision/latest/scale-to-width-down/620?cb=20190522024711&path-prefix=bloons",
+				""
+			),
+			new CarouselItem(
+				"Sniper Monkey",
+				"https://vignette.wikia.nocookie.net/b__/images/7/78/005-SniperMonkey.png/revision/latest?cb=20190522023059&path-prefix=bloons",
 				""
 			),
 			new CarouselItem(
 				"Benjamin",
-				"",
+				"https://vignette.wikia.nocookie.net/b__/images/f/f4/BenJamminPortrait.png/revision/latest?cb=20190712041659&path-prefix=bloons",
 				""
 			)
 		]
