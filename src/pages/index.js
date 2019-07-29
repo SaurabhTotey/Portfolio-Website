@@ -155,7 +155,12 @@ const carouselInformation = [
 				"Interstellar",
 				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
 				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
-			)
+			),
+			// new CarouselItem(
+			// 	"3 Idiots",
+			// 	"",
+			// 	""
+			// )
 		]
 	),
 	new CarouselInformation(
@@ -196,37 +201,37 @@ const carouselInformation = [
 	),
 	new CarouselInformation(
 		"Bloons TD 6 Monkeys",
-		"",
+		"I really enjoy the Bloons Tower Defense games. They are always super addicting and I really like planning out different defense strategies. I find it quite intriguing how the monkeys have such an intense hatred for balloons.",
 		[
 			new CarouselItem(
 				"Druid",
 				"https://vignette.wikia.nocookie.net/b__/images/b/be/500-Druid.png/revision/latest/scale-to-width-down/620?cb=20190522024840&path-prefix=bloons",
-				""
+				"I loved the wizard monkey in BTD5. When I saw that the wizard monkey in BTD6 didn't have lightning or tornadoes, I was very disappointed. My day was almost ruined until I realized that the druid had practically taken over the responsibilities of the old wizard. Not only that, but the druid was actually also much better and cooler-looking to boot."
 			),
 			new CarouselItem(
 				"Monkey Buccaneer",
 				"https://vignette.wikia.nocookie.net/b__/images/f/ff/500-MonkeyBuccaneer.png/revision/latest/scale-to-width-down/620?cb=20190522024713&path-prefix=bloons",
-				""
+				"I used to hate the idea of water and water-based monkeys. Then, I actually tried using the monkey buccaneer. Now I wish there was more water in maps. This monkey has two great upgrade paths. One makes me tons of bananas. The other one quenches my old desire of not liking water by allowing me to place monkeys on it. Additionally, the best upgrade path also spawns 3 cool-looking planes that fly around and add more chaos to the screen."
 			),
 			new CarouselItem(
 				"Alchemist",
 				"https://vignette.wikia.nocookie.net/b__/images/5/5e/500-Alchemist.png/revision/latest/scale-to-width-down/620?cb=20190522005559&path-prefix=bloons",
-				""
+				"If there is one monkey I am guaranteed to buy, it is the alchemist. All of the alchemist's upgrade paths are good: one provides huge buffs to nearby monkeys, another has great damage, and the last provides great financial support. No matter what is done with an alchemist, it proves to be fruitful for a good defense."
 			),
 			new CarouselItem(
 				"Ninja Monkey",
 				"https://vignette.wikia.nocookie.net/b__/images/a/a5/500-NinjaMonkey.png/revision/latest/scale-to-width-down/620?cb=20190522024711&path-prefix=bloons",
-				""
+				"I think the idea of the ninja monkey is cool. It also provides great damage against balloons. Because it can see camo-balloons by default, buying this monkey is a no-brainer for most defenses."
 			),
 			new CarouselItem(
 				"Sniper Monkey",
 				"https://vignette.wikia.nocookie.net/b__/images/7/78/005-SniperMonkey.png/revision/latest?cb=20190522023059&path-prefix=bloons",
-				""
+				"In previous BTD games, I HATED the sniper. I just thought that the idea of a global tower was dumb, and that the sniper had to be weak to compensate. In this game, I actually tried it out. All I can say is wow. The sniper can almost single-handedly manage most tough situations. Whether it be a 4-0-2 sniper or a 2-0-4 sniper, the addition of a sniper always makes for a stronger defense."
 			),
 			new CarouselItem(
 				"Benjamin",
 				"https://vignette.wikia.nocookie.net/b__/images/f/f4/BenJamminPortrait.png/revision/latest?cb=20190712041659&path-prefix=bloons",
-				""
+				"I think both skins for Benjamin are just the best. I love the code monkey pun, and I also am enchanted by the deeply intellectual voice lines for DJ Benjammin' (such as \"Yeet\" and \"Boom bloon, get out the way\"). Additionally, Benjamin is indispensable for co-op mode due to his money-making abilities."
 			)
 		]
 	),
