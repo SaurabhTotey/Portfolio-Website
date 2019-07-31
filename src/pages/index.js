@@ -156,11 +156,11 @@ const carouselInformation = [
 				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
 				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
 			),
-			// new CarouselItem(
-			// 	"3 Idiots",
-			// 	"",
-			// 	""
-			// )
+			new CarouselItem(
+				"3 Idiots",
+				"https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+				"This movie is one of the few Bollywood movies that I really like. It manages to be really funny even while at times addressing serious topics."
+			)
 		]
 	),
 	new CarouselInformation(

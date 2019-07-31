@@ -21,3 +21,20 @@
 .navbarItem .navbarLink:hover {
 	background-color: silver;
 }
+
+.navbarItem {
+	width: 20%;
+	float: left;
+}
+
+.navbarItem.active {
+	background-color: lightgray;
+}
+
+@media (max-width: 900px) {
+	.navbarItem {
+		width: 100%;
+		margin: auto;
+		float: none;
+	}
+}

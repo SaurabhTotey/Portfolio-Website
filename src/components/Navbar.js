@@ -15,44 +15,9 @@ const pageNames = Object.keys(pages);
 
 /**
  * React component that represents a single item on the navbar
- * TODO: use CSS @media rules instead of JS detection
  */
-class NavbarItem extends React.Component {
-
-	constructor(props) {
-		super(props);
-		this.state = {
-			isVertical: false
-		};
-	}
-
-	onWindowResize() {
-		this.setState({ isVertical: window.innerWidth < 900 });
-	}
-
-	componentDidMount() {
-		this.onWindowResize();
-		window.addEventListener("resize", this.onWindowResize.bind(this));
-	}
-
-	render() {
-		let style;
-		if (this.state.isVertical) {
-			style = { width: "100%", margin: "auto" };
-		} else {
-			style = { width: `${this.props.width}%`, float: "left" };
-		}
-
-		if (this.props.isActive) {
-			style = {
-				...style,
-				backgroundColor: "lightgray"
-			}
-		}
-
-		return (<li className={"navbarItem"} style={style}><Link className={"navbarLink"} to={pages[this.props.currentPageName]}>{this.props.currentPageName}</Link></li>);
-	}
-
+function NavbarItem(props) {
+	return (<li className={"navbarItem" + (props.isActive? " active" : "")}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>);
 }
 
 /**
@@ -77,7 +42,7 @@ class Navbar extends React.Component {
 			<ul id={"navbar"}>{
 				pageNames.map(pageName => {
 					const pageLocation = pages[pageName];
-					return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} width={100 / pageNames.length} currentPageName={pageName} key={pageName} />
+					return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} currentPageName={pageName} key={pageName} />
 				})
 			}</ul>
 		</nav>
