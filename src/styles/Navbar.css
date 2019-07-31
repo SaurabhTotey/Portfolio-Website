@@ -22,19 +22,24 @@
 	background-color: silver;
 }
 
+/**
+ * CSS for mobile devices
+ */
 .navbarItem {
-	width: 20%;
-	float: left;
+	width: 100%;
+	margin: auto;
 }
 
 .navbarItem.active {
 	background-color: lightgray;
 }
 
-@media (max-width: 900px) {
+/**
+ * CSS for desktop devices
+ */
+@media (min-width: 900px) {
 	.navbarItem {
-		width: 100%;
-		margin: auto;
-		float: none;
+		width: 20%;
+		float: left;
 	}
 }

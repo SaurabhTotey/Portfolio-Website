@@ -17,7 +17,7 @@ const pageNames = Object.keys(pages);
  * React component that represents a single item on the navbar
  */
 function NavbarItem(props) {
-	return (<li className={"navbarItem" + (props.isActive? " active" : "")}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>);
+	return <li className={"navbarItem" + (props.isActive? " active" : "")}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>;
 }
 
 /**
@@ -40,10 +40,7 @@ class Navbar extends React.Component {
 	render() {
 		return <nav role={"navigation"} aria-label={"Page Navigation"}>
 			<ul id={"navbar"}>{
-				pageNames.map(pageName => {
-					const pageLocation = pages[pageName];
-					return <NavbarItem isActive={this.state.currentRelativePath === pageLocation} currentPageName={pageName} key={pageName} />
-				})
+				pageNames.map(pageName => <NavbarItem isActive={this.state.currentRelativePath === pages[pageName]} currentPageName={pageName} key={pageName} />)
 			}</ul>
 		</nav>
 	}
