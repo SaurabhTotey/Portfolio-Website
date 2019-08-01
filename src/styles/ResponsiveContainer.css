@@ -1,5 +1,5 @@
 root {
-	--responsiveWidth: 1;
+	--responsive-width: 1;
 }
 
 .responsiveContainer {
@@ -18,6 +18,6 @@ root {
 	}
 
 	.responsiveContainerItem {
-		grid-area: span 1 / span var(--responsiveWidth)
+		grid-area: span 1 / span var(--responsive-width)
 	}
 }

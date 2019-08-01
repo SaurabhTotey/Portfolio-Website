@@ -11,6 +11,6 @@ import "../styles/ResponsiveContainer.css";
  */
 export default props => (
 	<div className={"responsiveContainer"}>{
-		props.children.map((child, index) => <div className={"responsiveContainerItem"} style={{"--responsiveWidth": child.props.responsiveWidth}} key={index}>{child}</div>)
+		props.children.map((child, index) => <div className={"responsiveContainerItem"} style={{"--responsive-width": child.props.responsiveWidth}} key={index}>{child}</div>)
 	}</div>
 )
