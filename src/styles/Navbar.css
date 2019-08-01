@@ -22,9 +22,6 @@
 	background-color: silver;
 }
 
-/**
- * CSS for mobile devices
- */
 .navbarItem {
 	width: 100%;
 	margin: auto;
@@ -34,9 +31,6 @@
 	background-color: lightgray;
 }
 
-/**
- * CSS for desktop devices
- */
 @media (min-width: 900px) {
 	.navbarItem {
 		width: 20%;

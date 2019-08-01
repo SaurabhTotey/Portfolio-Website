@@ -1,0 +1,23 @@
+root {
+	--responsiveWidth: 1;
+}
+
+.responsiveContainer {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.responsiveContainerItem {
+	place-self: stretch;
+	grid-area: span 1 / span 1;
+}
+
+@media (min-width: 900px) {
+	.responsiveContainer {
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	.responsiveContainerItem {
+		grid-area: span 1 / span var(--responsiveWidth)
+	}
+}
