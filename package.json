@@ -22,7 +22,7 @@
   "homepage": "https://github.com/SaurabhTotey/Portfolio-Website#readme",
   "dependencies": {
     "core-js": "^3.1.4",
-    "gatsby": "^2.13.24",
+    "gatsby": "^2.13.50",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0"
