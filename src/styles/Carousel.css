@@ -6,10 +6,15 @@
 }
 
 .carouselContent {
+	list-style: none;
 	min-height: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.hiddenCarouselItem {
+	display: none;
 }
 
 .carouselDescription {

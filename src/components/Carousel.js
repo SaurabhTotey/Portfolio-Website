@@ -53,9 +53,12 @@ class Carousel extends React.Component {
 		return <div className={"carousel"} id={id} aria-live={"polite"}>
 			<h3>{this.props.title}</h3>
 			{makeCarouselControls()}
-			<div className={"carouselContent"}>
-				{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
-			</div>
+			<ul className={"carouselContent"}>{
+				React.Children.toArray(this.props.children).map((child, index) => {
+					const isActive = index === this.state.currentItemIndex;
+					return <li aria-hidden={!isActive} className={isActive? "" : "hiddenCarouselItem"}>{child}</li>
+				})
+			}</ul>
 			<div>
 				<p className={"carouselDescription"}>{this.props.description}</p>
 				{makeCarouselControls()}
