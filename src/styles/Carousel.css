@@ -22,15 +22,6 @@ root {
 	display: none;
 }
 
-.carouselDescription {
-	margin-bottom: fill;
-	font-size: 90%;
-	min-height: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 .carouselControlBox {
 	border: none;
 	padding: 0;

@@ -9,7 +9,6 @@ export let carouselCounter = 0;
  * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
  * TODO: CSS transitions
- * TODO: carousel descriptions should be elsewhere
  */
 class Carousel extends React.Component {
 
@@ -60,10 +59,7 @@ class Carousel extends React.Component {
 					return <li aria-hidden={!isActive} className={isActive? "" : "hiddenCarouselItem"}>{child}</li>
 				})
 			}</ul>
-			<div>
-				{makeCarouselControls()}
-				<p className={"carouselDescription"}>{this.props.description}</p>
-			</div>
+			{makeCarouselControls()}
 		</div>
 	}
 
