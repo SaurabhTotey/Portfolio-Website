@@ -8,7 +8,6 @@ export let carouselCounter = 0;
  * A class that has a circular list of html components
  * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
- * TODO: CSS transitions
  */
 class Carousel extends React.Component {
 
@@ -19,9 +18,13 @@ class Carousel extends React.Component {
 		};
 		this.carouselNumber = carouselCounter;
 		carouselCounter++;
+		this.oldItemIndex = null;
+		this.changeDirection = null;
 	}
 
 	movePosition(amount) {
+		this.oldItemIndex = this.state.currentItemIndex;
+		this.changeDirection = amount > 0? "rtl" : "ltr";
 		this.setState({
 			...this.state,
 			currentItemIndex: this.state.currentItemIndex + amount
@@ -30,6 +33,10 @@ class Carousel extends React.Component {
 
 	componentWillUpdate(nextProps, nextState, nextContext) {
 		const numberChildren = React.Children.toArray(nextProps.children).length;
+		if (nextProps.children !== this.props.children) {
+			this.changeDirection = null;
+			this.oldItemIndex = null;
+		}
 		let newPosition = nextState.currentItemIndex % numberChildren;
 		while (newPosition < 0) {
 			newPosition += numberChildren;
@@ -55,8 +62,17 @@ class Carousel extends React.Component {
 			{makeCarouselControls()}
 			<ul className={"carouselContent"}>{
 				React.Children.toArray(this.props.children).map((child, index) => {
-					const isActive = index === this.state.currentItemIndex;
-					return <li aria-hidden={!isActive} className={isActive? "" : "hiddenCarouselItem"}>{child}</li>
+					let className = this.state.currentItemIndex === index? "" : "hiddenCarouselItem";
+					let style = {};
+					if (this.changeDirection !== null && [this.state.currentItemIndex, this.oldItemIndex].includes(index)) {
+						className = "animation";
+						if (index === this.state.currentItemIndex) {
+							style["--animation-name"] = "enter" + (this.changeDirection === "rtl"? "Right" : "Left");
+						} else {
+							style["--animation-name"] = "exit" + (this.changeDirection === "rtl"? "Left" : "Right");
+						}
+					}
+					return <li aria-hidden={index !== this.state.currentItemIndex} className={className} style={style}>{child}</li>
 				})
 			}</ul>
 			{makeCarouselControls()}

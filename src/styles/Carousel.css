@@ -45,8 +45,14 @@ root {
 	cursor: pointer;
 }
 
+/**
+ *
+ * TODO: fix these animations which are broken, presumably due to use on elements inside column-flexbox
+ *
+ */
+
 .animation {
-	animation-duration: 0.1s;
+	animation-duration: 1s;
 	animation-name: var(--animation-name);
 }
 
@@ -55,7 +61,7 @@ root {
 		margin-left: 0;
 	}
 	to {
-		margin-left: 100%;
+		width: 0;
 	}
 }
 
@@ -73,7 +79,7 @@ root {
 		margin-right: 0;
 	}
 	to {
-		margin-right: 100%;
+		margin-left: 100%;
 	}
 }
 
