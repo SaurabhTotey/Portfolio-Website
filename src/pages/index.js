@@ -283,6 +283,7 @@ class App extends React.Component {
 					}</Carousel>
 				</div>
 			</ResponsiveContainer>
+			{/*TODO: consider moving carousel description here?*/}
 			<br/>
 			<Footer />
 		</div>

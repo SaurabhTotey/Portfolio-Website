@@ -9,6 +9,7 @@ export let carouselCounter = 0;
  * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
  * TODO: CSS transitions
+ * TODO: carousel descriptions should be elsewhere
  */
 class Carousel extends React.Component {
 
@@ -31,8 +32,8 @@ class Carousel extends React.Component {
 	componentWillUpdate(nextProps, nextState, nextContext) {
 		const numberChildren = React.Children.toArray(nextProps.children).length;
 		let newPosition = nextState.currentItemIndex % numberChildren;
-		if (newPosition < 0) {
-			newPosition = numberChildren - 1;
+		while (newPosition < 0) {
+			newPosition += numberChildren;
 		}
 		if (nextState.currentItemIndex !== newPosition) {
 			this.setState({
@@ -60,8 +61,8 @@ class Carousel extends React.Component {
 				})
 			}</ul>
 			<div>
-				<p className={"carouselDescription"}>{this.props.description}</p>
 				{makeCarouselControls()}
+				<p className={"carouselDescription"}>{this.props.description}</p>
 			</div>
 		</div>
 	}
