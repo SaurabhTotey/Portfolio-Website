@@ -8,7 +8,6 @@ export let carouselCounter = 0;
  * A class that has a circular list of html components
  * Allows for user control but does NOT automatically go through elements with a timer
  * Similar to a slideshow
- * TODO: experiment with carousel control buttons at top as well
  * TODO: CSS transitions
  */
 class Carousel extends React.Component {
@@ -45,15 +44,21 @@ class Carousel extends React.Component {
 
 	render() {
 		const id = `carousel${this.carouselNumber}`;
+		const makeCarouselControls = () => (
+			<fieldset className={"carouselControlBox"} aria-label={"carousel controls"} aria-controls={id}>
+				<button className={"carouselControl"} onClick={() => this.movePosition(-1)} aria-label={"previous"}>&#10094;</button>
+				<button className={"carouselControl"} onClick={() => this.movePosition(1)} aria-label={"next"}>&#10095;</button>
+			</fieldset>
+		);
 		return <div className={"carousel"} id={id} aria-live={"polite"}>
-			<h3 className={"carouselTitle"}>{this.props.title}</h3>
-			{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
+			<h3>{this.props.title}</h3>
+			{makeCarouselControls()}
+			<div className={"carouselContent"}>
+				{React.Children.toArray(this.props.children)[this.state.currentItemIndex]}
+			</div>
 			<div>
 				<p className={"carouselDescription"}>{this.props.description}</p>
-				<fieldset className={"carouselControlBox"} aria-label={"carousel controls"} aria-controls={id}>
-					<button className={"carouselControl"} onClick={() => this.movePosition(-1)} aria-label={"previous"}>&#10094;</button>
-					<button className={"carouselControl"} onClick={() => this.movePosition(1)} aria-label={"next"}>&#10095;</button>
-				</fieldset>
+				{makeCarouselControls()}
 			</div>
 		</div>
 	}

@@ -1,20 +1,25 @@
 .carousel {
 	text-align: center;
-	min-height: 600px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.carouselTitle {
-	border-bottom: 1px solid #454545;
-	margin-bottom: -1%;
+.carouselContent {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .carouselDescription {
 	margin-top: fill;
 	font-size: 90%;
 	border-top: 1px solid #454545;
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .carouselControlBox {
