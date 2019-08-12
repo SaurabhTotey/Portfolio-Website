@@ -78,6 +78,11 @@ const carouselInformation = [
 				"Fullmetal Alchemist: Brotherhood",
 				"https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
 				"Fullmetal Alchemist: Brotherhood is a great show that makes promises about what its plot will entail, and then delivers on those promises. It is overall just a great show that is very well thought with a satisfying ending."
+			),
+			new CarouselItem(
+				"The Boys",
+				"https://m.media-amazon.com/images/M/MV5BMjdjOTliZTQtM2FhNS00Mjk3LWJiOTgtMWJlMTg4MDgyNzc1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+				"I really like the types of shows that deconstruct specific genres. The Boys does this perfectly for the superhero genre by taking the essentials of comic book heroism and applying a dose of reality. This show is extremely violent and gory, but I love it. Every time that characters get intimate, I am on edge because good fortune is scarce in the universe of this show. I especially love that the heroes are just like normal people with super powers: they still fall prey to fame, money, drugs, and all sorts of other things that hook 'normal people'."
 			)
 		]
 	),

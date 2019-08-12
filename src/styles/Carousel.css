@@ -52,6 +52,7 @@ root {
  */
 
 .animation {
+	position: absolute;
 	animation-duration: 1s;
 	animation-name: var(--animation-name);
 }
@@ -61,7 +62,7 @@ root {
 		margin-left: 0;
 	}
 	to {
-		width: 0;
+		margin-right: 100%;
 	}
 }
 
