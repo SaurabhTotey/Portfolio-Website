@@ -15,10 +15,13 @@ root {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
+	padding: 5px;
 }
 
 .carouselItem {
 	position: absolute;
+	width: 100%;
 }
 
 .hiddenCarouselContent {
