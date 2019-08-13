@@ -17,7 +17,7 @@ const pageNames = Object.keys(pages);
  * React component that represents a single item on the navbar
  */
 function NavbarItem(props) {
-	return <li className={"navbarItem" + (props.isActive? " active" : "")}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>;
+	return <li className={"navbarItem" + (props.isActive ? " active" : "")}><Link className={"navbarLink"} to={pages[props.currentPageName]}>{props.currentPageName}</Link></li>;
 }
 
 /**

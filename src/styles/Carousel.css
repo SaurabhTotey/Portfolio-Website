@@ -9,7 +9,7 @@ root {
 	justify-content: space-between;
 }
 
-.carouselContent {
+.carouselContentList {
 	list-style: none;
 	min-height: 500px;
 	display: flex;
@@ -27,9 +27,8 @@ root {
 
 .animation {
 	position: relative;
-	width: 100%;
-	height: 100%;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
 	animation-fill-mode: forwards;
 	animation-name: var(--animation-name);
 }
@@ -57,46 +56,20 @@ root {
 	cursor: pointer;
 }
 
-@keyframes exitLeft {
+@keyframes exit {
 	from {
-		margin-left: 0;
 		opacity: 1;
 	}
 	to {
-		margin-right: 100%;
 		opacity: 0;
 	}
 }
 
-@keyframes enterLeft {
+@keyframes enter {
 	from {
-		margin-left: 100%;
 		opacity: 0;
 	}
 	to {
-		margin-left: 0;
-		opacity: 1;
-	}
-}
-
-@keyframes exitRight {
-	from {
-		margin-right: 0;
-		opacity: 1;
-	}
-	to {
-		margin-left: 100%;
-		opacity: 0;
-	}
-}
-
-@keyframes enterRight {
-	from {
-		margin-right: 100%;
-		opacity: 0;
-	}
-	to {
-		margin-right: 0;
 		opacity: 1;
 	}
 }
