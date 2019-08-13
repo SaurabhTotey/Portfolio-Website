@@ -62,17 +62,19 @@ class Carousel extends React.Component {
 			{makeCarouselControls()}
 			<ul className={"carouselContent"}>{
 				React.Children.toArray(this.props.children).map((child, index) => {
-					let className = this.state.currentItemIndex === index? "" : "hiddenCarouselItem";
+					let className = this.state.currentItemIndex === index? "" : "hiddenCarouselContent";
 					let style = {};
 					if (this.changeDirection !== null && [this.state.currentItemIndex, this.oldItemIndex].includes(index)) {
 						className = "animation";
 						if (index === this.state.currentItemIndex) {
 							style["--animation-name"] = "enter" + (this.changeDirection === "rtl"? "Right" : "Left");
 						} else {
-							style["--animation-name"] = "exit" + (this.changeDirection === "rtl"? "Left" : "Right");
+							style["--animation-name"] = "exit" + (this.changeDirection === "rtl"? "Right" : "Left");
 						}
 					}
-					return <li aria-hidden={index !== this.state.currentItemIndex} className={className} style={style}>{child}</li>
+					return <li aria-hidden={index !== this.state.currentItemIndex} className={"carouselItem"}>
+						<div className={className} style={style}>{child}</div>
+					</li>
 				})
 			}</ul>
 			{makeCarouselControls()}
