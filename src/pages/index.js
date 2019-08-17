@@ -288,7 +288,7 @@ class App extends React.Component {
 					}</Carousel>
 				</div>
 			</ResponsiveContainer>
-			<p id={"categoryDescription"} style={{textAlign: "center", minHeight: "85px"}} aria-live={"polite"}>{this.currentInformation.description}</p>
+			<p id={"categoryDescription"} style={{textAlign: "center", minHeight: "10rem"}} aria-live={"polite"}>{this.currentInformation.description}</p>
 			<br/>
 			<Footer />
 		</div>

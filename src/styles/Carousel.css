@@ -11,12 +11,12 @@ root {
 
 .carouselContentList {
 	list-style: none;
-	min-height: 500px;
+	min-height: 40rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
-	padding: 5px;
+	padding: 0;
 }
 
 .carouselItem {
