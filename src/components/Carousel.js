@@ -59,7 +59,7 @@ class Carousel extends React.Component {
 			{makeCarouselControls()}
 			<ul className={"carouselContentList"}>{
 				React.Children.toArray(this.props.children).map((child, index) => {
-					let childContainerClassName = this.state.currentItemIndex === index ? "" : "hiddenCarouselContent";
+					let childContainerClassName = this.state.currentItemIndex === index ? "" : "hidden";
 					let style = {};
 					if (this.oldItemIndex !== null && [this.state.currentItemIndex, this.oldItemIndex].includes(index)) {
 						childContainerClassName = "animation";

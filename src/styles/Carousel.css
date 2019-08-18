@@ -24,10 +24,6 @@ root {
 	width: 100%;
 }
 
-.hiddenCarouselContent {
-	display: none;
-}
-
 .animation {
 	position: relative;
 	animation-duration: 0.5s;
