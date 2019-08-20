@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ResponsiveContainer from "../components/ResponsiveContainer";
 import SelectionList from "../components/SelectionList";
+import "../styles/Index.css";
 
 function CarouselInformation(title, description, items) {
 	this.title = title;
@@ -289,12 +290,12 @@ class App extends React.Component {
 			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center", position: "relative"}}>{
 				carouselInformation.map(info => {
 					let className = this.state.currentSelectedCategory === info.title ? "" : "hidden";
-					const style = { position: "absolute", width: "100%" };
+					const style = {};
 					if (this.previousSelectedCategory !== "" && [this.previousSelectedCategory, this.state.currentSelectedCategory].includes(info.title)) {
 						className = "animation";
 						style["--animation-name"] = this.state.currentSelectedCategory === info.title ? "fadeIn" : "fadeOut";
 					}
-					return <p className={className} style={style} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>
+					return <p className={`categoryDescription ${className}`} style={style} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>
 				})
 			}</div>
 			<br/>

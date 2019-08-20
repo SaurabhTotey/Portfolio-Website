@@ -35,7 +35,6 @@ a {
 	animation-name: var(--animation-name);
 }
 
-
 @keyframes fadeOut {
 	from {
 		opacity: 1;
