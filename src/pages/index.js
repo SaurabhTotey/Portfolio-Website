@@ -270,8 +270,8 @@ class App extends React.Component {
 					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
 				</div>
 				<div responsiveWidth="8" style={{margin: "10px"}} id={"carouselsContainer"} aria-live={"polite"}>{
-					carouselInformation.map(information => <div className={this.state.currentSelectedCategory !== information.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== information.title}>
-						<Carousel title={information.title} key={information.title}>{
+					carouselInformation.map(information => <div className={this.state.currentSelectedCategory !== information.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== information.title} key={information.title}>
+						<Carousel title={information.title}>{
 							information.items.map(item => <div key={item}>
 								<h4>{item.name}</h4>
 								<img src={item.imageUrl} alt={item.name} height={150} style={{maxWidth: "295px"}} />
@@ -282,7 +282,7 @@ class App extends React.Component {
 				}</div>
 			</ResponsiveContainer>
 			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center"}}>{
-				carouselInformation.map(info => <p id={`categoryDescription${info.title}`} className={this.state.currentSelectedCategory !== info.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== info.title}>{info.description}</p>)
+				carouselInformation.map(info => <p id={`categoryDescription${info.title}`} className={this.state.currentSelectedCategory !== info.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>)
 			}</div>
 			<br/>
 			<Footer />

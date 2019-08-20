@@ -24,18 +24,18 @@ class Carousel extends React.Component {
 		});
 	}
 
-	componentWillUpdate(nextProps, nextState, nextContext) {
-		const numberChildren = React.Children.toArray(nextProps.children).length;
-		if (nextProps.children !== this.props.children) {
+	componentDidUpdate(prevProps, prevState, snapshot) {
+		const numberChildren = React.Children.toArray(this.props.children).length;
+		if (this.props.children !== prevProps.children) {
 			this.oldItemIndex = null;
 		}
-		let newPosition = nextState.currentItemIndex % numberChildren;
+		let newPosition = this.state.currentItemIndex % numberChildren;
 		while (newPosition < 0) {
 			newPosition += numberChildren;
 		}
-		if (nextState.currentItemIndex !== newPosition) {
+		if (this.state.currentItemIndex !== newPosition) {
 			this.setState({
-				...nextState,
+				...this.state,
 				currentItemIndex: newPosition
 			});
 		}
