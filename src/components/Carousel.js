@@ -58,7 +58,7 @@ class Carousel extends React.Component {
 					let style = {};
 					if (this.oldItemIndex !== null && [this.state.currentItemIndex, this.oldItemIndex].includes(index)) {
 						childContainerClassName = "animation";
-						style["--animation-name"] = index === this.state.currentItemIndex ? "enter" : "exit";
+						style["--animation-name"] = index === this.state.currentItemIndex ? "fadeIn" : "fadeOut";
 					}
 					return <li aria-hidden={index !== this.state.currentItemIndex} className={"carouselItem"} key={index}>
 						<div className={childContainerClassName} style={style}>{child}</div>

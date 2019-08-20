@@ -252,6 +252,11 @@ class App extends React.Component {
 		this.state = {
 			currentSelectedCategory: "Programming"
 		};
+		this.previousSelectedCategory = null;
+	}
+
+	componentDidUpdate(prevProps, prevState, snapshot) {
+		this.previousSelectedCategory = prevState.currentSelectedCategory;
 	}
 
 	render() {
@@ -281,8 +286,16 @@ class App extends React.Component {
 					</div>)
 				}</div>
 			</ResponsiveContainer>
-			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center"}}>{
-				carouselInformation.map(info => <p id={`categoryDescription${info.title}`} className={this.state.currentSelectedCategory !== info.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>)
+			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center", position: "relative"}}>{
+				carouselInformation.map(info => {
+					let className = this.state.currentSelectedCategory === info.title ? "" : "hidden";
+					const style = { position: "absolute", width: "100%" };
+					if (this.previousSelectedCategory !== "" && [this.previousSelectedCategory, this.state.currentSelectedCategory].includes(info.title)) {
+						className = "animation";
+						style["--animation-name"] = this.state.currentSelectedCategory === info.title ? "fadeIn" : "fadeOut";
+					}
+					return <p className={className} style={style} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>
+				})
 			}</div>
 			<br/>
 			<Footer />

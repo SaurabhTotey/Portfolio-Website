@@ -1,7 +1,3 @@
-root {
-	--animation-name: enterLeft;
-}
-
 .carousel {
 	text-align: center;
 	display: flex;
@@ -22,14 +18,6 @@ root {
 .carouselItem {
 	position: absolute;
 	width: 100%;
-}
-
-.animation {
-	position: relative;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	animation-name: var(--animation-name);
 }
 
 .carouselControlBox {
@@ -53,22 +41,4 @@ root {
 .carouselControl:hover {
 	background-color: silver;
 	cursor: pointer;
-}
-
-@keyframes exit {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
-}
-
-@keyframes enter {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
 }
