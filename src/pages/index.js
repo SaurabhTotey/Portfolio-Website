@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "../components/Carousel";
-import { carouselCounter } from "../components/Carousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ResponsiveContainer from "../components/ResponsiveContainer";
@@ -251,16 +250,8 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			currentSelectedCategory: ""
+			currentSelectedCategory: "Programming"
 		};
-		this.currentInformation = new CarouselInformation("", "", [new CarouselItem("", "", "")]);
-	}
-
-	componentWillUpdate(nextProps, nextState, nextContext) {
-		this.currentInformation = carouselInformation.find(information => information.title === nextState.currentSelectedCategory);
-		if (!this.currentInformation) {
-			this.currentInformation = new CarouselInformation("", "", [new CarouselItem("", "", "")]);
-		}
 	}
 
 	render() {
@@ -276,19 +267,23 @@ class App extends React.Component {
 			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 			<ResponsiveContainer>
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
-					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={`carousel${carouselCounter - 1} categoryDescription`} />
+					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
 				</div>
-				<div responsiveWidth="8" style={{margin: "10px"}}>
-					<Carousel title={this.currentInformation.title}>{
-						this.currentInformation.items.map(item => <div key={item}>
-							<h4>{item.name}</h4>
-							<img src={item.imageUrl} alt={item.name} height={150} style={{maxWidth: "295px"}} />
-							<p>{item.description}</p>
-						</div>)
-					}</Carousel>
-				</div>
+				<div responsiveWidth="8" style={{margin: "10px"}} id={"carouselsContainer"} aria-live={"polite"}>{
+					carouselInformation.map(information => <div className={this.state.currentSelectedCategory !== information.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== information.title}>
+						<Carousel title={information.title} key={information.title}>{
+							information.items.map(item => <div key={item}>
+								<h4>{item.name}</h4>
+								<img src={item.imageUrl} alt={item.name} height={150} style={{maxWidth: "295px"}} />
+								<p>{item.description}</p>
+							</div>)
+						}</Carousel>
+					</div>)
+				}</div>
 			</ResponsiveContainer>
-			<p id={"categoryDescription"} style={{textAlign: "center", minHeight: "10rem"}} aria-live={"polite"}>{this.currentInformation.description}</p>
+			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center"}}>{
+				carouselInformation.map(info => <p id={`categoryDescription${info.title}`} className={this.state.currentSelectedCategory !== info.title ? "hidden" : ""} aria-hidden={this.state.currentSelectedCategory !== info.title}>{info.description}</p>)
+			}</div>
 			<br/>
 			<Footer />
 		</div>
