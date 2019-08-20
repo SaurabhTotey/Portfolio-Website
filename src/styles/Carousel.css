@@ -7,7 +7,7 @@
 
 .carouselContentList {
 	list-style: none;
-	min-height: 40rem;
+	min-height: 40rem; /* TODO: set min height based on media queries so that not too much space is used for large screens, and enough space is given for small screens */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
