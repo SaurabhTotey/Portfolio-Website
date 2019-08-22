@@ -284,8 +284,7 @@ class App extends React.Component {
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
 					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
 				</div>
-				{/* TODO: set height based on media queries so that not too much space is used for large screens, and enough space is given for small screens */}
-				<div responsiveWidth="8" style={{margin: "10px", position: "relative", height: "50rem"}} id={"carouselsContainer"} aria-live={"polite"}>{
+				<div responsiveWidth="8" id={"carouselsContainer"} aria-live={"polite"}>{
 					carouselInformation.map(information => {
 						const [className, style] = getClassNameAndStyleOfCarouselElement(information);
 						return <div className={`carouselContainer ${className}`} style={style} aria-hidden={this.state.currentSelectedCategory !== information.title} key={information.title}>
@@ -300,7 +299,7 @@ class App extends React.Component {
 					})
 				}</div>
 			</ResponsiveContainer>
-			<div id={"categoryDescriptionsContainer"} aria-live={"polite"} style={{textAlign: "center", minHeight: "12rem", display: "flex", flexDirection: "column", justifyContent: "center", position: "relative"}}>{
+			<div id={"categoryDescriptionsContainer"} aria-live={"polite"}>{
 				carouselInformation.map(info => {
 					const [className, style] = getClassNameAndStyleOfCarouselElement(info);
 					return <p className={`categoryDescription ${className}`} style={style} aria-hidden={this.state.currentSelectedCategory !== info.title} key={info.title}>{info.description}</p>

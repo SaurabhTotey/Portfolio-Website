@@ -7,7 +7,7 @@
 
 .carouselContentList {
 	list-style: none;
-	min-height: 40rem; /* TODO: set min height based on media queries so that not too much space is used for large screens, and enough space is given for small screens */
+	height: 70rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -42,4 +42,22 @@
 .carouselControl:hover {
 	background-color: silver;
 	cursor: pointer;
+}
+
+@media (min-width: 450px) {
+	.carouselContentList {
+		height: 50rem;
+	}
+}
+
+@media (min-width: 900px) {
+	.carouselContentList {
+		height: 40rem;
+	}
+}
+
+@media (min-width: 1350px) {
+	.carouselContentList {
+		height: 35rem;
+	}
 }
