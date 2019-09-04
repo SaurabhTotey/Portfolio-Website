@@ -19,7 +19,6 @@ class Carousel extends React.Component {
 	movePosition(amount) {
 		this.oldItemIndex = this.state.currentItemIndex;
 		this.setState({
-			...this.state,
 			currentItemIndex: this.state.currentItemIndex + amount
 		});
 	}
@@ -35,7 +34,6 @@ class Carousel extends React.Component {
 		}
 		if (this.state.currentItemIndex !== newPosition) {
 			this.setState({
-				...this.state,
 				currentItemIndex: newPosition
 			});
 		}

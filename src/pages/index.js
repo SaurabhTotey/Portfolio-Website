@@ -282,7 +282,7 @@ class App extends React.Component {
 			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
 			<ResponsiveContainer>
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
-					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ ...this.state, currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
+					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
 				</div>
 				<div responsiveWidth="8" id={"carouselsContainer"} aria-live={"polite"}>{
 					carouselInformation.map(information => {
