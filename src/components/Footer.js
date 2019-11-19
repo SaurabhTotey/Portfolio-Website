@@ -1,5 +1,5 @@
 import React from "react";
-import {FaRegEnvelope, FaGithub, FaSpotify, FaSteam, FaYoutube, FaPhone} from "react-icons/fa";
+import {FaRegEnvelope, FaGithub, FaSpotify, FaSteam, FaTwitter, FaYoutube, FaPhone} from "react-icons/fa";
 import ResponsiveContainer from "./ResponsiveContainer";
 import "../styles/Footer.css";
 
@@ -15,6 +15,10 @@ const icons = {
 	github: {
 		icon: FaGithub,
 		path: "https://www.github.com/SaurabhTotey"
+	},
+	twitter: {
+		icon: FaTwitter,
+		path: "https://twitter.com/SaurabhTotey"
 	},
 	youtube: {
 		icon: FaYoutube,

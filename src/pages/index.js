@@ -279,7 +279,7 @@ class App extends React.Component {
 			</ResponsiveContainer>
 			<br/>
 			<h2>Things I like</h2>
-			<p>Select a category from the vertical list below to see my favorite things in that category.</p>
+			<p>Select a category from the vertical list below to see my favorite things in that category. The carousels might take a few moments to load.</p>
 			<ResponsiveContainer>
 				<div responsiveWidth="4" style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
 					<SelectionList items={carouselInformation.map(information => information.title)} onSelection={category => this.setState({ currentSelectedCategory: category })} ariaLabel={"A list of buttons that make the carousel display my favorite items from the button's named category."} ariaControls={"carouselsContainer categoryDescriptionsContainer"} />
