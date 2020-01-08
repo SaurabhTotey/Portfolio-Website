@@ -31,38 +31,38 @@ const carouselInformation = [
 			new CarouselItem(
 				"D",
 				"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/D_Programming_Language_logo.svg/440px-D_Programming_Language_logo.svg.png",
-				"D is how I first learned about the beauty and joys of functional programming. I originally only picked up D because it had the syntax of Java without being limited in the same ways as Java. However, I stayed because of the powerful metaprogramming capabilities. I only wish other languages had the power of D in regards to this aspect. I wish D had more support with external libraries, because it really is a very pleasant language to work in. One of the only complaints I have with the language itself is that it has very cryptic error messages that make it hard to debug."
+				"D is how I first learned about the beauty and joys of functional programming. I originally only picked up D because it had the syntax of Java without being limited in the same ways as Java. However, I stayed because of the powerful metaprogramming capabilities. I only wish other languages had the power of D in regards to this aspect. I wish D had more support with external libraries, because it really is a very pleasant language to work in. One of the only complaints I have with the language itself is that it has very cryptic error messages that make it hard to debug which is fatal when coupled with its lacking documentation."
 			)
 		]
 	),
 	new CarouselInformation(
 		"TV Shows",
-		"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show, but I want to see how a show takes an interesting premise and develops it into a fascinating story with an interesting plot.",
+		"I watch a lot of television during my free time. I really enjoy shows that build believable worlds and characters. I am completely fine suspending my disbelief for the premise of a show as long as its rules are consistent.",
 		[
 			new CarouselItem(
-				"Game of Thrones",
-				"https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/1/game-of-thrones-1-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
-				"Despite it's seemingly rushed conclusion, Game of Thrones has been one of the best television series I have seen. It's been a great journey following each character through their respective story arcs. I really enjoyed seeing the twists and turns that the story took. The story was quite interesting and well-written until the last season, where the story seemed to be rushed to a premature, unnecessarily-shocking, and unsatisfying end."
+				"The Boys",
+				"https://m.media-amazon.com/images/M/MV5BMjdjOTliZTQtM2FhNS00Mjk3LWJiOTgtMWJlMTg4MDgyNzc1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+				"I really like the types of shows that deconstruct genres. This show does this perfectly for the superhero genre by taking the essentials of comic book heroism and applying a dose of reality. This show is extremely violent and gory, but I love it. While watching, I am often on edge because good fortune is scarce in the universe of this show. I especially love that the heroes are just like normal people with super powers: they aren't necessarily especially heroic or brave or outstanding."
 			),
 			new CarouselItem(
 				"Last Week Tonight with John Oliver",
 				"https://m.media-amazon.com/images/M/MV5BZDJmNGIwNDEtMjRlMC00NGQ2LTg2OGMtZmE2NjUwZjRmYWVlXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_.jpg",
-				"Last Week Tonight has been a hilarious show that ends up teaching me things while I watch it. What isn't to love? This show is different from what I usually watch, because this show is more of an episodic information broadcast rather than a story about adventure or journey."
+				"This show is hilarious and I always end up feeling a little more informed than I do from other talk-shows. I like this show more than others that are similar to it because of its reduced emphasis on guests and celebrities."
 			),
 			new CarouselItem(
 				"Hunter X Hunter",
 				"https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg",
-				"What starts off as a journey for a kid to get his Hunter's License turns into a world-spanning adventure of revenge, reunion, and horror. I love so many aspects of this show, such as how the story is one continuous stream of events, or how each character really does grow, even after they have achieved their \"main goals\". My favorite part of this show is near the ending where there is a consistent theme of humans becoming crueler and more like monsters while the literal monsters start gaining more emotions and becoming more human. My only gripe about this show is that it has a slow start, which makes it impossible to convince others to watch this show far enough to actually enjoy it."
+				"What starts off as a journey for a kid to get his Hunter's License turns into a world-spanning adventure of revenge, reunion, and horror. I love so many aspects of this show, such as how the story is one continuous stream of non-stop events, or how each character continually grows, even after they have achieved their \"main goals\". My favorite part of this show is near the ending where there is a consistent theme of humans becoming crueler and more like monsters while the literal monsters start gaining more emotions and becoming more human. My only gripe about this show is that it has a slow start, which makes it impossible to convince others to watch this show far enough to actually enjoy it."
 			),
 			new CarouselItem(
 				"Re:Zero − Starting Life in Another World",
 				"https://img1.ak.crunchyroll.com/i/spire2/95445cd55c37ce2ff04ef1adde79f50c1529088362_full.jpg",
-				"I was initially very hesitant to start watching this show. I thought it was just another show where the protagonist gets transported into another world and has a great time. I couldn't be more wrong. Watching this show felt like I was watching torture taking place. The protagonist undergoes so much trouble, and the fact that the protagonist cannot tell anyone about the problems that he has to face alone is what really makes his situations feel unfair. I really like how this story is one of failure and then redemption: the protagonist repeatedly fails to take actions in a sane way and then gets punished for it, but he ends up having to redeem himself for his failures."
+				"I was initially very hesitant to start watching this show. I thought it was just another show where the protagonist gets transported into another world and has a great time. I couldn't be more wrong. The protagonist undergoes so much trouble, and the fact that the protagonist cannot tell anyone about the problems that he has to face alone is what really makes his situations feel unfair. I really like how this story is one of failure and then redemption: the protagonist repeatedly fails to take actions in a sane way and then gets punished for it, but he ends up having to redeem himself for his failures."
 			),
 			new CarouselItem(
 				"Code Geass: Lelouch of the Rebellion",
 				"https://derf9v1xhwwx1.cloudfront.net/image/upload/c_fill,q_60,h_750,w_1920/oth/FunimationStoreFront/1498654/Japanese/1498654_Japanese_ShowDetailHeaderDesktop_5412210a-e3ab-e811-8175-020165574d09.jpg",
-				"This show was a rollercoaster. It really made me think about whether the protagonist was a \"good guy\" or a \"bad guy\". It was really hard watching everyone even remotely close to the protagonist betray him, even though he only had the best of intentions for all of them and the world. This show was extremely captivating the entire way through, and really knew how to make a great ending that tied everything together. However, I must file my extremely small and nitpicky gripe that chess is supposed to be a huge metaphor in the show, but at one point, two main characters play chess, and one makes an illegal move."
+				"This show was a rollercoaster. It really made me think about whether the protagonist was \"good\" or \"bad\". It was really hard watching how each character would eventually somehow betray the protagonist. This show was extremely captivating the entire way through, and really knew how to make a great ending that tied everything together. However, I must file my extremely small and nitpicky gripe that chess is supposed to be a huge metaphor in the show, but at one point, two main characters play chess, and one makes an illegal move."
 			),
 			new CarouselItem(
 				"Made in Abyss",
@@ -77,12 +77,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Fullmetal Alchemist: Brotherhood",
 				"https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
-				"Fullmetal Alchemist: Brotherhood is a great show that makes promises about what its plot will entail, and then delivers on those promises. It is overall just a great show that is very well thought with a satisfying ending."
-			),
-			new CarouselItem(
-				"The Boys",
-				"https://m.media-amazon.com/images/M/MV5BMjdjOTliZTQtM2FhNS00Mjk3LWJiOTgtMWJlMTg4MDgyNzc1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-				"I really like the types of shows that deconstruct specific genres. The Boys does this perfectly for the superhero genre by taking the essentials of comic book heroism and applying a dose of reality. This show is extremely violent and gory, but I love it. Every time that characters get intimate, I am on edge because good fortune is scarce in the universe of this show. I especially love that the heroes are just like normal people with super powers: they still fall prey to fame, money, drugs, and all sorts of other things that hook 'normal people'."
+				"This show makes promises about what its plot will entail, and then delivers on those promises and then some. It is overall just a great story about adventure and redemption that is very well thought-out with a satisfying ending."
 			)
 		]
 	),
@@ -98,7 +93,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Legend of Zelda: Skyward Sword",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_TheLegendOfZeldaSkywardSword_image1600w.jpg",
-				"This was one of my first 3D Legend of Zelda games, and I am glad it was. The gameplay is fun, the bosses are inventive and imaginative, and the story is captivating. When I first got the beetle item, I knew that buying this game was a good choice. I am also a fan of the fact that this game has a lot of content, especially when compared to other modern triple-A titles. I especially loved how vast and interesting each of the dungeons were. The only issue that I have with this game is that the motion controls can be a bit hard to use and deal with."
+				"This was one of my first 3D Legend of Zelda games, and I am glad it was. The gameplay is fun, the bosses are inventive and imaginative, and the story is captivating. When I first got the beetle item, I knew that buying this game was a good choice. I am also a fan of the fact that this game has a lot of content, especially when compared to other modern triple-A titles. I especially loved how vast and interesting each of the dungeons were. The only issue that I have with this game is that the motion controls were a bit hard to use and deal with."
 			),
 			new CarouselItem(
 				"Legend of Zelda: The Minish Cap",
@@ -113,12 +108,12 @@ const carouselInformation = [
 			new CarouselItem(
 				"New Super Mario Bros.",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_NewSuperMarioBrosDS_image1600w.jpg",
-				"I have really fond memories of this game. This is probably partially in part due to the fact that this game is the first videogame I have ever played in my life. For a platformer, this game really has it all: great level design, lots of thematic levels, really cool easter eggs, and cooperative play. What isn't there to love about this game? However, I mostly just love this game because to me, it marks my introduction to gaming, and I am super glad that I was introduced with an extremely fun and entertaining game."
+				"I have really fond memories of this game. This is probably partially in part due to the fact that this game is the first videogame I have ever played in my life. For a platformer, this game really has it all: great level design, lots of thematic levels, really cool easter eggs, and cooperative play. However, I mostly just love this game because to me, it marks my introduction to gaming, and I am super glad that I was introduced with this title."
 			),
 			new CarouselItem(
 				"Monster Hunter World",
 				"https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1554771889",
-				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy the games with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. By the way, I am an insect-glaive diehard. With the insect-glaive, even winged monsters look grounded when compared to me!"
+				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy the games with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. I especially love zipping through the air with the insect glaive."
 			),
 			new CarouselItem(
 				"Terraria",
@@ -137,6 +132,11 @@ const carouselInformation = [
 		"I believe that movies are the first type of media that I have actively consumed in my life. I like movies for much of the same reasons that I like TV Shows. The only real difference to me is that movies are shorter, more approachable, and more palatable for a wider audience.",
 		[
 			new CarouselItem(
+				"Inception",
+				"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+				"I really enjoyed the story of this movie. It sets up and then follows mostly consistent rules that then lead up to a large spectacle in the end. I like that this movie didn't shy away from having a complicated plot. I felt like all relevant plot details were explained with the base assumption that the audience was capable of understanding and contextualizing those details."
+			),
+			new CarouselItem(
 				"The Avengers",
 				"https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
 				"This movie is groundbreaking. I believe this is the first movie to really sculpt its own movie universe in a large and satisfying way. What I would normally think only accomplishable with more time in TV series was instead achieved for a massive audience on the big screen. I really enjoyed how they brought together a collection of what used to be individual characters into a larger group that pushes forwards in some grander narrative. I think that what this movie has accomplished is really amazing and has yet to be emulated elsewhere."
@@ -149,7 +149,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Star Wars: Revenge of the Sith",
 				"https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg/220px-Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
-				"I remember watching this movie at least once every day for a period in my life. I really enjoy the Star Wars series, but I think this movie is especially good and holds up quite well. On my most recent rewatch, I found it really cool how lighting was used to foreshadow Anakin's turn to the dark side. Even when I was younger, I was a huge fan of the CG (contrary to the opinions of most), and Anakin's turn to the dark side always tugged on my heartstrings a little."
+				"I remember watching this movie at least once every day for a period in my life. I really enjoy the Star Wars series, but I think this movie is especially good and holds up quite well. Even when I was younger, I was a huge fan of the CG (contrary to the opinions of most), and Anakin's turn to the dark side always tugged on my heartstrings a little."
 			),
 			new CarouselItem(
 				"Indiana Jones and the Last Crusade",
@@ -159,7 +159,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Interstellar",
 				"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile to render realistic black holes and hired a Nobel Laureate physicist just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
+				"I feel like this movie is dense with plot information. That alone makes me enjoy this movie a lot. However, I enjoy this movie even more because I also think physics is cool. I really like that the producers of this film went the extra mile and hired experts just to get a few extra details right. I am able to overlook inaccuracies such as 'love being a fundamental force' due to their relevance to the story that is being told. The point of this movie is, after all, to tell a story first and foremost, and I think that that works out really well here."
 			),
 			new CarouselItem(
 				"3 Idiots",
@@ -216,7 +216,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Monkey Buccaneer",
 				"https://vignette.wikia.nocookie.net/b__/images/f/ff/500-MonkeyBuccaneer.png/revision/latest/scale-to-width-down/620?cb=20190522024713&path-prefix=bloons",
-				"I used to hate the idea of water and water-based monkeys. Then, I actually tried using the monkey buccaneer. Now I wish there was more water in maps. This monkey has two great upgrade paths. One makes me tons of bananas. The other one quenches my old desire of not liking water by allowing me to place monkeys on it. Additionally, the best upgrade path also spawns 3 cool-looking planes that fly around and add more chaos to the screen."
+				"I used to hate the idea of water and water-based monkeys. Then, I actually tried using the monkey buccaneer. Now I wish there was more water in maps. This monkey has two great upgrade paths. Additionally, the best upgrade path also spawns 3 cool-looking planes that fly around and add more chaos to the screen."
 			),
 			new CarouselItem(
 				"Alchemist",
@@ -231,7 +231,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Sniper Monkey",
 				"https://vignette.wikia.nocookie.net/b__/images/7/78/005-SniperMonkey.png/revision/latest?cb=20190522023059&path-prefix=bloons",
-				"In previous BTD games, I HATED the sniper. I just thought that the idea of a global tower was dumb, and that the sniper had to be weak to compensate. In this game, I actually tried it out. All I can say is wow. The sniper can almost single-handedly manage most tough situations. Whether it be a 4-0-2 sniper or a 2-0-4 sniper, the addition of a sniper always makes for a stronger defense."
+				"In previous BTD games, I HATED the sniper. I just thought that the idea of a global tower was dumb, and that the sniper had to be weak to compensate. In this game, I realized I was wrong. Whether it be a 4-0-2 sniper or a 2-0-4 sniper, the addition of a sniper always makes for a stronger defense."
 			),
 			new CarouselItem(
 				"Benjamin",
@@ -275,7 +275,7 @@ class App extends React.Component {
 			<h2>About me</h2>
 			<ResponsiveContainer>
 				<img responsiveWidth="3" src={"images/SaurabhToteyCancun.jpg"} alt={"Saurabh Totey"} style={{width: "100%"}} />
-				<p responsiveWidth="9" style={{margin: "10px"}}>Hello! I am Saurabh Totey. Welcome to my little space on the internet to put whatever I want! I am a human male that is {new Date(new Date() - new Date(2000, 12, 5)).getFullYear() - 1970} years old. I currently live in Boulder, Colorado with my parents and my younger brother. In my free time, I spend a lot of my time trying to learn. My main passions are science and technology, but more specifically, I love learning all sorts of things such as programming, playing the piano, playing the cello, and modelling 3D objects. However, that isn't to say that I don't spend some of my free time doing other activities such as playing videogames or watching television series. I hope one day to make a great change in the world.</p>
+				<p responsiveWidth="9" style={{margin: "10px"}}>Hello! I am Saurabh Totey. Welcome to my little space on the internet. I will fill this space with whatever I want. I am a human male that is {new Date(new Date() - new Date(2000, 12, 5)).getFullYear() - 1970} years old. I am currently studying physics and computer science at the undergraduate level at the University of Colorado at Boulder. My main passions are science and technology, but I love learning about all sorts of things such as programming, playing the piano, playing the cello, and modelling 3D objects. However, that isn't to say that I don't spend some of my free time doing other activities such as playing videogames or watching television series. I hope one day to make a great change in the world.</p>
 			</ResponsiveContainer>
 			<br/>
 			<h2>Things I like</h2>
