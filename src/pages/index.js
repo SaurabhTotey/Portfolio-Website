@@ -137,9 +137,9 @@ const carouselInformation = [
 				"I really enjoyed the story of this movie. It sets up and then follows mostly consistent rules that then lead up to a large spectacle in the end. I like that this movie didn't shy away from having a complicated plot. I felt like all relevant plot details were explained with the base assumption that the audience was capable of understanding and contextualizing those details."
 			),
 			new CarouselItem(
-				"The Avengers",
-				"https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
-				"This movie is groundbreaking. I believe this is the first movie to really sculpt its own movie universe in a large and satisfying way. What I would normally think only accomplishable with more time in TV series was instead achieved for a massive audience on the big screen. I really enjoyed how they brought together a collection of what used to be individual characters into a larger group that pushes forwards in some grander narrative. I think that what this movie has accomplished is really amazing and has yet to be emulated elsewhere."
+				"Watchmen",
+				"https://m.media-amazon.com/images/M/MV5BY2IzNGNiODgtOWYzOS00OTI0LTgxZTUtOTA5OTQ5YmI3NGUzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+				"This movie is really wacky, and I love the styling and colors of the movie. I liked how it deconstructed the superhero genre with really over-the-top superheroes like Rorschach or Dr. Manhattan. I also enjoyed the ending dilemma about what the 'right' thing to do was."
 			),
 			new CarouselItem(
 				"Spider-Man",
