@@ -77,7 +77,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Fullmetal Alchemist: Brotherhood",
 				"https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
-				"This show makes promises about what its plot will entail, and then delivers on those promises and then some. It is overall just a great story about adventure and redemption that is very well thought-out with a satisfying ending."
+				"This show makes promises about what its plot will entail, and then delivers on those promises and more. It has a great story about adventure and redemption that is well thought-out. The first time I finished watching this show, I was left with a certain sadness because I would never be able to experience it again."
 			)
 		]
 	),
@@ -103,7 +103,7 @@ const carouselInformation = [
 			new CarouselItem(
 				"Super Mario Galaxy",
 				"https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_SuperMarioGalaxy_image1600w.jpg",
-				"I don't think there are many people that actually don't like this game. It seems to be universally loved, and all for good reason. I believe this game is partially responsible for forever changing the landscape of 3D games due to how innovative the ideas from this game are. It is a 'platformer' unlike any other. The graphics from this game especially stand out to me for some reason, even though they are not too high in resolution."
+				"I don't think there are many people that actually don't like this game. It seems to be universally loved, and all for good reason. I believe this game is partially responsible for forever changing the landscape of 3D games due to how innovative the ideas from this game are. It is a 'platformer' unlike any other."
 			),
 			new CarouselItem(
 				"New Super Mario Bros.",
@@ -113,12 +113,12 @@ const carouselInformation = [
 			new CarouselItem(
 				"Monster Hunter World",
 				"https://steamcdn-a.akamaihd.net/steam/apps/582010/header.jpg?t=1554771889",
-				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread and hit it is. What really makes the Monster Hunter series special for me is that I can enjoy the games with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. I especially love zipping through the air with the insect glaive."
+				"While I have enjoyed many Monster Hunter games, this specific game is on my list of favorites due to how widespread it is. What really makes the Monster Hunter series special for me is that I can enjoy the games with others. This series of games really succeeds in making great cooperative multiplayer experiences. I have spent a long time playing games from this series with my brother. I especially love zipping through the air with the insect glaive."
 			),
 			new CarouselItem(
 				"Terraria",
 				"https://steamcdn-a.akamaihd.net/steam/apps/105600/header.jpg?t=1548954652",
-				"Terraria is the ultimate power-fantasy. I really appreciate how well Terraria handles power-scaling and mastery. Even though Terraria has hit critical success, I feel like it is still underrated. I do try to do my part though: I have gifted this game to many friends over the years just so we can have a ton of fun together. From fishing to exploring to fighting, this game really has it all. I have probably done dozens of run-throughs of this game, and each time is a completely different experience. My only issue with this game is its lack of good inventory management."
+				"Terraria is the game I play when I want to fulfill a power-fantasy. I really appreciate how well Terraria handles power-scaling and mastery. Even though Terraria has hit critical success, I feel like it is still underrated. I do try to do my part though: I have gifted this game to many friends over the years just so we can have a ton of fun together. From fishing to exploring to fighting, this game really has it all. I have probably done dozens of run-throughs of this game, and each time is a completely different experience. My only issue with this game is its lack of good inventory management."
 			),
 			new CarouselItem(
 				"Minecraft",

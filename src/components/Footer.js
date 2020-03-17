@@ -1,5 +1,5 @@
 import React from "react";
-import {FaRegEnvelope, FaGithub, FaSpotify, FaSteam, FaTwitter, FaYoutube, FaPhone} from "react-icons/fa";
+import {FaRegEnvelope, FaPhone, FaGithub, FaReddit, FaTwitter} from "react-icons/fa";
 import ResponsiveContainer from "./ResponsiveContainer";
 import "../styles/Footer.css";
 
@@ -16,21 +16,13 @@ const icons = {
 		icon: FaGithub,
 		path: "https://www.github.com/SaurabhTotey"
 	},
+	reddit: {
+		icon: FaReddit,
+		path: "https://www.reddit.com/u/SaurabhTotey"
+	},
 	twitter: {
 		icon: FaTwitter,
 		path: "https://twitter.com/SaurabhTotey"
-	},
-	youtube: {
-		icon: FaYoutube,
-		path: "https://www.youtube.com/channel/UCXubVdV4RlI7ByEEDxziNcg"
-	},
-	spotify: {
-		icon: FaSpotify,
-		path: "https://open.spotify.com/user/saurabh-totey?si=QaRE9wybTc6FbwRiQayTWA"
-	},
-	steam: {
-		icon: FaSteam,
-		path: "https://steamcommunity.com/id/Lord_Strainer"
 	}
 };
 const iconWidth = 100 / Object.keys(icons).length;
