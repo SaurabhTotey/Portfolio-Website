@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{D9G8:function(e,n,r){"use strict";r.r(n);var t=r("q1tI"),a=r.n(t),o=r("7oih");n.default=function(){return a.a.createElement(o.a,null,a.a.createElement("p",null,"Sorry, this page is a work in progress!"))}}}]);
+//# sourceMappingURL=component---src-pages-modelling-js-543b7da755ecf63ed528.js.map

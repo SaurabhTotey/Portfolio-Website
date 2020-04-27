@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{tSSd:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),l=t("JwsL"),s=t("rY4l");n.default=function(){return r.a.createElement("div",null,r.a.createElement(s.a,null),r.a.createElement("p",null,"Sorry, this page is a work in progress!"),r.a.createElement(l.a,null))}}}]);
-//# sourceMappingURL=component---src-pages-music-js-1598bb6b7c0294e99c3c.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{mpnY:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),l=n("JwsL"),u=n("rY4l");t.default=function(){return r.a.createElement("div",null,r.a.createElement(u.a,null),r.a.createElement("p",null,"Sorry, this page is a work in progress! In the meantime, feel free to check out my ",r.a.createElement("a",{href:"https://www.github.com/SaurabhTotey"},"GitHub"),"."),r.a.createElement(l.a,null))}}}]);
-//# sourceMappingURL=component---src-pages-programming-js-dff7d7fb80c619dbebf7.js.map

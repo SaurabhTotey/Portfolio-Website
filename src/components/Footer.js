@@ -29,9 +29,9 @@ const iconWidth = 100 / Object.keys(icons).length;
 
 export default () => (
 	<footer>
-		<ResponsiveContainer>
-			<div responsiveWidth="3" style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
-			<div responsiveWidth="9" style={{width: "100%"}}>{
+		<ResponsiveContainer responsiveWidths={[3, 9]}>
+			<div style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
+			<div style={{width: "100%"}}>{
 				Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}} key={icon}>{icons[icon].icon()}</a>)
 			}</div>
 		</ResponsiveContainer>
