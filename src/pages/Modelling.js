@@ -1,11 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 export default () => (
-	<div>
-		<Header />
+	<Layout>
 		<p>Sorry, this page is a work in progress!</p>
-		<Footer />
-	</div>
+	</Layout>
 )
