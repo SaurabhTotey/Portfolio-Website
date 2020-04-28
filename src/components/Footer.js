@@ -32,7 +32,7 @@ export default () => (
 		<ResponsiveContainer responsiveWidths={[3, 9]}>
 			<div style={{width: "100%", textAlign: "center"}}>Contact / Follow me:</div>
 			<div style={{width: "100%"}}>{
-				Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}} key={icon}>{icons[icon].icon()}</a>)
+				Object.keys(icons).map(icon => <a className={"footerLink"} href={icons[icon].path} style={{width:`${iconWidth}%`}} key={icon} aria-label={icon}>{icons[icon].icon()}</a>)
 			}</div>
 		</ResponsiveContainer>
 	</footer>
