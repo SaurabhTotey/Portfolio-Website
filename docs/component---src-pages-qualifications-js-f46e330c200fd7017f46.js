@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{K9rJ:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),o=a("7oih");t.default=function(){return r.a.createElement(o.a,null,r.a.createElement("p",null,"This page is a work in progress! In the meantime, feel free to check out my ",r.a.createElement("a",{href:"./Resume.pdf"},"résumé")," or my ",r.a.createElement("a",{href:"https://www.github.com/SaurabhTotey"},"GitHub"),"."))}}}]);
-//# sourceMappingURL=component---src-pages-qualifications-js-f46e330c200fd7017f46.js.map
