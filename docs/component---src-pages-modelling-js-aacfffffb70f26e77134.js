@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{D9G8:function(e,n,o){"use strict";o.r(n);var t=o("q1tI"),r=o.n(t),a=o("7oih");n.default=function(){return r.a.createElement(a.a,null,r.a.createElement("p",null,"Sorry, this page is a work in progress! I plan on putting some of my 3D models here."))}}}]);
+//# sourceMappingURL=component---src-pages-modelling-js-aacfffffb70f26e77134.js.map
