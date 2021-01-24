@@ -39,7 +39,7 @@ class Navbar extends React.Component {
 	render() {
 		return <nav role={"navigation"} aria-label={"Page Navigation"}>
 			<ul id={"navbar"}>{
-				pageNames.map(pageName => <NavbarItem isActive={this.state.currentRelativePath === pages[pageName]} currentPageName={pageName} key={pageName} />)
+				pageNames.map(pageName => <NavbarItem isActive={this.state.currentRelativePath === pages[pageName] || this.state.currentRelativePath === pages[pageName] + "/"} currentPageName={pageName} key={pageName} />)
 			}</ul>
 		</nav>
 	}
