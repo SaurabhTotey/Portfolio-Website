@@ -8,7 +8,6 @@ const pages = {
 	"Qualifications": "/Qualifications",
 	"Programming": "/Programming",
 	"Music": "/Music",
-	"3D Modelling": "/Modelling"
 };
 //A list of page names
 const pageNames = Object.keys(pages);
