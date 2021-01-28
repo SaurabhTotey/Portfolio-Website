@@ -1,5 +1,5 @@
 body {
-	background-color: #EEEEEE;
+	background-color: #eeeeee;
 	color: #454545;
 	font-size: 120%;
 	line-height: 1.4;
@@ -7,7 +7,12 @@ body {
 	padding-right: 1%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	line-height: 1;
 }
 
@@ -16,5 +21,5 @@ h2 {
 }
 
 a {
-	color: #0077AA;
+	color: #0077aa;
 }

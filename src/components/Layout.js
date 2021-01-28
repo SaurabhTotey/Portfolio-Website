@@ -6,7 +6,7 @@ import "../styles/Global.css";
 export default ({ children }) => (
 	<>
 		<Header />
-		{ children }
+		{children}
 		<Footer />
 	</>
 );
