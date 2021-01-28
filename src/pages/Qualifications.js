@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-export default () => (
+const Qualifications = () => (
 	<Layout>
 		<h2>Résumé</h2>
 		<p>My résumé is available <a href="../Resume.pdf">here</a>. It is a PDF compiled with LaTeX. Feel free to reach out to me with any questions or other details!</p>
@@ -16,3 +16,4 @@ export default () => (
 		<p>I believe my math skills are strong. I have previously worked under a professor to help develop Python 3 code to calculate fully commutative elements in a Coxeter Group with the SageMath library.</p>
 	</Layout>
 );
+export default Qualifications;

@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-export default () => (
+const Programming = () => (
 	<Layout>
 		<p>Sorry, this page is a work in progress! Right now, this page is just a skeleton for what I will put here eventually.</p>
 		<h2>Projects</h2>
@@ -34,4 +34,5 @@ export default () => (
 		<h4>Computer Setup</h4>
 		<p>TODO: talk about using linux, xmonad, polybar, etc.</p>
 	</Layout>
-)
+);
+export default Programming;
