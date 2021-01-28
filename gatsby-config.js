@@ -7,4 +7,4 @@ module.exports = {
 			options: { path: `${__dirname}/assets/` }
 		}
 	]
-}
+};

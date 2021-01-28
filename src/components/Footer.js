@@ -36,4 +36,4 @@ export default () => (
 			}</div>
 		</ResponsiveContainer>
 	</footer>
-)
+);

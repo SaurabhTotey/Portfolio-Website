@@ -10,4 +10,4 @@ export default () => (
 		</div>
 		<Navbar />
 	</header>
-)
+);

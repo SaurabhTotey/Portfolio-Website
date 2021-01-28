@@ -41,9 +41,9 @@ class Navbar extends React.Component {
 			<ul id={"navbar"}>{
 				pageNames.map(pageName => <NavbarItem isActive={this.state.currentRelativePath === pages[pageName] || this.state.currentRelativePath === pages[pageName] + "/"} currentPageName={pageName} key={pageName} />)
 			}</ul>
-		</nav>
+		</nav>;
 	}
 
 }
 
-export default Navbar
+export default Navbar;

@@ -21,9 +21,9 @@ class ResponsiveContainer extends React.Component {
 			<div className={"responsiveContainer"}>{
 				this.props.children.map((child, index) => <div className={"responsiveContainerItem"} style={{"--responsive-width": this.props.responsiveWidths[index]}} key={index}>{child}</div>)
 			}</div>
-		)
+		);
 	}
 
 }
 
- export default ResponsiveContainer
+export default ResponsiveContainer;
