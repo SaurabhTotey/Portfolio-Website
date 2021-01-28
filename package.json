@@ -9,8 +9,7 @@
 		"start": "npm run develop",
 		"serve": "gatsby serve",
 		"deploy": "npm run build && gh-pages -d public",
-		"lint": "npx prettier . --check; npx eslint .",
-		"pretty": "npx prettier . --write"
+		"lint": "npx prettier . --write; npx eslint . --fix"
 	},
 	"repository": {
 		"type": "git",
