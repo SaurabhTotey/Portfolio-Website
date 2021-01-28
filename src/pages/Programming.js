@@ -3,8 +3,9 @@ import Layout from "../components/Layout";
 
 export default () => (
 	<Layout>
+		<p>Sorry, this page is a work in progress! Right now, this page is just a skeleton for what I will put here eventually.</p>
 		<h2>Projects</h2>
-		<p>Sorry, this section is a work in progress! My <a href={"https://www.github.com/SaurabhTotey"}>GitHub</a> has the majority of my projects. I will showcase my favorite programming projects in this section.</p>
+		<p>My <a href={"https://www.github.com/SaurabhTotey"}>GitHub</a> has the majority of my projects. I will showcase my favorite programming projects in this section.</p>
 		<h2>Skills</h2>
 		<h4>Game Development</h4>
 		<p>TODO: talk about graphics</p>
