@@ -26,8 +26,9 @@ const Index = ({ data }) => (
 				{new Date(new Date() - new Date(2000, 11, 5)).getFullYear() - 1970} years old. I am currently studying physics
 				and computer science at the undergraduate level at the University of Colorado at Boulder. My main passions are
 				science and technology, but I love learning about all sorts of things such as programming, playing the piano,
-				and playing the cello. However, that isn't to say that I don't spend some of my free time doing other activities
-				such as playing videogames or watching television series. I hope one day to make a great change in the world.
+				and playing the cello. However, that isn&apos;t to say that I don&apos;t spend some of my free time doing other
+				activities such as playing videogames or watching television series. I hope one day to make a great change in
+				the world.
 			</p>
 		</ResponsiveContainer>
 	</Layout>

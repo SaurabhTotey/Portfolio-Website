@@ -10,7 +10,7 @@ const Qualifications = () => (
 		</p>
 		<h2>Programming</h2>
 		<p>
-			I love programming! The only limits of software are those imposed by hardware, math, and, the developer's
+			I love programming! The only limits of software are those imposed by hardware, math, and, the developer&apos;s
 			imagination.
 		</p>
 		<p>
