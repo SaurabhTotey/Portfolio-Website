@@ -24,8 +24,8 @@ const Programming = () => (
 		<p>TODO: talk about scripting</p>
 		<h4>Scientific Software</h4>
 		<p>TODO: talk about scientific software</p>
-		<h4>Collaboration</h4>
-		<p>TODO: talk about collaboration</p>
+		<h4>Robotics</h4>
+		<p>TODO: talk about robotics</p>
 		<h4>Math</h4>
 		<p>TODO: talk about math</p>
 		<h2>Programming Languages</h2>

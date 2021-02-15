@@ -6,8 +6,7 @@ import Layout from "../components/Layout";
 const Music = () => (
 	<Layout>
 		<p>
-			Sorry, this page is a work in progress! I plan on uploading more recordings of me playing piano and possibly cello
-			here.
+			Sorry, this page is a work in progress! I plan on uploading more recordings of me playing piano and cello here.
 		</p>
 		<h2>JUSTadICE</h2>
 		<p>
