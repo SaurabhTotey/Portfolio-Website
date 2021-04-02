@@ -4,3 +4,4 @@ TODO:
 
 - [ ] reduce icon size
 - [ ] 404 page
+- [ ] flesh out programming page (and make it less ugly)
