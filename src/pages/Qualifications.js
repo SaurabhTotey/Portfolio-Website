@@ -27,8 +27,7 @@ const Qualifications = () => (
 			I think physics is really cool because it is a science dealing with the fundamental realities of the universe.
 		</p>
 		<p>
-			I am currently working under Dr. Stringfellow for various programming assignments dealing with the{" "}
-			<a href="https://www.sdss.org/">Sloan Digital Sky Survey 4</a> astronomical data.
+			I am currently looking for undergraduate research! I am most interested in quantum information.
 		</p>
 	</Layout>
 );
