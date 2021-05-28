@@ -22,13 +22,12 @@ const Index = ({ data }) => (
 		<ResponsiveContainer responsiveWidths={[2, 10]}>
 			<Img fluid={data.file.childImageSharp.fluid} alt={"Saurabh Totey"} style={{ width: "100%" }} />
 			<p style={{ margin: "10px" }}>
-				Hello! I am Saurabh Totey. Welcome to my little space on the internet. I am a human male (he/him/his) that is{" "}
-				{new Date(new Date() - new Date(2000, 11, 5)).getFullYear() - 1970} years old. I am currently studying physics
-				and computer science at the undergraduate level at the University of Colorado at Boulder. My main passions are
-				science and technology, but I love learning about all sorts of things such as programming, playing the piano,
-				and playing the cello. However, that isn&apos;t to say that I don&apos;t spend some of my free time doing other
-				activities such as playing videogames or watching television series. I hope one day to make a great change in
-				the world.
+				Hello! I am Saurabh Totey. Welcome to my little space on the internet. I am a human male that is{" "}
+				{new Date(new Date() - new Date(2000, 11, 5)).getFullYear() - 1970} years old. I use the he/him/his pronouns. I
+				am currently studying engineering physics and computer science at the undergraduate level at the University of
+				Colorado at Boulder. My main passions are science and technology, but I love learning about all sorts of things
+				such as programming, playing the piano, and playing the cello. I am also a videogame enthusiast and I love
+				watching television series with overarching stories. I hope one day to make a great change in the world.
 			</p>
 		</ResponsiveContainer>
 	</Layout>

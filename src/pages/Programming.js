@@ -56,7 +56,7 @@ const Programming = () => (
 		<p>
 			My favorite languages are Rust and Kotlin. I like Rust because, for my use cases, it often allows me to not write
 			C/C++ but still provide much of the same functionality and then some. I like Kotlin because it has really nice
-			syntaxes and shortcuts for common programming tasks, and it just feels really comfortable to use.
+			syntactic sugar and shortcuts for common programming tasks, and it just feels really comfortable to use.
 		</p>
 		<h2>Setup</h2>
 		<h4>Version Control</h4>

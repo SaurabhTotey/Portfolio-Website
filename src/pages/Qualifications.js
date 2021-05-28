@@ -10,8 +10,8 @@ const Qualifications = () => (
 		</p>
 		<h2>Programming</h2>
 		<p>
-			I love programming! The only limits of software are those imposed by hardware, math, and, the developer&apos;s
-			imagination.
+			I love programming! The only limits of software are those imposed by hardware, math, and, most importantly, the
+			developer&apos;s imagination. I am most interested in computability and complexity.
 		</p>
 		<p>
 			I host most of my projects on <a href="https://www.github.com/SaurabhTotey">GitHub</a>. I have developed a variety
@@ -24,9 +24,9 @@ const Qualifications = () => (
 		</p>
 		<h2>Physics</h2>
 		<p>
-			I think physics is really cool because it is a science dealing with the fundamental realities of the universe.
+			I think physics is really cool because it is a science dealing with the fundamental realities of the universe. I
+			am most interested in quantum information, quantum computing, and cosmology.
 		</p>
-		<p>I am currently looking for undergraduate research! I am most interested in quantum information.</p>
 	</Layout>
 );
 export default Qualifications;
