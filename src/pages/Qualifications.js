@@ -25,7 +25,7 @@ const Qualifications = () => (
 		<h2>Physics</h2>
 		<p>
 			I think physics is really cool because it is a science dealing with the fundamental realities of the universe. I
-			am most interested in quantum information, quantum computing, and cosmology.
+			am most interested in quantum information, cosmology, and astrophysics.
 		</p>
 	</Layout>
 );
