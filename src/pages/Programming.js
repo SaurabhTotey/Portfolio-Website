@@ -46,7 +46,7 @@ const Programming = () => (
 					I do most of my programming in NeoVim (with my configurations available{" "}
 					<a href="https://github.com/SaurabhTotey/Configs/blob/main/configs/NeoVim/init.vim">here</a>). I have
 					occasionally use other editors too, such as Visual Studio Code and other JetBrains IDEs. I mostly use NeoVim
-					because it is free and open-source, and so I know that I will be able to use it forever.
+					because it is free and open-source, and I find it to be the most lightweight and customizable.
 				</p>
 				<h4>Computer Setup</h4>
 				<p>
