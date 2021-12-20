@@ -18,14 +18,21 @@ const Qualifications = () => (
 			of different applications. I have experience with game development, full-stack, simulations, scripting, scientific
 			software, and robotics.
 		</p>
-		<p>
-			I am currently employed at <a href="https://phet.colorado.edu">PhET Simulations</a>, where I program educational
-			scientific simulations with JavaScript.
-		</p>
 		<h2>Physics</h2>
 		<p>
 			I think physics is really cool because it is a science dealing with the fundamental realities of the universe. I
-			am most interested in quantum information, cosmology, and astrophysics.
+			am most interested in quantum information and cosmology.
+		</p>
+		<h2>Music</h2>
+		<p>
+			I play the piano and cello as a hobby. I enjoy practicing music from TV shows or videogames that I feel I have an
+			emotional connection with.
+		</p>
+		<h2>Languages</h2>
+		<p>
+			I find the process of learning languages really satisfying. I speak English natively. I am proficient with Spanish
+			and am gaining proficiency with French. I hope to gain proficiency with more languages once I master Spanish and
+			French.
 		</p>
 	</Layout>
 );

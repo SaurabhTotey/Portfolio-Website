@@ -19,7 +19,8 @@ const Music = () => (
 		<p>
 			Sorry, this page is a work in progress! I plan on uploading more recordings of me playing piano and cello here. I
 			have already included a few samples of my playing, but please keep in mind that I am an amateur playing as a
-			hobby, so these recordings aren&apos;t perfect. I am working on improving my sense of rhythm and intonation.
+			hobby, so these recordings aren&apos;t perfect. I am working on improving my sense of rhythm and hitting the
+			correct notes.
 		</p>
 		<Song
 			title="JUSTadICE"
