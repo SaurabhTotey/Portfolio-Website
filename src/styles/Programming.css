@@ -1,0 +1,9 @@
+#secret-proverbs {
+	visibility: hidden;
+}
+
+#setup-title:hover ~ #secret-proverbs {
+	visibility: visible;
+	transition-property: visibility;
+	transition-delay: 60s;
+}
