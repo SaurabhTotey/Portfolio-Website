@@ -1,26 +1,28 @@
+:root {
+	--transition-delay: 60s;
+}
+
 #all-setup-content {
 	display: grid;
 }
 
-#normal-setup-content {
+#normal-setup-content, #hidden-setup-content {
 	grid-row: 1;
 	grid-column: 1;
 }
 
 #hidden-setup-content {
-	grid-row: 1;
-	grid-column: 1;
 	visibility: hidden;
 }
 
 #setup-title:hover + #all-setup-content #normal-setup-content {
 	visibility: hidden;
 	transition-property: visibility;
-	transition-delay: 60s;
+	transition-delay: var(--transition-delay);
 }
 
 #setup-title:hover + #all-setup-content #hidden-setup-content {
 	visibility: visible;
 	transition-property: visibility;
-	transition-delay: 60s;
+	transition-delay: var(--transition-delay);
 }
