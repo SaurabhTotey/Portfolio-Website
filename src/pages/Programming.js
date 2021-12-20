@@ -37,32 +37,36 @@ const Programming = () => (
 			syntactic sugar and shortcuts for common programming tasks, and it just feels really comfortable to use.
 		</p>
 		<h2 id="setup-title">Setup</h2>
-		<h4>Version Control</h4>
-		<p>I am extremely familiar with Git. I store most of my projects on GitHub.</p>
-		<h4>Editor</h4>
-		<p>
-			I do most of my programming in NeoVim (with my configurations available{" "}
-			<a href="https://github.com/SaurabhTotey/Configs/blob/main/configs/NeoVim/init.vim">here</a>). I have occasionally
-			use other editors too, such as Visual Studio Code and other JetBrains IDEs. I mostly use NeoVim because it is free
-			and open-source, and so I know that I will be able to use it forever.
-		</p>
-		<h4>Computer Setup</h4>
-		<p>
-			I use Arch Linux on my desktop with all my configurations available on{" "}
-			<a href="https://www.github.com/SaurabhTotey/Configs">this GitHub repository</a>. I use a Macbook as a commuter
-			laptop.
-		</p>
-		<div id="secret-proverbs" area-hidden={true}>
-			<h4>The Text Purity Proverbs</h4>
-			<p>The enlightened individual who seeks aesthetics removes trailing whitespace. That is beauty.</p>
-			<p>
-				The enlightened individual who seeks consistency ensures that every line, including the last line, ends with a
-				newline character. That is equality.
-			</p>
-			<p>
-				The enlightened individual who seeks semantic correctness uses tabs for indentation and spaces for alignment.
-				That is meaning.
-			</p>
+		<div id="all-setup-content">
+			<div id="normal-setup-content">
+				<h4>Version Control</h4>
+				<p>I am extremely familiar with Git. I store most of my projects on GitHub.</p>
+				<h4>Editor</h4>
+				<p>
+					I do most of my programming in NeoVim (with my configurations available{" "}
+					<a href="https://github.com/SaurabhTotey/Configs/blob/main/configs/NeoVim/init.vim">here</a>). I have
+					occasionally use other editors too, such as Visual Studio Code and other JetBrains IDEs. I mostly use NeoVim
+					because it is free and open-source, and so I know that I will be able to use it forever.
+				</p>
+				<h4>Computer Setup</h4>
+				<p>
+					I use Arch Linux on my desktop with all my configurations available on{" "}
+					<a href="https://www.github.com/SaurabhTotey/Configs">this GitHub repository</a>. I use a Macbook as a
+					commuter laptop.
+				</p>
+			</div>
+			<div id="hidden-setup-content" area-hidden={true}>
+				<h4>The Text Purity Proverbs</h4>
+				<p>The enlightened individual who seeks aesthetics removes trailing whitespace. That is beauty.</p>
+				<p>
+					The enlightened individual who seeks consistency ensures that every line, including the last line, ends with a
+					newline character. That is equality.
+				</p>
+				<p>
+					The enlightened individual who seeks semantic correctness uses tabs for indentation and spaces for alignment.
+					That is meaning.
+				</p>
+			</div>
 		</div>
 	</Layout>
 );
