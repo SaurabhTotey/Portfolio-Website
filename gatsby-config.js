@@ -1,10 +1,3 @@
 module.exports = {
-	plugins: [
-		"gatsby-transformer-sharp",
-		"gatsby-plugin-sharp",
-		{
-			resolve: "gatsby-source-filesystem",
-			options: { path: `${__dirname}/assets/` },
-		},
-	],
+	plugins: ["gatsby-plugin-image", "gatsby-transformer-sharp", "gatsby-plugin-sharp"],
 };

@@ -1,26 +1,19 @@
 import React from "react";
 import Layout from "../components/Layout";
 import ResponsiveContainer from "../components/ResponsiveContainer";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
+import { StaticImage } from "gatsby-plugin-image";
 
-export const query = graphql`
-	query IndexMainImage {
-		file(relativePath: { eq: "SaurabhToteyLunchWithFriend.png" }) {
-			childImageSharp {
-				fluid {
-					...GatsbyImageSharpFluid
-				}
-			}
-		}
-	}
-`;
-
-const Index = ({ data }) => (
+const Index = () => (
 	<Layout>
 		<h2>About me</h2>
 		<ResponsiveContainer responsiveWidths={[2, 10]}>
-			<Img fluid={data.file.childImageSharp.fluid} alt={"Saurabh Totey"} style={{ width: "100%" }} />
+			<StaticImage
+				src={"../../static/images/SaurabhToteyLunchWithFriend.png"}
+				alt={"Saurabh Totey"}
+				placeholder={"none"}
+				backgroundColor={"#454545"}
+				style={{ width: "100%" }}
+			/>
 			<p style={{ margin: "10px" }}>
 				Hello! I am Saurabh Totey. Welcome to my little space on the internet. I am a human male. I use the he/him/his
 				pronouns. I am currently studying engineering physics and computer science at the undergraduate level at the
