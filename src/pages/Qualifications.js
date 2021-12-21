@@ -5,8 +5,8 @@ const Qualifications = () => (
 	<Layout>
 		<h2>Résumé</h2>
 		<p>
-			My résumé is available <a href="../Resume.pdf">here</a>. It is a PDF compiled with LaTeX. Feel free to reach out
-			to me with any questions or other details!
+			My résumé is available <a href="../Resume.pdf">here</a>. Feel free to reach out to me with any questions or other
+			details!
 		</p>
 		<h2>Programming</h2>
 		<p>
