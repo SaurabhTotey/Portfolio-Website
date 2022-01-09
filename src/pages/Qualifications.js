@@ -23,11 +23,6 @@ const Qualifications = () => (
 			I think physics is really cool because it is a science dealing with the fundamental realities of the universe. I
 			am most interested in quantum information and cosmology.
 		</p>
-		<h2>Music</h2>
-		<p>
-			I play the piano and cello as a hobby. I enjoy practicing music from TV shows or videogames that I feel I have an
-			emotional connection with.
-		</p>
 		<h2>Languages</h2>
 		<p>
 			I find the process of learning languages really satisfying. I speak English natively. I am proficient with Spanish

@@ -23,6 +23,7 @@ const Programming = () => (
 			<li>Scripting</li>
 			<li>Scientific Software</li>
 			<li>Robotics</li>
+			<li>Android (Mobile and WearOS)</li>
 			<li>Markup (HTML, LaTeX)</li>
 		</ul>
 		<h2>Programming Languages</h2>
