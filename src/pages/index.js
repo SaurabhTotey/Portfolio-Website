@@ -18,9 +18,9 @@ const Index = () => (
 				Hello! I am Saurabh Totey. Welcome to my little space on the internet. I am a human male. I use the he/him/his
 				pronouns. I am currently studying engineering physics and computer science at the undergraduate level at the
 				University of Colorado at Boulder. My main passions are science and technology, but I love learning about all
-				sorts of things such as programming, playing the piano, and playing the cello. I am also a videogame enthusiast
-				and I love watching television series with overarching stories. I hope one day to make a great change in the
-				world.
+				sorts of things such as programming, playing musical instruments, and languages. I am also a videogame
+				enthusiast and I love watching television series with overarching stories. I hope one day to make a great change
+				in the world.
 			</p>
 		</ResponsiveContainer>
 	</Layout>
