@@ -17,6 +17,7 @@ const Programming = () => (
 		Below are the skills I feel confident in. I will add examples that demonstrate my proficiency at some point.
 		<ul>
 			<li>Graphics</li>
+			<li>Concurrency and Parallelism</li>
 			<li>Networking</li>
 			<li>Full-Stack</li>
 			<li>Simulations</li>
@@ -44,16 +45,14 @@ const Programming = () => (
 				<p>I am extremely familiar with Git. I store most of my projects on GitHub.</p>
 				<h4>Editor</h4>
 				<p>
-					I do most of my programming in NeoVim (with my configurations available{" "}
-					<a href="https://github.com/SaurabhTotey/Configs/blob/main/configs/NeoVim/init.vim">here</a>). I have
-					occasionally use other editors too, such as Visual Studio Code and other JetBrains IDEs. I mostly use NeoVim
-					because it is free and open-source, and I find it to be the most lightweight and customizable.
+					I do most of my programming in NeoVim, but I am planning on switching back to using other editors like
+					VSCodium and JetBrains IDEs.
 				</p>
 				<h4>Computer Setup</h4>
 				<p>
 					I use Arch Linux on my desktop with all my configurations available on{" "}
-					<a href="https://www.github.com/SaurabhTotey/Configs">this GitHub repository</a>. I use a Macbook as a
-					commuter laptop.
+					<a href="https://www.github.com/SaurabhTotey/Configs">this GitHub repository</a>, but I intend to switch to
+					NixOS sometime soon. I use a Macbook as a commuter laptop.
 				</p>
 			</div>
 			<div id="hidden-setup-content" area-hidden={true}>
