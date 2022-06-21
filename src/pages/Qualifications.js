@@ -26,8 +26,8 @@ const Qualifications = () => (
 		<h2>Languages</h2>
 		<p>
 			I find the process of learning languages really satisfying. I speak English natively. I am proficient with Spanish
-			and am gaining proficiency with French. I hope to gain proficiency with more languages once I master Spanish and
-			French.
+			and am a beginner in French. I hope to gain proficiency with more languages once I am satisfied with my Spanish
+			and French.
 		</p>
 	</Layout>
 );
