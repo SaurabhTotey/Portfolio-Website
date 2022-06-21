@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"), require("fs"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		module.exports = factory(require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/common-tags/lib/index.js"), require("fs"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js", "fs", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js", "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
+		define("lib", ["/home/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/common-tags/lib/index.js", "fs", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js", "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"), require("fs"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"), require("/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		exports["lib"] = factory(require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/common-tags/lib/index.js"), require("fs"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"), require("/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else
-		root["lib"] = factory(root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"], root["fs"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"], root["/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
+		root["lib"] = factory(root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/common-tags/lib/index.js"], root["fs"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js"], root["/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_common_tags__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -124,7 +124,12 @@ exports.ssrComponents = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var plugins = []; // During bootstrap, we write requires at top of this file which looks like:
+var plugins = [{
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-image/gatsby-ssr */ "./node_modules/gatsby-plugin-image/gatsby-ssr.js"),
+  options: {
+    "plugins": []
+  }
+}]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
 //     plugin: require("/path/to/plugin1/gatsby-ssr.js"),
@@ -386,6 +391,17 @@ exports.wrapPageElement = true;
  */
 
 exports.wrapRootElement = true;
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4116551272.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4116551272.json ***!
+  \***********************************************************/
+/*! exports provided: layout, backgroundColor, images, width, height, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"layout\":\"constrained\",\"backgroundColor\":\"#454545\",\"images\":{\"fallback\":{\"src\":\"/static/7970d52f565fafb52f7d1915b9de47c3/f0e6d/SaurabhToteyLunchWithFriend.png\",\"srcSet\":\"/static/7970d52f565fafb52f7d1915b9de47c3/cd8c8/SaurabhToteyLunchWithFriend.png 294w,\\n/static/7970d52f565fafb52f7d1915b9de47c3/72c98/SaurabhToteyLunchWithFriend.png 588w,\\n/static/7970d52f565fafb52f7d1915b9de47c3/f0e6d/SaurabhToteyLunchWithFriend.png 1175w\",\"sizes\":\"(min-width: 1175px) 1175px, 100vw\"},\"sources\":[{\"srcSet\":\"/static/7970d52f565fafb52f7d1915b9de47c3/dcabb/SaurabhToteyLunchWithFriend.webp 294w,\\n/static/7970d52f565fafb52f7d1915b9de47c3/23d95/SaurabhToteyLunchWithFriend.webp 588w,\\n/static/7970d52f565fafb52f7d1915b9de47c3/43fee/SaurabhToteyLunchWithFriend.webp 1175w\",\"type\":\"image/webp\",\"sizes\":\"(min-width: 1175px) 1175px, 100vw\"}]},\"width\":1175,\"height\":1414}");
 
 /***/ }),
 
@@ -1933,134 +1949,6 @@ function stripPrefix(str, prefix = ``) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/extends.js":
-/*!********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _extends() {
-  module.exports = _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _extends.apply(this, arguments);
-}
-
-module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  setPrototypeOf(subClass, superClass);
-}
-
-module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ "./node_modules/decode-uri-component/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/decode-uri-component/index.js ***!
@@ -2167,777 +2055,902 @@ module.exports = function (encodedURI) {
 
 /***/ }),
 
-/***/ "./node_modules/filter-obj/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/filter-obj/index.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js ***!
+  \**********************************************************************/
+/*! exports provided: GatsbyImage, MainImage, Placeholder, StaticImage, generateImageData, getImage, getSrc, useArtDirection, useGatsbyImage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GatsbyImage", function() { return Z; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainImage", function() { return B; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Placeholder", function() { return F; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StaticImage", function() { return J; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateImageData", function() { return T; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getImage", function() { return C; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getSrc", function() { return L; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useArtDirection", function() { return P; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useGatsbyImage", function() { return G; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 
-module.exports = function (obj, predicate) {
-	var ret = {};
-	var keys = Object.keys(obj);
-	var isArr = Array.isArray(predicate);
 
-	for (var i = 0; i < keys.length; i++) {
-		var key = keys[i];
-		var val = obj[key];
 
-		if (isArr ? predicate.indexOf(key) !== -1 : predicate(key, val, obj)) {
-			ret[key] = val;
-		}
-	}
+function l() {
+  return (l = Object.assign || function (e) {
+    for (var t = 1; t < arguments.length; t++) {
+      var r = arguments[t];
 
-	return ret;
+      for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n]);
+    }
+
+    return e;
+  }).apply(this, arguments);
+}
+
+function c(e, t) {
+  if (null == e) return {};
+  var r,
+      n,
+      a = {},
+      i = Object.keys(e);
+
+  for (n = 0; n < i.length; n++) t.indexOf(r = i[n]) >= 0 || (a[r] = e[r]);
+
+  return a;
+}
+
+var d = function () {
+  function e(e, t) {
+    for (var r = 0; r < t.length; r++) {
+      var n = t[r];
+      n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n);
+    }
+  }
+
+  return function (t, r, n) {
+    return r && e(t.prototype, r), n && e(t, n), t;
+  };
+}(),
+    h = Object.freeze(Object.defineProperties(["", ""], {
+  raw: {
+    value: Object.freeze(["", ""])
+  }
+}));
+
+function g(e, t) {
+  if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function");
+}
+
+var f = function () {
+  function e() {
+    for (var t = this, r = arguments.length, n = Array(r), a = 0; a < r; a++) n[a] = arguments[a];
+
+    return g(this, e), this.tag = function (e) {
+      for (var r = arguments.length, n = Array(r > 1 ? r - 1 : 0), a = 1; a < r; a++) n[a - 1] = arguments[a];
+
+      return "function" == typeof e ? t.interimTag.bind(t, e) : "string" == typeof e ? t.transformEndResult(e) : (e = e.map(t.transformString.bind(t)), t.transformEndResult(e.reduce(t.processSubstitutions.bind(t, n))));
+    }, n.length > 0 && Array.isArray(n[0]) && (n = n[0]), this.transformers = n.map(function (e) {
+      return "function" == typeof e ? e() : e;
+    }), this.tag;
+  }
+
+  return d(e, [{
+    key: "interimTag",
+    value: function (e, t) {
+      for (var r = arguments.length, n = Array(r > 2 ? r - 2 : 0), a = 2; a < r; a++) n[a - 2] = arguments[a];
+
+      return this.tag(h, e.apply(void 0, [t].concat(n)));
+    }
+  }, {
+    key: "processSubstitutions",
+    value: function (e, t, r) {
+      var n = this.transformSubstitution(e.shift(), t);
+      return "".concat(t, n, r);
+    }
+  }, {
+    key: "transformString",
+    value: function (e) {
+      return this.transformers.reduce(function (e, t) {
+        return t.onString ? t.onString(e) : e;
+      }, e);
+    }
+  }, {
+    key: "transformSubstitution",
+    value: function (e, t) {
+      return this.transformers.reduce(function (e, r) {
+        return r.onSubstitution ? r.onSubstitution(e, t) : e;
+      }, e);
+    }
+  }, {
+    key: "transformEndResult",
+    value: function (e) {
+      return this.transformers.reduce(function (e, t) {
+        return t.onEndResult ? t.onEndResult(e) : e;
+      }, e);
+    }
+  }]), e;
+}(),
+    p = function () {
+  var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
+  return {
+    onEndResult: function (t) {
+      if ("" === e) return t.trim();
+      if ("start" === (e = e.toLowerCase()) || "left" === e) return t.replace(/^\s*/, "");
+      if ("end" === e || "right" === e) return t.replace(/\s*$/, "");
+      throw new Error("Side not supported: " + e);
+    }
+  };
 };
+
+function m(e) {
+  if (Array.isArray(e)) {
+    for (var t = 0, r = Array(e.length); t < e.length; t++) r[t] = e[t];
+
+    return r;
+  }
+
+  return Array.from(e);
+}
+
+var v = function () {
+  var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "initial";
+  return {
+    onEndResult: function (t) {
+      if ("initial" === e) {
+        var r = t.match(/^[^\S\n]*(?=\S)/gm),
+            n = r && Math.min.apply(Math, m(r.map(function (e) {
+          return e.length;
+        })));
+
+        if (n) {
+          var a = new RegExp("^.{" + n + "}", "gm");
+          return t.replace(a, "");
+        }
+
+        return t;
+      }
+
+      if ("all" === e) return t.replace(/^[^\S\n]+/gm, "");
+      throw new Error("Unknown type: " + e);
+    }
+  };
+},
+    w = function (e, t) {
+  return {
+    onEndResult: function (r) {
+      if (null == e || null == t) throw new Error("replaceResultTransformer requires at least 2 arguments.");
+      return r.replace(e, t);
+    }
+  };
+},
+    y = function (e, t) {
+  return {
+    onSubstitution: function (r, n) {
+      if (null == e || null == t) throw new Error("replaceSubstitutionTransformer requires at least 2 arguments.");
+      return null == r ? r : r.toString().replace(e, t);
+    }
+  };
+},
+    b = {
+  separator: "",
+  conjunction: "",
+  serial: !1
+},
+    E = function () {
+  var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : b;
+  return {
+    onSubstitution: function (t, r) {
+      if (Array.isArray(t)) {
+        var n = t.length,
+            a = e.separator,
+            i = e.conjunction,
+            o = e.serial,
+            s = r.match(/(\n?[^\S\n]+)$/);
+
+        if (t = t.join(s ? a + s[1] : a + " "), i && n > 1) {
+          var u = t.lastIndexOf(a);
+          t = t.slice(0, u) + (o ? a : "") + " " + i + t.slice(u + 1);
+        }
+      }
+
+      return t;
+    }
+  };
+},
+    S = function (e) {
+  return {
+    onSubstitution: function (t, r) {
+      if (null == e || "string" != typeof e) throw new Error("You need to specify a string character to split by.");
+      return "string" == typeof t && t.includes(e) && (t = t.split(e)), t;
+    }
+  };
+},
+    k = function (e) {
+  return null != e && !Number.isNaN(e) && "boolean" != typeof e;
+},
+    j = (new f(E({
+  separator: ","
+}), v, p), new f(E({
+  separator: ",",
+  conjunction: "and"
+}), v, p), new f(E({
+  separator: ",",
+  conjunction: "or"
+}), v, p), new f(S("\n"), function () {
+  return {
+    onSubstitution: function (e) {
+      return Array.isArray(e) ? e.filter(k) : k(e) ? e : "";
+    }
+  };
+}, E, v, p), new f(S("\n"), E, v, p, y(/&/g, "&amp;"), y(/</g, "&lt;"), y(/>/g, "&gt;"), y(/"/g, "&quot;"), y(/'/g, "&#x27;"), y(/`/g, "&#x60;")), new f(w(/(?:\n(?:\s*))+/g, " "), p), new f(w(/(?:\n\s*)/g, ""), p), new f(E({
+  separator: ","
+}), w(/(?:\s+)/g, " "), p), new f(E({
+  separator: ",",
+  conjunction: "or"
+}), w(/(?:\s+)/g, " "), p), new f(E({
+  separator: ",",
+  conjunction: "and"
+}), w(/(?:\s+)/g, " "), p), new f(E, v, p), new f(E, w(/(?:\s+)/g, " "), p), new f(v, p));
+
+function M() {
+  var e = function (e, t) {
+    return t || (t = e.slice(0)), e.raw = t, e;
+  }(["\n    The requested ", ' "', 'px" for the image ', " was larger than the actual image ", " of ", "px. If possible, replace the current image with a larger one."]);
+
+  return M = function () {
+    return e;
+  }, e;
+}
+
+new f(v("all"), p);
+
+var R = [.25, .5, 1, 2],
+    A = [750, 1080, 1366, 1920],
+    O = [320, 654, 768, 1024, 1366, 1600, 1920, 2048, 2560, 3440, 3840, 4096],
+    N = function (e) {
+  return console.warn(e);
+},
+    x = function (e, t) {
+  return e - t;
+},
+    _ = function (e) {
+  return e.map(function (e) {
+    return e.src + " " + e.width + "w";
+  }).join(",\n");
+};
+
+function I(e) {
+  var t = e.lastIndexOf(".");
+
+  if (-1 !== t) {
+    var r = e.substr(t + 1);
+    if ("jpeg" === r) return "jpg";
+    if (3 === r.length || 4 === r.length) return r;
+  }
+}
+
+function T(e) {
+  var t = e.pluginName,
+      r = e.sourceMetadata,
+      n = e.generateImageSource,
+      a = e.layout,
+      i = void 0 === a ? "constrained" : a,
+      o = e.fit,
+      s = e.options,
+      u = e.width,
+      c = e.height,
+      d = e.filename,
+      h = e.reporter,
+      g = void 0 === h ? {
+    warn: N
+  } : h;
+  if (t || g.warn('[gatsby-plugin-image] "generateImageData" was not passed a plugin name'), "function" != typeof n) throw new Error("generateImageSource must be a function");
+  r && (r.width || r.height) ? r.format || (r.format = I(d)) : r = {
+    width: u,
+    height: c,
+    format: I(d)
+  };
+  var f = new Set(e.formats || ["auto", "webp"]);
+  (0 === f.size || f.has("auto") || f.has("")) && (f.delete("auto"), f.delete(""), f.add(r.format)), f.has("jpg") && f.has("png") && (g.warn("[" + t + "] Specifying both 'jpg' and 'png' formats is not supported. Using 'auto' instead"), f.delete("jpg" === r.format ? "png" : "jpg"));
+
+  var p = function (e) {
+    var t = e.filename,
+        r = e.layout,
+        n = void 0 === r ? "constrained" : r,
+        a = e.sourceMetadata,
+        i = e.reporter,
+        o = void 0 === i ? {
+      warn: N
+    } : i,
+        s = e.breakpoints,
+        u = void 0 === s ? A : s,
+        c = Object.entries({
+      width: e.width,
+      height: e.height
+    }).filter(function (e) {
+      var t = e[1];
+      return "number" == typeof t && t < 1;
+    });
+    if (c.length) throw new Error("Specified dimensions for images must be positive numbers (> 0). Problem dimensions you have are " + c.map(function (e) {
+      return e.join(": ");
+    }).join(", "));
+    return "fixed" === n ? function (e) {
+      var t = e.filename,
+          r = e.sourceMetadata,
+          n = e.width,
+          a = e.height,
+          i = e.fit,
+          o = void 0 === i ? "cover" : i,
+          s = e.outputPixelDensities,
+          u = e.reporter,
+          l = void 0 === u ? {
+        warn: N
+      } : u,
+          c = r.width / r.height,
+          d = W(void 0 === s ? R : s);
+
+      if (n && a) {
+        var h = q(r, {
+          width: n,
+          height: a,
+          fit: o
+        });
+        n = h.width, a = h.height, c = h.aspectRatio;
+      }
+
+      n ? a || (a = Math.round(n / c)) : n = a ? Math.round(a * c) : 400;
+      var g = n;
+
+      if (r.width < n || r.height < a) {
+        var f = r.width < n ? "width" : "height";
+        l.warn(j(M(), f, "width" === f ? n : a, t, f, r[f])), "width" === f ? (n = r.width, a = Math.round(n / c)) : n = (a = r.height) * c;
+      }
+
+      return {
+        sizes: d.filter(function (e) {
+          return e >= 1;
+        }).map(function (e) {
+          return Math.round(e * n);
+        }).filter(function (e) {
+          return e <= r.width;
+        }),
+        aspectRatio: c,
+        presentationWidth: g,
+        presentationHeight: Math.round(g / c),
+        unscaledWidth: n
+      };
+    }(e) : "constrained" === n ? z(e) : "fullWidth" === n ? z(l({
+      breakpoints: u
+    }, e)) : (o.warn("No valid layout was provided for the image at " + t + ". Valid image layouts are fixed, fullWidth, and constrained."), {
+      sizes: [a.width],
+      presentationWidth: a.width,
+      presentationHeight: a.height,
+      aspectRatio: a.width / a.height,
+      unscaledWidth: a.width
+    });
+  }(l({}, e, {
+    sourceMetadata: r
+  })),
+      m = {
+    sources: []
+  },
+      v = e.sizes;
+
+  v || (v = function (e, t) {
+    switch (t) {
+      case "constrained":
+        return "(min-width: " + e + "px) " + e + "px, 100vw";
+
+      case "fixed":
+        return e + "px";
+
+      case "fullWidth":
+        return "100vw";
+
+      default:
+        return;
+    }
+  }(p.presentationWidth, i)), f.forEach(function (e) {
+    var r = p.sizes.map(function (r) {
+      var a = n(d, r, Math.round(r / p.aspectRatio), e, o, s);
+      if ((null == a ? void 0 : a.width) && a.height && a.src && a.format) return a;
+      g.warn("[" + t + "] The resolver for image " + d + " returned an invalid value.");
+    }).filter(Boolean);
+
+    if ("jpg" === e || "png" === e || "auto" === e) {
+      var a = r.find(function (e) {
+        return e.width === p.unscaledWidth;
+      }) || r[0];
+      a && (m.fallback = {
+        src: a.src,
+        srcSet: _(r),
+        sizes: v
+      });
+    } else {
+      var i;
+      null == (i = m.sources) || i.push({
+        srcSet: _(r),
+        sizes: v,
+        type: "image/" + e
+      });
+    }
+  });
+  var w = {
+    images: m,
+    layout: i
+  };
+
+  switch (i) {
+    case "fixed":
+      w.width = p.presentationWidth, w.height = p.presentationHeight;
+      break;
+
+    case "fullWidth":
+      w.width = 1, w.height = 1 / p.aspectRatio;
+      break;
+
+    case "constrained":
+      w.width = e.width || p.presentationWidth || 1, w.height = (w.width || 1) / p.aspectRatio;
+  }
+
+  return w;
+}
+
+var W = function (e) {
+  return Array.from(new Set([1].concat(e))).sort(x);
+};
+
+function z(e) {
+  var t,
+      r = e.sourceMetadata,
+      n = e.width,
+      a = e.height,
+      i = e.fit,
+      o = void 0 === i ? "cover" : i,
+      s = e.outputPixelDensities,
+      u = e.breakpoints,
+      l = e.layout,
+      c = r.width / r.height,
+      d = W(void 0 === s ? R : s);
+
+  if (n && a) {
+    var h = q(r, {
+      width: n,
+      height: a,
+      fit: o
+    });
+    n = h.width, a = h.height, c = h.aspectRatio;
+  }
+
+  n = n && Math.min(n, r.width), a = a && Math.min(a, r.height), n || a || (a = (n = Math.min(800, r.width)) / c), n || (n = a * c);
+  var g = n;
+  return (r.width < n || r.height < a) && (n = r.width, a = r.height), n = Math.round(n), (null == u ? void 0 : u.length) > 0 ? (t = u.filter(function (e) {
+    return e <= r.width;
+  })).length < u.length && !t.includes(r.width) && t.push(r.width) : t = (t = d.map(function (e) {
+    return Math.round(e * n);
+  })).filter(function (e) {
+    return e <= r.width;
+  }), "constrained" !== l || t.includes(n) || t.push(n), {
+    sizes: t = t.sort(x),
+    aspectRatio: c,
+    presentationWidth: g,
+    presentationHeight: Math.round(g / c),
+    unscaledWidth: n
+  };
+}
+
+function q(e, t) {
+  var r = e.width / e.height,
+      n = t.width,
+      a = t.height;
+
+  switch (t.fit) {
+    case "fill":
+      n = t.width ? t.width : e.width, a = t.height ? t.height : e.height;
+      break;
+
+    case "inside":
+      var i = t.width ? t.width : Number.MAX_SAFE_INTEGER,
+          o = t.height ? t.height : Number.MAX_SAFE_INTEGER;
+      n = Math.min(i, Math.round(o * r)), a = Math.min(o, Math.round(i / r));
+      break;
+
+    case "outside":
+      var s = t.width ? t.width : 0,
+          u = t.height ? t.height : 0;
+      n = Math.max(s, Math.round(u * r)), a = Math.max(u, Math.round(s / r));
+      break;
+
+    default:
+      t.width && !t.height && (n = t.width, a = Math.round(t.width / r)), t.height && !t.width && (n = Math.round(t.height * r), a = t.height);
+  }
+
+  return {
+    width: n,
+    height: a,
+    aspectRatio: n / a
+  };
+}
+
+new Set();
+
+var C = function (e) {
+  var t;
+  return null == e || null == (t = e.childImageSharp) ? void 0 : t.gatsbyImageData;
+},
+    L = function (e) {
+  var t, r, n, a;
+  return null == e || null == (t = e.childImageSharp) || null == (r = t.gatsbyImageData) || null == (n = r.images) || null == (a = n.fallback) ? void 0 : a.src;
+};
+
+function G(e) {
+  var t = e.pluginName,
+      r = e.breakpoints;
+  return T(l({
+    pluginName: void 0 === t ? "useGatsbyImage" : t,
+    breakpoints: void 0 === r ? O : r
+  }, c(e, ["pluginName", "breakpoints"])));
+}
+
+function P(e, t) {
+  var r,
+      n,
+      a,
+      i = e.images,
+      o = e.placeholder,
+      s = l({}, c(e, ["images", "placeholder"]), {
+    images: l({}, i, {
+      sources: []
+    }),
+    placeholder: o && l({}, o, {
+      sources: []
+    })
+  });
+  return t.forEach(function (t) {
+    var r,
+        n = t.media,
+        a = t.image;
+    n ? (a.layout !== e.layout && "development" === "development" && console.warn('[gatsby-plugin-image] Mismatched image layout: expected "' + e.layout + '" but received "' + a.layout + '". All art-directed images use the same layout as the default image'), (r = s.images.sources).push.apply(r, a.images.sources.map(function (e) {
+      return l({}, e, {
+        media: n
+      });
+    }).concat([{
+      media: n,
+      srcSet: a.images.fallback.srcSet
+    }])), s.placeholder && s.placeholder.sources.push({
+      media: n,
+      srcSet: a.placeholder.fallback
+    })) :  true && console.warn("[gatsby-plugin-image] All art-directed images passed to must have a value set for `media`. Skipping.");
+  }), (r = s.images.sources).push.apply(r, i.sources), (null == o ? void 0 : o.sources) && (null == (n = s.placeholder) || (a = n.sources).push.apply(a, o.sources)), s;
+}
+
+var D,
+    H = function (t) {
+  var r = t.src,
+      n = t.srcSet,
+      a = t.loading,
+      i = t.alt,
+      o = void 0 === i ? "" : i,
+      s = t.shouldLoad,
+      u = t.innerRef,
+      l = c(t, ["src", "srcSet", "loading", "alt", "shouldLoad", "innerRef"]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", Object.assign({}, l, {
+    decoding: "async",
+    loading: a,
+    src: s ? r : void 0,
+    "data-src": s ? void 0 : r,
+    srcSet: s ? n : void 0,
+    "data-srcset": s ? void 0 : n,
+    alt: o,
+    ref: u
+  }));
+},
+    V = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(function (t, r) {
+  var n = t.fallback,
+      a = t.sources,
+      i = void 0 === a ? [] : a,
+      o = t.shouldLoad,
+      s = void 0 === o || o,
+      u = c(t, ["fallback", "sources", "shouldLoad"]),
+      l = u.sizes || (null == n ? void 0 : n.sizes),
+      d = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(H, Object.assign({}, u, n, {
+    sizes: l,
+    shouldLoad: s,
+    innerRef: r
+  }));
+  return i.length ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("picture", null, i.map(function (t) {
+    var r = t.media,
+        n = t.srcSet,
+        a = t.type;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+      key: r + "-" + a + "-" + n,
+      type: a,
+      media: r,
+      srcSet: n,
+      sizes: l
+    });
+  }), d) : d;
+});
+
+H.propTypes = {
+  src: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+  alt: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+  sizes: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+  srcSet: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_1__["bool"]
+}, V.displayName = "Picture", V.propTypes = {
+  alt: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_1__["bool"],
+  fallback: Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["exact"])({
+    src: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+    sizes: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"]
+  }),
+  sources: Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["arrayOf"])(Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["oneOfType"])([Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["exact"])({
+    media: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+    type: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+    sizes: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired
+  }), Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["exact"])({
+    media: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+    type: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
+    sizes: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired
+  })]))
+};
+
+var F = function (t) {
+  var r = t.fallback,
+      n = c(t, ["fallback"]);
+  return r ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(V, Object.assign({}, n, {
+    fallback: {
+      src: r
+    },
+    "aria-hidden": !0,
+    alt: ""
+  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object.assign({}, n));
+};
+
+F.displayName = "Placeholder", F.propTypes = {
+  fallback: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"],
+  sources: null == (D = V.propTypes) ? void 0 : D.sources,
+  alt: function (e, t, r) {
+    return e[t] ? new Error("Invalid prop `" + t + "` supplied to `" + r + "`. Validation failed.") : null;
+  }
+};
+var B = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(function (t, r) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(V, Object.assign({
+    ref: r
+  }, t)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("noscript", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(V, Object.assign({}, t, {
+    shouldLoad: !0
+  }))));
+});
+B.displayName = "MainImage", B.propTypes = V.propTypes;
+
+var Y = function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    type: "module",
+    dangerouslySetInnerHTML: {
+      __html: 'const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t)e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset")),e.complete&&(e.style.opacity=1)}'
+    }
+  });
+},
+    U = function (t) {
+  var n = t.layout,
+      a = t.width,
+      i = t.height,
+      o = t.children,
+      s = null;
+  return "fullWidth" === n && (s = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "aria-hidden": !0,
+    style: {
+      paddingTop: i / a * 100 + "%"
+    }
+  })), "constrained" === n && (s = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      maxWidth: a,
+      display: "block"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "",
+    role: "presentation",
+    "aria-hidden": "true",
+    src: "data:image/svg+xml;charset=utf-8,%3Csvg height='" + i + "' width='" + a + "' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
+    style: {
+      maxWidth: "100%",
+      display: "block",
+      position: "static"
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, s, o, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Y, null));
+},
+    X = function (e) {
+  return e.replace(/\n/g, "");
+},
+    $ = function (t) {
+  var r = t.as,
+      n = void 0 === r ? "div" : r,
+      a = t.children,
+      i = c(t, ["as", "children"]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(n, Object.assign({}, i), a);
+},
+    Z = function (t) {
+  var r = t.as,
+      n = t.className,
+      a = t.class,
+      i = t.style,
+      o = t.image,
+      s = t.loading,
+      u = void 0 === s ? "lazy" : s,
+      d = t.imgClassName,
+      h = t.imgStyle,
+      g = t.backgroundColor,
+      f = t.objectFit,
+      p = t.objectPosition,
+      m = c(t, ["as", "className", "class", "style", "image", "loading", "imgClassName", "imgStyle", "backgroundColor", "objectFit", "objectPosition"]);
+  if (!o) return console.warn("[gatsby-plugin-image] Missing image prop"), null;
+  a && (n = a), h = l({
+    objectFit: f,
+    objectPosition: p,
+    backgroundColor: g
+  }, h);
+
+  var v = o.width,
+      w = o.height,
+      y = o.layout,
+      b = o.images,
+      E = o.placeholder,
+      S = o.backgroundColor,
+      k = function (e, t, r) {
+    var n = {},
+        a = "gatsby-image-wrapper";
+    return global.GATSBY___IMAGE || (n.position = "relative", n.overflow = "hidden"), "fixed" === r ? (n.width = e, n.height = t) : "constrained" === r && (global.GATSBY___IMAGE || (n.display = "inline-block"), a = "gatsby-image-wrapper gatsby-image-wrapper-constrained"), {
+      className: a,
+      "data-gatsby-image-wrapper": "",
+      style: n
+    };
+  }(v, w, y),
+      j = k.style,
+      M = k.className,
+      R = c(k, ["style", "className"]),
+      A = {
+    fallback: void 0,
+    sources: []
+  };
+
+  return b.fallback && (A.fallback = l({}, b.fallback, {
+    srcSet: b.fallback.srcSet ? X(b.fallback.srcSet) : void 0
+  })), b.sources && (A.sources = b.sources.map(function (e) {
+    return l({}, e, {
+      srcSet: X(e.srcSet)
+    });
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement($, Object.assign({}, R, {
+    as: r,
+    style: l({}, j, i, {
+      backgroundColor: g
+    }),
+    className: M + (n ? " " + n : "")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(U, {
+    layout: y,
+    width: v,
+    height: w
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(F, Object.assign({}, function (e, t, r, n, a, i) {
+    var o = {};
+    i && (o.backgroundColor = i, "fixed" === r ? (o.width = n, o.height = a, o.backgroundColor = i, o.position = "relative") : ("constrained" === r || "fullWidth" === r) && (o.position = "absolute", o.top = 0, o.left = 0, o.bottom = 0, o.right = 0));
+    var s = l({}, e, {
+      "aria-hidden": !0,
+      "data-placeholder-image": "",
+      style: l({
+        opacity: 1,
+        transition: "opacity 500ms linear"
+      }, o)
+    });
+    return global.GATSBY___IMAGE || (s.style = {
+      height: "100%",
+      left: 0,
+      position: "absolute",
+      top: 0,
+      width: "100%"
+    }), s;
+  }(E, 0, y, v, w, S))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(B, Object.assign({
+    "data-gatsby-image-ssr": "",
+    className: d
+  }, m, function (e, t, r, n, a, i, o, s) {
+    return void 0 === s && (s = {}), global.GATSBY___IMAGE || (s = l({
+      height: "100%",
+      left: 0,
+      position: "absolute",
+      top: 0,
+      transform: "translateZ(0)",
+      transition: "opacity 250ms linear",
+      width: "100%",
+      willChange: "opacity"
+    }, s)), l({}, r, {
+      loading: n,
+      shouldLoad: e,
+      "data-main-image": "",
+      style: l({}, s, {
+        opacity: 0
+      }),
+      onLoad: function (e) {
+        var t = e.currentTarget,
+            r = new Image();
+        r.src = t.currentSrc, r.decode ? r.decode().catch(function () {}).then(function () {
+          (void 0)(!0);
+        }) : (void 0)(!0);
+      },
+      ref: void 0
+    });
+  }("eager" === u, 0, A, u, 0, 0, 0, h)))));
+},
+    J = function (t) {
+  return function (r) {
+    var n = r.src,
+        a = r.__imageData,
+        i = r.__error,
+        o = c(r, ["src", "__imageData", "__error", "width", "height", "aspectRatio", "tracedSVGOptions", "placeholder", "formats", "quality", "transformOptions", "jpgOptions", "pngOptions", "webpOptions", "avifOptions", "blurredOptions"]);
+    return i && console.warn(i), a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(t, Object.assign({
+      image: a
+    }, o)) : (console.warn("Image not loaded", n), i || "development" !== "development" || console.warn('Please ensure that "gatsby-plugin-image" is included in the plugins array in gatsby-config.js, and that your version of gatsby is at least 2.24.78'), null);
+  };
+}(Z),
+    K = function (e, t) {
+  return "fullWidth" !== e.layout || "width" !== t && "height" !== t || !e[t] ? prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.apply(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a, [e, t].concat([].slice.call(arguments, 2))) : new Error('"' + t + '" ' + e[t] + " may not be passed when layout is fullWidth.");
+},
+    Q = new Set(["fixed", "fullWidth", "constrained"]),
+    ee = {
+  src: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  alt: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  width: K,
+  height: K,
+  sizes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  layout: function (e) {
+    if (void 0 !== e.layout && !Q.has(e.layout)) return new Error("Invalid value " + e.layout + '" provided for prop "layout". Defaulting to "constrained". Valid values are "fixed", "fullWidth" or "constrained".');
+  }
+};
+
+J.displayName = "StaticImage", J.propTypes = ee;
 
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-image/index.js":
-/*!********************************************!*\
-  !*** ./node_modules/gatsby-image/index.js ***!
-  \********************************************/
+/***/ "./node_modules/gatsby-plugin-image/gatsby-ssr.js":
+/*!********************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/gatsby-ssr.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+var React = __webpack_require__(/*! react */ "react");
 
+var commonTags = __webpack_require__(/*! common-tags */ "common-tags");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.default = void 0;
-
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
-
-var _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js"));
-
-var _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"));
-
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
-var logDeprecationNotice = function logDeprecationNotice(prop, replacement) {
-  if (false) {}
-
-  console.log("\n    The \"" + prop + "\" prop is now deprecated and will be removed in the next major version\n    of \"gatsby-image\".\n    ");
-
-  if (replacement) {
-    console.log("Please use " + replacement + " instead of \"" + prop + "\".");
-  }
-}; // Handle legacy props during their deprecation phase
-
-
-var convertProps = function convertProps(props) {
-  var convertedProps = (0, _extends2.default)({}, props);
-  var resolutions = convertedProps.resolutions,
-      sizes = convertedProps.sizes,
-      critical = convertedProps.critical;
-
-  if (resolutions) {
-    convertedProps.fixed = resolutions;
-    logDeprecationNotice("resolutions", "the gatsby-image v2 prop \"fixed\"");
-    delete convertedProps.resolutions;
-  }
-
-  if (sizes) {
-    convertedProps.fluid = sizes;
-    logDeprecationNotice("sizes", "the gatsby-image v2 prop \"fluid\"");
-    delete convertedProps.sizes;
-  }
-
-  if (critical) {
-    logDeprecationNotice("critical", "the native \"loading\" attribute");
-    convertedProps.loading = "eager";
-  } // convert fluid & fixed to arrays so we only have to work with arrays
-
-
-  if (convertedProps.fluid) {
-    convertedProps.fluid = groupByMedia([].concat(convertedProps.fluid));
-  }
-
-  if (convertedProps.fixed) {
-    convertedProps.fixed = groupByMedia([].concat(convertedProps.fixed));
-  }
-
-  return convertedProps;
-};
-/**
- * Checks if fluid or fixed are art-direction arrays.
- *
- * @param currentData  {{media?: string}[]}   The props to check for images.
- * @return {boolean}
- */
-
-
-var hasArtDirectionSupport = function hasArtDirectionSupport(currentData) {
-  return !!currentData && Array.isArray(currentData) && currentData.some(function (image) {
-    return typeof image.media !== "undefined";
-  });
-};
-/**
- * Tries to detect if a media query matches the current viewport.
- * @property media   {{media?: string}}  A media query string.
- * @return {boolean}
- */
-
-
-var matchesMedia = function matchesMedia(_ref) {
-  var media = _ref.media;
-  return media ? isBrowser && !!window.matchMedia(media).matches : false;
-};
-/**
- * Find the source of an image to use as a key in the image cache.
- * Use `the first image in either `fixed` or `fluid`
- * @param {{fluid: {src: string, media?: string}[], fixed: {src: string, media?: string}[]}} args
- * @return {string?} Returns image src or undefined it not given.
- */
-
-
-var getImageCacheKey = function getImageCacheKey(_ref2) {
-  var fluid = _ref2.fluid,
-      fixed = _ref2.fixed;
-  var srcData = getCurrentSrcData(fluid || fixed || []);
-  return srcData && srcData.src;
-};
-/**
- * Returns the current src - Preferably with art-direction support.
- * @param currentData  {{media?: string}[], maxWidth?: Number, maxHeight?: Number}   The fluid or fixed image array.
- * @return {{src: string, media?: string, maxWidth?: Number, maxHeight?: Number}}
- */
-
-
-var getCurrentSrcData = function getCurrentSrcData(currentData) {
-  if (isBrowser && hasArtDirectionSupport(currentData)) {
-    // Do we have an image for the current Viewport?
-    var foundMedia = currentData.findIndex(matchesMedia);
-
-    if (foundMedia !== -1) {
-      return currentData[foundMedia];
-    } // No media matches, select first element without a media condition
-
-
-    var noMedia = currentData.findIndex(function (image) {
-      return typeof image.media === "undefined";
-    });
-
-    if (noMedia !== -1) {
-      return currentData[noMedia];
-    }
-  } // Else return the first image.
-
-
-  return currentData[0];
-}; // Cache if we've seen an image before so we don't bother with
-// lazy-loading & fading in on subsequent mounts.
-
-
-var imageCache = Object.create({});
-
-var inImageCache = function inImageCache(props) {
-  var convertedProps = convertProps(props);
-  var cacheKey = getImageCacheKey(convertedProps);
-  return imageCache[cacheKey] || false;
-};
-
-var activateCacheForImage = function activateCacheForImage(props) {
-  var convertedProps = convertProps(props);
-  var cacheKey = getImageCacheKey(convertedProps);
-
-  if (cacheKey) {
-    imageCache[cacheKey] = true;
-  }
-}; // Native lazy-loading support: https://addyosmani.com/blog/lazy-loading/
-
-
-var hasNativeLazyLoadSupport = typeof HTMLImageElement !== "undefined" && "loading" in HTMLImageElement.prototype;
-var isBrowser = typeof window !== "undefined";
-var hasIOSupport = isBrowser && window.IntersectionObserver;
-var io;
-var listeners = new WeakMap();
-
-function getIO() {
-  if (typeof io === "undefined" && typeof window !== "undefined" && window.IntersectionObserver) {
-    io = new window.IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (listeners.has(entry.target)) {
-          var cb = listeners.get(entry.target); // Edge doesn't currently support isIntersecting, so also test for an intersectionRatio > 0
-
-          if (entry.isIntersecting || entry.intersectionRatio > 0) {
-            io.unobserve(entry.target);
-            listeners.delete(entry.target);
-            cb();
-          }
-        }
-      });
-    }, {
-      rootMargin: "200px"
-    });
-  }
-
-  return io;
-}
-
-function generateImageSources(imageVariants) {
-  return imageVariants.map(function (_ref3) {
-    var src = _ref3.src,
-        srcSet = _ref3.srcSet,
-        srcSetWebp = _ref3.srcSetWebp,
-        media = _ref3.media,
-        sizes = _ref3.sizes;
-    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, {
-      key: src
-    }, srcSetWebp && /*#__PURE__*/_react.default.createElement("source", {
-      type: "image/webp",
-      media: media,
-      srcSet: srcSetWebp,
-      sizes: sizes
-    }), srcSet && /*#__PURE__*/_react.default.createElement("source", {
-      media: media,
-      srcSet: srcSet,
-      sizes: sizes
-    }));
-  });
-} // Return an array ordered by elements having a media prop, does not use
-// native sort, as a stable sort is not guaranteed by all browsers/versions
-
-
-function groupByMedia(imageVariants) {
-  var withMedia = [];
-  var without = [];
-  imageVariants.forEach(function (variant) {
-    return (variant.media ? withMedia : without).push(variant);
-  });
-
-  if (without.length > 1 && "development" !== "production") {
-    console.warn("We've found " + without.length + " sources without a media property. They might be ignored by the browser, see: https://www.gatsbyjs.org/packages/gatsby-image/#art-directing-multiple-images");
-  }
-
-  return [].concat(withMedia, without);
-}
-
-function generateTracedSVGSources(imageVariants) {
-  return imageVariants.map(function (_ref4) {
-    var src = _ref4.src,
-        media = _ref4.media,
-        tracedSVG = _ref4.tracedSVG;
-    return /*#__PURE__*/_react.default.createElement("source", {
-      key: src,
-      media: media,
-      srcSet: tracedSVG
-    });
-  });
-}
-
-function generateBase64Sources(imageVariants) {
-  return imageVariants.map(function (_ref5) {
-    var src = _ref5.src,
-        media = _ref5.media,
-        base64 = _ref5.base64;
-    return /*#__PURE__*/_react.default.createElement("source", {
-      key: src,
-      media: media,
-      srcSet: base64
-    });
-  });
-}
-
-function generateNoscriptSource(_ref6, isWebp) {
-  var srcSet = _ref6.srcSet,
-      srcSetWebp = _ref6.srcSetWebp,
-      media = _ref6.media,
-      sizes = _ref6.sizes;
-  var src = isWebp ? srcSetWebp : srcSet;
-  var mediaAttr = media ? "media=\"" + media + "\" " : "";
-  var typeAttr = isWebp ? "type='image/webp' " : "";
-  var sizesAttr = sizes ? "sizes=\"" + sizes + "\" " : "";
-  return "<source " + typeAttr + mediaAttr + "srcset=\"" + src + "\" " + sizesAttr + "/>";
-}
-
-function generateNoscriptSources(imageVariants) {
-  return imageVariants.map(function (variant) {
-    return (variant.srcSetWebp ? generateNoscriptSource(variant, true) : "") + generateNoscriptSource(variant);
-  }).join("");
-}
-
-var listenToIntersections = function listenToIntersections(el, cb) {
-  var observer = getIO();
-
-  if (observer) {
-    observer.observe(el);
-    listeners.set(el, cb);
-  }
-
-  return function () {
-    observer.unobserve(el);
-    listeners.delete(el);
+var generateHtml = function generateHtml(str) {
+  return {
+    __html: commonTags.oneLine(str)
   };
 };
 
-var noscriptImg = function noscriptImg(props) {
-  // Check if prop exists before adding each attribute to the string output below to prevent
-  // HTML validation issues caused by empty values like width="" and height=""
-  var src = props.src ? "src=\"" + props.src + "\" " : "src=\"\" "; // required attribute
+function onRenderBody(_ref) {
+  var setHeadComponents = _ref.setHeadComponents;
+  setHeadComponents([React.createElement("style", {
+    key: "gatsby-image-style",
+    dangerouslySetInnerHTML: generateHtml(".gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper img{all:inherit;bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block}")
+  }), React.createElement("noscript", {
+    key: "gatsby-image-style-noscript",
+    dangerouslySetInnerHTML: generateHtml("<style>" + ".gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}" + "</style>")
+  }), React.createElement("script", {
+    key: "gatsby-image-style-script",
+    type: "module",
+    dangerouslySetInnerHTML: generateHtml("const e=\"undefined\"!=typeof HTMLImageElement&&\"loading\"in HTMLImageElement.prototype;e&&document.body.addEventListener(\"load\",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector(\"[data-placeholder-image]\"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition=\"opacity 500ms linear\")}))}),!0);")
+  })]);
+}
 
-  var sizes = props.sizes ? "sizes=\"" + props.sizes + "\" " : "";
-  var srcSet = props.srcSet ? "srcset=\"" + props.srcSet + "\" " : "";
-  var title = props.title ? "title=\"" + props.title + "\" " : "";
-  var alt = props.alt ? "alt=\"" + props.alt + "\" " : "alt=\"\" "; // required attribute
-
-  var width = props.width ? "width=\"" + props.width + "\" " : "";
-  var height = props.height ? "height=\"" + props.height + "\" " : "";
-  var crossOrigin = props.crossOrigin ? "crossorigin=\"" + props.crossOrigin + "\" " : "";
-  var loading = props.loading ? "loading=\"" + props.loading + "\" " : "";
-  var draggable = props.draggable ? "draggable=\"" + props.draggable + "\" " : "";
-  var sources = generateNoscriptSources(props.imageVariants);
-  return "<picture>" + sources + "<img " + loading + width + height + sizes + srcSet + src + alt + title + crossOrigin + draggable + "style=\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\"/></picture>";
-}; // Earlier versions of gatsby-image during the 2.x cycle did not wrap
-// the `Img` component in a `picture` element. This maintains compatibility
-// until a breaking change can be introduced in the next major release
-
-
-var Placeholder = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
-  var src = props.src,
-      imageVariants = props.imageVariants,
-      generateSources = props.generateSources,
-      spreadProps = props.spreadProps,
-      ariaHidden = props.ariaHidden;
-
-  var baseImage = /*#__PURE__*/_react.default.createElement(Img, (0, _extends2.default)({
-    ref: ref,
-    src: src
-  }, spreadProps, {
-    ariaHidden: ariaHidden
-  }));
-
-  return imageVariants.length > 1 ? /*#__PURE__*/_react.default.createElement("picture", null, generateSources(imageVariants), baseImage) : baseImage;
-});
-
-var Img = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
-  var sizes = props.sizes,
-      srcSet = props.srcSet,
-      src = props.src,
-      style = props.style,
-      onLoad = props.onLoad,
-      onError = props.onError,
-      loading = props.loading,
-      draggable = props.draggable,
-      ariaHidden = props.ariaHidden,
-      otherProps = (0, _objectWithoutPropertiesLoose2.default)(props, ["sizes", "srcSet", "src", "style", "onLoad", "onError", "loading", "draggable", "ariaHidden"]);
-  return /*#__PURE__*/_react.default.createElement("img", (0, _extends2.default)({
-    "aria-hidden": ariaHidden,
-    sizes: sizes,
-    srcSet: srcSet,
-    src: src
-  }, otherProps, {
-    onLoad: onLoad,
-    onError: onError,
-    ref: ref,
-    loading: loading,
-    draggable: draggable,
-    style: (0, _extends2.default)({
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      objectPosition: "center"
-    }, style)
-  }));
-});
-
-Img.propTypes = {
-  style: _propTypes.default.object,
-  onError: _propTypes.default.func,
-  onLoad: _propTypes.default.func
-};
-
-var Image = /*#__PURE__*/function (_React$Component) {
-  (0, _inheritsLoose2.default)(Image, _React$Component);
-
-  function Image(props) {
-    var _this;
-
-    _this = _React$Component.call(this, props) || this; // If this image has already been loaded before then we can assume it's
-    // already in the browser cache so it's cheap to just show directly.
-
-    _this.seenBefore = isBrowser && inImageCache(props);
-    _this.isCritical = props.loading === "eager" || props.critical;
-    _this.addNoScript = !(_this.isCritical && !props.fadeIn);
-    _this.useIOSupport = !hasNativeLazyLoadSupport && hasIOSupport && !_this.isCritical && !_this.seenBefore;
-    var isVisible = _this.isCritical || isBrowser && (hasNativeLazyLoadSupport || !_this.useIOSupport);
-    _this.state = {
-      isVisible: isVisible,
-      imgLoaded: false,
-      imgCached: false,
-      fadeIn: !_this.seenBefore && props.fadeIn,
-      isHydrated: false
-    };
-    _this.imageRef = /*#__PURE__*/_react.default.createRef();
-    _this.placeholderRef = props.placeholderRef || /*#__PURE__*/_react.default.createRef();
-    _this.handleImageLoaded = _this.handleImageLoaded.bind((0, _assertThisInitialized2.default)(_this));
-    _this.handleRef = _this.handleRef.bind((0, _assertThisInitialized2.default)(_this));
-    return _this;
-  }
-
-  var _proto = Image.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this.setState({
-      isHydrated: isBrowser
-    });
-
-    if (this.state.isVisible && typeof this.props.onStartLoad === "function") {
-      this.props.onStartLoad({
-        wasCached: inImageCache(this.props)
-      });
-    }
-
-    if (this.isCritical) {
-      var img = this.imageRef.current;
-
-      if (img && img.complete) {
-        this.handleImageLoaded();
-      }
-    }
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.cleanUpListeners) {
-      this.cleanUpListeners();
-    }
-  } // Specific to IntersectionObserver based lazy-load support
-  ;
-
-  _proto.handleRef = function handleRef(ref) {
-    var _this2 = this;
-
-    if (this.useIOSupport && ref) {
-      this.cleanUpListeners = listenToIntersections(ref, function () {
-        var imageInCache = inImageCache(_this2.props);
-
-        if (!_this2.state.isVisible && typeof _this2.props.onStartLoad === "function") {
-          _this2.props.onStartLoad({
-            wasCached: imageInCache
-          });
-        } // imgCached and imgLoaded must update after isVisible,
-        // Once isVisible is true, imageRef becomes accessible, which imgCached needs access to.
-        // imgLoaded and imgCached are in a 2nd setState call to be changed together,
-        // avoiding initiating unnecessary animation frames from style changes.
-
-
-        _this2.setState({
-          isVisible: true
-        }, function () {
-          _this2.setState({
-            imgLoaded: imageInCache,
-            // `currentSrc` should be a string, but can be `undefined` in IE,
-            // !! operator validates the value is not undefined/null/""
-            // for lazyloaded components this might be null
-            // TODO fix imgCached behaviour as it's now false when it's lazyloaded
-            imgCached: !!(_this2.imageRef.current && _this2.imageRef.current.currentSrc)
-          });
-        });
-      });
-    }
-  };
-
-  _proto.handleImageLoaded = function handleImageLoaded() {
-    activateCacheForImage(this.props);
-    this.setState({
-      imgLoaded: true
-    });
-
-    if (this.props.onLoad) {
-      this.props.onLoad();
-    }
-  };
-
-  _proto.render = function render() {
-    var _convertProps = convertProps(this.props),
-        title = _convertProps.title,
-        alt = _convertProps.alt,
-        className = _convertProps.className,
-        _convertProps$style = _convertProps.style,
-        style = _convertProps$style === void 0 ? {} : _convertProps$style,
-        _convertProps$imgStyl = _convertProps.imgStyle,
-        imgStyle = _convertProps$imgStyl === void 0 ? {} : _convertProps$imgStyl,
-        _convertProps$placeho = _convertProps.placeholderStyle,
-        placeholderStyle = _convertProps$placeho === void 0 ? {} : _convertProps$placeho,
-        placeholderClassName = _convertProps.placeholderClassName,
-        fluid = _convertProps.fluid,
-        fixed = _convertProps.fixed,
-        backgroundColor = _convertProps.backgroundColor,
-        durationFadeIn = _convertProps.durationFadeIn,
-        Tag = _convertProps.Tag,
-        itemProp = _convertProps.itemProp,
-        loading = _convertProps.loading,
-        draggable = _convertProps.draggable;
-
-    var imageVariants = fluid || fixed; // Abort early if missing image data (#25371)
-
-    if (!imageVariants) {
-      return null;
-    }
-
-    var shouldReveal = this.state.fadeIn === false || this.state.imgLoaded;
-    var shouldFadeIn = this.state.fadeIn === true && !this.state.imgCached;
-    var imageStyle = (0, _extends2.default)({
-      opacity: shouldReveal ? 1 : 0,
-      transition: shouldFadeIn ? "opacity " + durationFadeIn + "ms" : "none"
-    }, imgStyle);
-    var bgColor = typeof backgroundColor === "boolean" ? "lightgray" : backgroundColor;
-    var delayHideStyle = {
-      transitionDelay: durationFadeIn + "ms"
-    };
-    var imagePlaceholderStyle = (0, _extends2.default)({
-      opacity: this.state.imgLoaded ? 0 : 1
-    }, shouldFadeIn && delayHideStyle, imgStyle, placeholderStyle);
-    var placeholderImageProps = {
-      title: title,
-      alt: !this.state.isVisible ? alt : "",
-      style: imagePlaceholderStyle,
-      className: placeholderClassName,
-      itemProp: itemProp
-    }; // Initial client render state needs to match SSR until hydration finishes.
-    // Once hydration completes, render again to update to the correct image.
-    // `imageVariants` is always an Array type at this point due to `convertProps()`
-
-    var image = !this.state.isHydrated ? imageVariants[0] : getCurrentSrcData(imageVariants);
-
-    if (fluid) {
-      return /*#__PURE__*/_react.default.createElement(Tag, {
-        className: (className ? className : "") + " gatsby-image-wrapper",
-        style: (0, _extends2.default)({
-          position: "relative",
-          overflow: "hidden",
-          maxWidth: image.maxWidth ? image.maxWidth + "px" : null,
-          maxHeight: image.maxHeight ? image.maxHeight + "px" : null
-        }, style),
-        ref: this.handleRef,
-        key: "fluid-" + JSON.stringify(image.srcSet)
-      }, /*#__PURE__*/_react.default.createElement(Tag, {
-        "aria-hidden": true,
-        style: {
-          width: "100%",
-          paddingBottom: 100 / image.aspectRatio + "%"
-        }
-      }), bgColor && /*#__PURE__*/_react.default.createElement(Tag, {
-        "aria-hidden": true,
-        title: title,
-        style: (0, _extends2.default)({
-          backgroundColor: bgColor,
-          position: "absolute",
-          top: 0,
-          bottom: 0,
-          opacity: !this.state.imgLoaded ? 1 : 0,
-          right: 0,
-          left: 0
-        }, shouldFadeIn && delayHideStyle)
-      }), image.base64 && /*#__PURE__*/_react.default.createElement(Placeholder, {
-        ariaHidden: true,
-        ref: this.placeholderRef,
-        src: image.base64,
-        spreadProps: placeholderImageProps,
-        imageVariants: imageVariants,
-        generateSources: generateBase64Sources
-      }), image.tracedSVG && /*#__PURE__*/_react.default.createElement(Placeholder, {
-        ariaHidden: true,
-        ref: this.placeholderRef,
-        src: image.tracedSVG,
-        spreadProps: placeholderImageProps,
-        imageVariants: imageVariants,
-        generateSources: generateTracedSVGSources
-      }), this.state.isVisible && /*#__PURE__*/_react.default.createElement("picture", null, generateImageSources(imageVariants), /*#__PURE__*/_react.default.createElement(Img, {
-        alt: alt,
-        title: title,
-        sizes: image.sizes,
-        src: image.src,
-        crossOrigin: this.props.crossOrigin,
-        srcSet: image.srcSet,
-        style: imageStyle,
-        ref: this.imageRef,
-        onLoad: this.handleImageLoaded,
-        onError: this.props.onError,
-        itemProp: itemProp,
-        loading: loading,
-        draggable: draggable
-      })), this.addNoScript && /*#__PURE__*/_react.default.createElement("noscript", {
-        dangerouslySetInnerHTML: {
-          __html: noscriptImg((0, _extends2.default)({
-            alt: alt,
-            title: title,
-            loading: loading
-          }, image, {
-            imageVariants: imageVariants
-          }))
-        }
-      }));
-    }
-
-    if (fixed) {
-      var divStyle = (0, _extends2.default)({
-        position: "relative",
-        overflow: "hidden",
-        display: "inline-block",
-        width: image.width,
-        height: image.height
-      }, style);
-
-      if (style.display === "inherit") {
-        delete divStyle.display;
-      }
-
-      return /*#__PURE__*/_react.default.createElement(Tag, {
-        className: (className ? className : "") + " gatsby-image-wrapper",
-        style: divStyle,
-        ref: this.handleRef,
-        key: "fixed-" + JSON.stringify(image.srcSet)
-      }, bgColor && /*#__PURE__*/_react.default.createElement(Tag, {
-        "aria-hidden": true,
-        title: title,
-        style: (0, _extends2.default)({
-          backgroundColor: bgColor,
-          width: image.width,
-          opacity: !this.state.imgLoaded ? 1 : 0,
-          height: image.height
-        }, shouldFadeIn && delayHideStyle)
-      }), image.base64 && /*#__PURE__*/_react.default.createElement(Placeholder, {
-        ariaHidden: true,
-        ref: this.placeholderRef,
-        src: image.base64,
-        spreadProps: placeholderImageProps,
-        imageVariants: imageVariants,
-        generateSources: generateBase64Sources
-      }), image.tracedSVG && /*#__PURE__*/_react.default.createElement(Placeholder, {
-        ariaHidden: true,
-        ref: this.placeholderRef,
-        src: image.tracedSVG,
-        spreadProps: placeholderImageProps,
-        imageVariants: imageVariants,
-        generateSources: generateTracedSVGSources
-      }), this.state.isVisible && /*#__PURE__*/_react.default.createElement("picture", null, generateImageSources(imageVariants), /*#__PURE__*/_react.default.createElement(Img, {
-        alt: alt,
-        title: title,
-        width: image.width,
-        height: image.height,
-        sizes: image.sizes,
-        src: image.src,
-        crossOrigin: this.props.crossOrigin,
-        srcSet: image.srcSet,
-        style: imageStyle,
-        ref: this.imageRef,
-        onLoad: this.handleImageLoaded,
-        onError: this.props.onError,
-        itemProp: itemProp,
-        loading: loading,
-        draggable: draggable
-      })), this.addNoScript && /*#__PURE__*/_react.default.createElement("noscript", {
-        dangerouslySetInnerHTML: {
-          __html: noscriptImg((0, _extends2.default)({
-            alt: alt,
-            title: title,
-            loading: loading
-          }, image, {
-            imageVariants: imageVariants
-          }))
-        }
-      }));
-    }
-
-    return null;
-  };
-
-  return Image;
-}(_react.default.Component);
-
-Image.defaultProps = {
-  fadeIn: true,
-  durationFadeIn: 500,
-  alt: "",
-  Tag: "div",
-  // We set it to `lazy` by default because it's best to default to a performant
-  // setting and let the user "opt out" to `eager`
-  loading: "lazy"
-};
-
-var fixedObject = _propTypes.default.shape({
-  width: _propTypes.default.number.isRequired,
-  height: _propTypes.default.number.isRequired,
-  src: _propTypes.default.string.isRequired,
-  srcSet: _propTypes.default.string.isRequired,
-  base64: _propTypes.default.string,
-  tracedSVG: _propTypes.default.string,
-  srcWebp: _propTypes.default.string,
-  srcSetWebp: _propTypes.default.string,
-  media: _propTypes.default.string
-});
-
-var fluidObject = _propTypes.default.shape({
-  aspectRatio: _propTypes.default.number.isRequired,
-  src: _propTypes.default.string.isRequired,
-  srcSet: _propTypes.default.string.isRequired,
-  sizes: _propTypes.default.string.isRequired,
-  base64: _propTypes.default.string,
-  tracedSVG: _propTypes.default.string,
-  srcWebp: _propTypes.default.string,
-  srcSetWebp: _propTypes.default.string,
-  media: _propTypes.default.string,
-  maxWidth: _propTypes.default.number,
-  maxHeight: _propTypes.default.number
-});
-
-function requireFixedOrFluid(originalPropTypes) {
-  return function (props, propName, componentName) {
-    var _PropTypes$checkPropT;
-
-    if (!props.fixed && !props.fluid) {
-      throw new Error("The prop `fluid` or `fixed` is marked as required in `" + componentName + "`, but their values are both `undefined`.");
-    }
-
-    _propTypes.default.checkPropTypes((_PropTypes$checkPropT = {}, _PropTypes$checkPropT[propName] = originalPropTypes, _PropTypes$checkPropT), props, "prop", componentName);
-  };
-} // If you modify these propTypes, please don't forget to update following files as well:
-// https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-image/index.d.ts
-// https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-image/README.md#gatsby-image-props
-// https://github.com/gatsbyjs/gatsby/blob/master/docs/docs/gatsby-image.md#gatsby-image-props
-
-
-Image.propTypes = {
-  resolutions: fixedObject,
-  sizes: fluidObject,
-  fixed: requireFixedOrFluid(_propTypes.default.oneOfType([fixedObject, _propTypes.default.arrayOf(fixedObject)])),
-  fluid: requireFixedOrFluid(_propTypes.default.oneOfType([fluidObject, _propTypes.default.arrayOf(fluidObject)])),
-  fadeIn: _propTypes.default.bool,
-  durationFadeIn: _propTypes.default.number,
-  title: _propTypes.default.string,
-  alt: _propTypes.default.string,
-  className: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
-  // Support Glamor's css prop.
-  critical: _propTypes.default.bool,
-  crossOrigin: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.bool]),
-  style: _propTypes.default.object,
-  imgStyle: _propTypes.default.object,
-  placeholderStyle: _propTypes.default.object,
-  placeholderClassName: _propTypes.default.string,
-  backgroundColor: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.bool]),
-  onLoad: _propTypes.default.func,
-  onError: _propTypes.default.func,
-  onStartLoad: _propTypes.default.func,
-  Tag: _propTypes.default.string,
-  itemProp: _propTypes.default.string,
-  loading: _propTypes.default.oneOf(["auto", "lazy", "eager"]),
-  draggable: _propTypes.default.bool
-};
-var _default = Image;
-exports.default = _default;
+exports.onRenderBody = onRenderBody;
 
 /***/ }),
 
@@ -3142,7 +3155,7 @@ var printWarning = function() {};
 if (true) {
   var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
-  var has = Function.call.bind(Object.prototype.hasOwnProperty);
+  var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 
   printWarning = function(text) {
     var message = 'Warning: ' + text;
@@ -3154,7 +3167,7 @@ if (true) {
       // This error was thrown as a convenience so that you can use this stack
       // to find the callsite that caused this warning to fire.
       throw new Error(message);
-    } catch (x) {}
+    } catch (x) { /**/ }
   };
 }
 
@@ -3183,7 +3196,8 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
           if (typeof typeSpecs[typeSpecName] !== 'function') {
             var err = Error(
               (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
-              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
+              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.' +
+              'This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.'
             );
             err.name = 'Invariant Violation';
             throw err;
@@ -3255,9 +3269,9 @@ var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
 
-var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
 
 if (true) {
@@ -3358,6 +3372,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
   var ReactPropTypes = {
     array: createPrimitiveTypeChecker('array'),
+    bigint: createPrimitiveTypeChecker('bigint'),
     bool: createPrimitiveTypeChecker('boolean'),
     func: createPrimitiveTypeChecker('function'),
     number: createPrimitiveTypeChecker('number'),
@@ -3403,8 +3418,9 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    * is prohibitively expensive if they are created too often, such as what
    * happens in oneOfType() for any type before the one that matched.
    */
-  function PropTypeError(message) {
+  function PropTypeError(message, data) {
     this.message = message;
+    this.data = data && typeof data === 'object' ? data: {};
     this.stack = '';
   }
   // Make `instanceof Error` still work for returned errors.
@@ -3439,7 +3455,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           ) {
             printWarning(
               'You are manually calling a React.PropTypes validation ' +
-              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'function for the `' + propFullName + '` prop on `' + componentName + '`. This is deprecated ' +
               'and will throw in the standalone `prop-types` package. ' +
               'You may be seeing this warning due to a third-party PropTypes ' +
               'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
@@ -3478,7 +3494,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
         // 'of type `object`'.
         var preciseType = getPreciseType(propValue);
 
-        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+        return new PropTypeError(
+          'Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'),
+          {expectedType: expectedType}
+        );
       }
       return null;
     }
@@ -3622,14 +3641,19 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     }
 
     function validate(props, propName, componentName, location, propFullName) {
+      var expectedTypes = [];
       for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
         var checker = arrayOfTypeCheckers[i];
-        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+        var checkerResult = checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret);
+        if (checkerResult == null) {
           return null;
         }
+        if (checkerResult.data && has(checkerResult.data, 'expectedType')) {
+          expectedTypes.push(checkerResult.data.expectedType);
+        }
       }
-
-      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+      var expectedTypesMessage = (expectedTypes.length > 0) ? ', expected one of type [' + expectedTypes.join(', ') + ']': '';
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`' + expectedTypesMessage + '.'));
     }
     return createChainableTypeChecker(validate);
   }
@@ -3644,6 +3668,13 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return createChainableTypeChecker(validate);
   }
 
+  function invalidValidatorError(componentName, location, propFullName, key, type) {
+    return new PropTypeError(
+      (componentName || 'React class') + ': ' + location + ' type `' + propFullName + '.' + key + '` is invalid; ' +
+      'it must be a function, usually from the `prop-types` package, but received `' + type + '`.'
+    );
+  }
+
   function createShapeTypeChecker(shapeTypes) {
     function validate(props, propName, componentName, location, propFullName) {
       var propValue = props[propName];
@@ -3653,8 +3684,8 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       }
       for (var key in shapeTypes) {
         var checker = shapeTypes[key];
-        if (!checker) {
-          continue;
+        if (typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
         if (error) {
@@ -3673,16 +3704,18 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       if (propType !== 'object') {
         return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
       }
-      // We need to check all keys in case some are required but missing from
-      // props.
+      // We need to check all keys in case some are required but missing from props.
       var allKeys = assign({}, props[propName], shapeTypes);
       for (var key in allKeys) {
         var checker = shapeTypes[key];
+        if (has(shapeTypes, key) && typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
+        }
         if (!checker) {
           return new PropTypeError(
             'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
             '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
-            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+            '\nValid keys: ' + JSON.stringify(Object.keys(shapeTypes), null, '  ')
           );
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
@@ -3887,6 +3920,18 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
+/***/ "./node_modules/prop-types/lib/has.js":
+/*!********************************************!*\
+  !*** ./node_modules/prop-types/lib/has.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
 /***/ "./node_modules/query-string/index.js":
 /*!********************************************!*\
   !*** ./node_modules/query-string/index.js ***!
@@ -3896,93 +3941,54 @@ module.exports = ReactPropTypesSecret;
 
 "use strict";
 
-const strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
-const decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
-const splitOnFirst = __webpack_require__(/*! split-on-first */ "./node_modules/split-on-first/index.js");
-const filterObject = __webpack_require__(/*! filter-obj */ "./node_modules/filter-obj/index.js");
+var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
+var objectAssign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+var decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
 
-const isNullOrUndefined = value => value === null || value === undefined;
-
-function encoderForArrayFormat(options) {
-	switch (options.arrayFormat) {
+function encoderForArrayFormat(opts) {
+	switch (opts.arrayFormat) {
 		case 'index':
-			return key => (result, value) => {
-				const index = result.length;
-
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, [encode(key, options), '[', index, ']'].join('')];
-				}
-
-				return [
-					...result,
-					[encode(key, options), '[', encode(index, options), ']=', encode(value, options)].join('')
-				];
+			return function (key, value, index) {
+				return value === null ? [
+					encode(key, opts),
+					'[',
+					index,
+					']'
+				].join('') : [
+					encode(key, opts),
+					'[',
+					encode(index, opts),
+					']=',
+					encode(value, opts)
+				].join('');
 			};
 
 		case 'bracket':
-			return key => (result, value) => {
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, [encode(key, options), '[]'].join('')];
-				}
-
-				return [...result, [encode(key, options), '[]=', encode(value, options)].join('')];
-			};
-
-		case 'comma':
-		case 'separator':
-			return key => (result, value) => {
-				if (value === null || value === undefined || value.length === 0) {
-					return result;
-				}
-
-				if (result.length === 0) {
-					return [[encode(key, options), '=', encode(value, options)].join('')];
-				}
-
-				return [[result, encode(value, options)].join(options.arrayFormatSeparator)];
+			return function (key, value) {
+				return value === null ? encode(key, opts) : [
+					encode(key, opts),
+					'[]=',
+					encode(value, opts)
+				].join('');
 			};
 
 		default:
-			return key => (result, value) => {
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, encode(key, options)];
-				}
-
-				return [...result, [encode(key, options), '=', encode(value, options)].join('')];
+			return function (key, value) {
+				return value === null ? encode(key, opts) : [
+					encode(key, opts),
+					'=',
+					encode(value, opts)
+				].join('');
 			};
 	}
 }
 
-function parserForArrayFormat(options) {
-	let result;
+function parserForArrayFormat(opts) {
+	var result;
 
-	switch (options.arrayFormat) {
+	switch (opts.arrayFormat) {
 		case 'index':
-			return (key, value, accumulator) => {
+			return function (key, value, accumulator) {
 				result = /\[(\d*)\]$/.exec(key);
 
 				key = key.replace(/\[\d*\]$/, '');
@@ -4000,16 +4006,14 @@ function parserForArrayFormat(options) {
 			};
 
 		case 'bracket':
-			return (key, value, accumulator) => {
+			return function (key, value, accumulator) {
 				result = /(\[\])$/.exec(key);
 				key = key.replace(/\[\]$/, '');
 
 				if (!result) {
 					accumulator[key] = value;
 					return;
-				}
-
-				if (accumulator[key] === undefined) {
+				} else if (accumulator[key] === undefined) {
 					accumulator[key] = [value];
 					return;
 				}
@@ -4017,18 +4021,8 @@ function parserForArrayFormat(options) {
 				accumulator[key] = [].concat(accumulator[key], value);
 			};
 
-		case 'comma':
-		case 'separator':
-			return (key, value, accumulator) => {
-				const isArray = typeof value === 'string' && value.includes(options.arrayFormatSeparator);
-				const isEncodedArray = (typeof value === 'string' && !isArray && decode(value, options).includes(options.arrayFormatSeparator));
-				value = isEncodedArray ? decode(value, options) : value;
-				const newValue = isArray || isEncodedArray ? value.split(options.arrayFormatSeparator).map(item => decode(item, options)) : value === null ? value : decode(value, options);
-				accumulator[key] = newValue;
-			};
-
 		default:
-			return (key, value, accumulator) => {
+			return function (key, value, accumulator) {
 				if (accumulator[key] === undefined) {
 					accumulator[key] = value;
 					return;
@@ -4039,23 +4033,9 @@ function parserForArrayFormat(options) {
 	}
 }
 
-function validateArrayFormatSeparator(value) {
-	if (typeof value !== 'string' || value.length !== 1) {
-		throw new TypeError('arrayFormatSeparator must be single character string');
-	}
-}
-
-function encode(value, options) {
-	if (options.encode) {
-		return options.strict ? strictUriEncode(value) : encodeURIComponent(value);
-	}
-
-	return value;
-}
-
-function decode(value, options) {
-	if (options.decode) {
-		return decodeComponent(value);
+function encode(value, opts) {
+	if (opts.encode) {
+		return opts.strict ? strictUriEncode(value) : encodeURIComponent(value);
 	}
 
 	return value;
@@ -4064,118 +4044,65 @@ function decode(value, options) {
 function keysSorter(input) {
 	if (Array.isArray(input)) {
 		return input.sort();
-	}
-
-	if (typeof input === 'object') {
-		return keysSorter(Object.keys(input))
-			.sort((a, b) => Number(a) - Number(b))
-			.map(key => input[key]);
-	}
-
-	return input;
-}
-
-function removeHash(input) {
-	const hashStart = input.indexOf('#');
-	if (hashStart !== -1) {
-		input = input.slice(0, hashStart);
+	} else if (typeof input === 'object') {
+		return keysSorter(Object.keys(input)).sort(function (a, b) {
+			return Number(a) - Number(b);
+		}).map(function (key) {
+			return input[key];
+		});
 	}
 
 	return input;
 }
 
-function getHash(url) {
-	let hash = '';
-	const hashStart = url.indexOf('#');
-	if (hashStart !== -1) {
-		hash = url.slice(hashStart);
-	}
-
-	return hash;
-}
-
-function extract(input) {
-	input = removeHash(input);
-	const queryStart = input.indexOf('?');
+function extract(str) {
+	var queryStart = str.indexOf('?');
 	if (queryStart === -1) {
 		return '';
 	}
-
-	return input.slice(queryStart + 1);
+	return str.slice(queryStart + 1);
 }
 
-function parseValue(value, options) {
-	if (options.parseNumbers && !Number.isNaN(Number(value)) && (typeof value === 'string' && value.trim() !== '')) {
-		value = Number(value);
-	} else if (options.parseBooleans && value !== null && (value.toLowerCase() === 'true' || value.toLowerCase() === 'false')) {
-		value = value.toLowerCase() === 'true';
-	}
+function parse(str, opts) {
+	opts = objectAssign({arrayFormat: 'none'}, opts);
 
-	return value;
-}
-
-function parse(query, options) {
-	options = Object.assign({
-		decode: true,
-		sort: true,
-		arrayFormat: 'none',
-		arrayFormatSeparator: ',',
-		parseNumbers: false,
-		parseBooleans: false
-	}, options);
-
-	validateArrayFormatSeparator(options.arrayFormatSeparator);
-
-	const formatter = parserForArrayFormat(options);
+	var formatter = parserForArrayFormat(opts);
 
 	// Create an object with no prototype
-	const ret = Object.create(null);
+	// https://github.com/sindresorhus/query-string/issues/47
+	var ret = Object.create(null);
 
-	if (typeof query !== 'string') {
+	if (typeof str !== 'string') {
 		return ret;
 	}
 
-	query = query.trim().replace(/^[?#&]/, '');
+	str = str.trim().replace(/^[?#&]/, '');
 
-	if (!query) {
+	if (!str) {
 		return ret;
 	}
 
-	for (const param of query.split('&')) {
-		if (param === '') {
-			continue;
-		}
+	str.split('&').forEach(function (param) {
+		var parts = param.replace(/\+/g, ' ').split('=');
+		// Firefox (pre 40) decodes `%3D` to `=`
+		// https://github.com/sindresorhus/query-string/pull/37
+		var key = parts.shift();
+		var val = parts.length > 0 ? parts.join('=') : undefined;
 
-		let [key, value] = splitOnFirst(options.decode ? param.replace(/\+/g, ' ') : param, '=');
-
-		// Missing `=` should be `null`:
+		// missing `=` should be `null`:
 		// http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
-		value = value === undefined ? null : ['comma', 'separator'].includes(options.arrayFormat) ? value : decode(value, options);
-		formatter(decode(key, options), value, ret);
-	}
+		val = val === undefined ? null : decodeComponent(val);
 
-	for (const key of Object.keys(ret)) {
-		const value = ret[key];
-		if (typeof value === 'object' && value !== null) {
-			for (const k of Object.keys(value)) {
-				value[k] = parseValue(value[k], options);
-			}
-		} else {
-			ret[key] = parseValue(value, options);
-		}
-	}
+		formatter(decodeComponent(key), val, ret);
+	});
 
-	if (options.sort === false) {
-		return ret;
-	}
-
-	return (options.sort === true ? Object.keys(ret).sort() : Object.keys(ret).sort(options.sort)).reduce((result, key) => {
-		const value = ret[key];
-		if (Boolean(value) && typeof value === 'object' && !Array.isArray(value)) {
+	return Object.keys(ret).sort().reduce(function (result, key) {
+		var val = ret[key];
+		if (Boolean(val) && typeof val === 'object' && !Array.isArray(val)) {
 			// Sort object keys, not values
-			result[key] = keysSorter(value);
+			result[key] = keysSorter(val);
 		} else {
-			result[key] = value;
+			result[key] = val;
 		}
 
 		return result;
@@ -4185,119 +4112,57 @@ function parse(query, options) {
 exports.extract = extract;
 exports.parse = parse;
 
-exports.stringify = (object, options) => {
-	if (!object) {
-		return '';
-	}
-
-	options = Object.assign({
+exports.stringify = function (obj, opts) {
+	var defaults = {
 		encode: true,
 		strict: true,
-		arrayFormat: 'none',
-		arrayFormatSeparator: ','
-	}, options);
+		arrayFormat: 'none'
+	};
 
-	validateArrayFormatSeparator(options.arrayFormatSeparator);
+	opts = objectAssign(defaults, opts);
 
-	const shouldFilter = key => (
-		(options.skipNull && isNullOrUndefined(object[key])) ||
-		(options.skipEmptyString && object[key] === '')
-	);
-
-	const formatter = encoderForArrayFormat(options);
-
-	const objectCopy = {};
-
-	for (const key of Object.keys(object)) {
-		if (!shouldFilter(key)) {
-			objectCopy[key] = object[key];
-		}
+	if (opts.sort === false) {
+		opts.sort = function () {};
 	}
 
-	const keys = Object.keys(objectCopy);
+	var formatter = encoderForArrayFormat(opts);
 
-	if (options.sort !== false) {
-		keys.sort(options.sort);
-	}
+	return obj ? Object.keys(obj).sort(opts.sort).map(function (key) {
+		var val = obj[key];
 
-	return keys.map(key => {
-		const value = object[key];
-
-		if (value === undefined) {
+		if (val === undefined) {
 			return '';
 		}
 
-		if (value === null) {
-			return encode(key, options);
+		if (val === null) {
+			return encode(key, opts);
 		}
 
-		if (Array.isArray(value)) {
-			return value
-				.reduce(formatter(key), [])
-				.join('&');
+		if (Array.isArray(val)) {
+			var result = [];
+
+			val.slice().forEach(function (val2) {
+				if (val2 === undefined) {
+					return;
+				}
+
+				result.push(formatter(key, val2, result.length));
+			});
+
+			return result.join('&');
 		}
 
-		return encode(key, options) + '=' + encode(value, options);
-	}).filter(x => x.length > 0).join('&');
+		return encode(key, opts) + '=' + encode(val, opts);
+	}).filter(function (x) {
+		return x.length > 0;
+	}).join('&') : '';
 };
 
-exports.parseUrl = (url, options) => {
-	options = Object.assign({
-		decode: true
-	}, options);
-
-	const [url_, hash] = splitOnFirst(url, '#');
-
-	return Object.assign(
-		{
-			url: url_.split('?')[0] || '',
-			query: parse(extract(url), options)
-		},
-		options && options.parseFragmentIdentifier && hash ? {fragmentIdentifier: decode(hash, options)} : {}
-	);
-};
-
-exports.stringifyUrl = (object, options) => {
-	options = Object.assign({
-		encode: true,
-		strict: true
-	}, options);
-
-	const url = removeHash(object.url).split('?')[0] || '';
-	const queryFromUrl = exports.extract(object.url);
-	const parsedQueryFromUrl = exports.parse(queryFromUrl, {sort: false});
-
-	const query = Object.assign(parsedQueryFromUrl, object.query);
-	let queryString = exports.stringify(query, options);
-	if (queryString) {
-		queryString = `?${queryString}`;
-	}
-
-	let hash = getHash(object.url);
-	if (object.fragmentIdentifier) {
-		hash = `#${encode(object.fragmentIdentifier, options)}`;
-	}
-
-	return `${url}${queryString}${hash}`;
-};
-
-exports.pick = (input, filter, options) => {
-	options = Object.assign({
-		parseFragmentIdentifier: true
-	}, options);
-
-	const {url, query, fragmentIdentifier} = exports.parseUrl(input, options);
-	return exports.stringifyUrl({
-		url,
-		query: filterObject(query, filter),
-		fragmentIdentifier
-	}, options);
-};
-
-exports.exclude = (input, filter, options) => {
-	const exclusionFilter = Array.isArray(filter) ? key => !filter.includes(key) : (key, value) => !filter(key, value);
-
-	return exports.pick(input, exclusionFilter, options);
+exports.parseUrl = function (str, opts) {
+	return {
+		url: str.split('?')[0] || '',
+		query: parse(extract(str), opts)
+	};
 };
 
 
@@ -11033,6 +10898,13 @@ var IconsManifest = [
     "projectUrl": "https://github.com/microsoft/vscode-codicons",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "tb",
+    "name": "Tabler Icons",
+    "projectUrl": "https://github.com/tabler/tabler-icons",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
   }
 ]
 
@@ -11276,40 +11148,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/split-on-first/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/split-on-first/index.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = (string, separator) => {
-	if (!(typeof string === 'string' && typeof separator === 'string')) {
-		throw new TypeError('Expected the arguments to be of type `string`');
-	}
-
-	if (separator === '') {
-		return [string];
-	}
-
-	const separatorIndex = string.indexOf(separator);
-
-	if (separatorIndex === -1) {
-		return [string];
-	}
-
-	return [
-		string.slice(0, separatorIndex),
-		string.slice(separatorIndex + separator.length)
-	];
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/strict-uri-encode/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/strict-uri-encode/index.js ***!
@@ -11319,7 +11157,11 @@ module.exports = (string, separator) => {
 
 "use strict";
 
-module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.charCodeAt(0).toString(16).toUpperCase()}`);
+module.exports = function (str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function (c) {
+		return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+	});
+};
 
 
 /***/ }),
@@ -11418,7 +11260,8 @@ function Header() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     id: "title"
   }, "Saurabh Totey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    id: "secret-tooltip"
+    id: "secret-tooltip",
+    "aria-hidden": true
   }, "Just in case you didn't know whose website you were on. Read about me on the home page if you don't know what biological species I am.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 }
 
@@ -11643,24 +11486,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_ResponsiveContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ResponsiveContainer */ "./src/components/ResponsiveContainer.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 
 
 
 
-const query = "3690451610";
 
-const Index = ({
-  data
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ResponsiveContainer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+const Index = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ResponsiveContainer__WEBPACK_IMPORTED_MODULE_2__["default"], {
   responsiveWidths: [2, 10]
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  fluid: data.file.childImageSharp.fluid,
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__["StaticImage"], {
+  src: "../../static/images/SaurabhToteyLunchWithFriend.png",
   alt: "Saurabh Totey",
+  placeholder: "none",
+  backgroundColor: "#454545",
   style: {
     width: "100%"
-  }
+  },
+  __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4116551272.json */ "./.cache/caches/gatsby-plugin-image/4116551272.json")
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
   style: {
     margin: "10px"
@@ -11727,13 +11569,24 @@ const Index = ({
 /***/ }),
 
 /***/ "@reach/router":
-/*!****************************************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js" ***!
-  \****************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/gatsby/node_modules/@reach/router/index.js" ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE__reach_router__;
+
+/***/ }),
+
+/***/ "common-tags":
+/*!*********************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/common-tags/lib/index.js" ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_common_tags__;
 
 /***/ }),
 
@@ -11749,9 +11602,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/concat":
-/*!**************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js" ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/concat.js" ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11760,9 +11613,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_concat__;
 /***/ }),
 
 /***/ "lodash/flatten":
-/*!***************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js" ***!
-  \***************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/flatten.js" ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11771,9 +11624,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_flatten__;
 /***/ }),
 
 /***/ "lodash/get":
-/*!***********************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js" ***!
-  \***********************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/get.js" ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11782,9 +11635,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_get__;
 /***/ }),
 
 /***/ "lodash/isObject":
-/*!****************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js" ***!
-  \****************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/isObject.js" ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11793,9 +11646,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_isObject__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!*************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js" ***!
-  \*************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/merge.js" ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11804,9 +11657,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_merge__;
 /***/ }),
 
 /***/ "lodash/uniqBy":
-/*!**************************************************************************************************!*\
-  !*** external "/Users/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js" ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** external "/home/saurabhtotey/Development/Portfolio-Website/node_modules/lodash/uniqBy.js" ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
