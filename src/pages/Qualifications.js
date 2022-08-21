@@ -11,7 +11,7 @@ const Qualifications = () => (
 		<h2>Programming</h2>
 		<p>
 			I love programming! The only limits of software are those imposed by hardware, math, and, most importantly, the
-			developer&apos;s imagination. I am most interested in computability and complexity.
+			developer&apos;s imagination.
 		</p>
 		<p>
 			I host most of my projects on <a href="https://www.github.com/SaurabhTotey">GitHub</a>. I have developed a variety
@@ -21,7 +21,7 @@ const Qualifications = () => (
 		<h2>Physics</h2>
 		<p>
 			I think physics is really cool because it is a science dealing with the fundamental realities of the universe. I
-			am most interested in quantum information and cosmology.
+			am most interested in quantum information.
 		</p>
 		<h2>Languages</h2>
 		<p>
