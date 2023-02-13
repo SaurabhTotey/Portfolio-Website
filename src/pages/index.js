@@ -15,12 +15,12 @@ const Index = () => (
 				style={{ width: "100%" }}
 			/>
 			<p style={{ margin: "10px" }}>
-				Hello! I am Saurabh Totey. Welcome to my little space on the internet. I am a human male. I use the he/him/his
+				Hello! I am a homo sapien named Saurabh Totey. Welcome to my little space on the internet. I use the he/him/his
 				pronouns. I am currently studying engineering physics and computer science at the undergraduate level at the
 				University of Colorado at Boulder. My main passions are science and technology, but I love learning about all
-				sorts of things such as programming, playing musical instruments, and languages. I am also a videogame
-				enthusiast and I love watching television series with overarching stories. I hope one day to make a great change
-				in the world.
+				sorts of things. My hobbies include programming, playing musical instruments, learning languages, and pushing
+				myself at the gym. In my free time, I also enjoy reading, watching television series with overarching stories,
+				and playing videogames. I hope one day to make a great change in the world.
 			</p>
 		</ResponsiveContainer>
 	</Layout>
