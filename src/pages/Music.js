@@ -19,7 +19,7 @@ const Music = () => (
 		<p>
 			Sorry, this page is a work in progress! I plan on uploading more recordings of me playing piano and cello here. I
 			have already included a few of my older samples of me playing. I play these instruments as a hobby because I love
-			music and the feeling growing my abilities and getting better.
+			music and the feeling of growing my abilities and getting better.
 		</p>
 		<Song
 			title="JUSTadICE"
