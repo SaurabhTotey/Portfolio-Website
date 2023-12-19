@@ -1,12 +1,37 @@
-.footerLink {
-	display: inline-block;
+.promptContainer {
+	width: 100%;
+	height: 100%;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerLinkContainer {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footerLink {
+	text-align: center;
+	display: block;
+	width: 100%;
 	padding-top: 3px;
 	color: inherit;
 }
 
 .footerLink:hover {
 	background-color: silver;
+}
+
+.footerLinkText {
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 0 4px;
+	margin: 0;
+	overflow-wrap: break-word;
+	font-size: 0.8em;
 }
 
 footer {

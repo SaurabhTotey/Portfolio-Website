@@ -2,27 +2,27 @@
 	--transition-delay: 60s;
 }
 
-#all-setup-content {
+#all-philosophy-section-content {
 	display: grid;
 }
 
-#normal-setup-content,
-#hidden-setup-content {
+#normal-philosophy-section-content,
+#hidden-philosophy-section-content {
 	grid-row: 1;
 	grid-column: 1;
 }
 
-#hidden-setup-content {
+#hidden-philosophy-section-content {
 	visibility: hidden;
 }
 
-#setup-title:hover + #all-setup-content #normal-setup-content {
+#philosophy-section-title:hover + #all-philosophy-section-content #normal-philosophy-section-content {
 	visibility: hidden;
 	transition-property: visibility;
 	transition-delay: var(--transition-delay);
 }
 
-#setup-title:hover + #all-setup-content #hidden-setup-content {
+#philosophy-section-title:hover + #all-philosophy-section-content #hidden-philosophy-section-content {
 	visibility: visible;
 	transition-property: visibility;
 	transition-delay: var(--transition-delay);
