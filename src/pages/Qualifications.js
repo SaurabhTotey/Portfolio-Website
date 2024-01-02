@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Metadata } from "../components/Metadata";
 
 const Qualifications = () => (
 	<Layout>
@@ -55,3 +56,5 @@ const Qualifications = () => (
 	</Layout>
 );
 export default Qualifications;
+
+export const Head = () => <Metadata />;

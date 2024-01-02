@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Metadata } from "../components/Metadata";
 
 const Music = () => (
 	<Layout>
@@ -10,3 +11,5 @@ const Music = () => (
 	</Layout>
 );
 export default Music;
+
+export const Head = () => <Metadata />;

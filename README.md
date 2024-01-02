@@ -6,3 +6,4 @@ TODO:
   - [ ] reduce icon size
 - [ ] finish pages!!!!
 - [ ] go through and make sure usages of style are necessary and not better served through CSS modules
+- [ ] dark theme (major!)

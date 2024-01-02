@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Metadata } from "../components/Metadata";
 
 const Athletics = () => (
 	<Layout>
@@ -10,3 +11,5 @@ const Athletics = () => (
 	</Layout>
 );
 export default Athletics;
+
+export const Head = () => <Metadata />;

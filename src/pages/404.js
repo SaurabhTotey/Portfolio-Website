@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Metadata } from "../components/Metadata";
 
 const PageNotFound = () => (
 	<Layout>
@@ -10,3 +11,5 @@ const PageNotFound = () => (
 	</Layout>
 );
 export default PageNotFound;
+
+export const Head = () => <Metadata />;

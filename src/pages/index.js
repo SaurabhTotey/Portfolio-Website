@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import ResponsiveContainer from "../components/ResponsiveContainer";
 import { StaticImage } from "gatsby-plugin-image";
+import { Metadata } from "../components/Metadata";
 
 const Index = () => (
 	<Layout>
@@ -40,3 +41,5 @@ const Index = () => (
 	</Layout>
 );
 export default Index;
+
+export const Head = () => <Metadata />;

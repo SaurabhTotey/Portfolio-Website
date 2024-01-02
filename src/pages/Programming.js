@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import "../styles/Programming.css";
 import ResponsiveContainer from "../components/ResponsiveContainer";
+import { Metadata } from "../components/Metadata";
 
 const Programming = () => (
 	<Layout>
@@ -287,3 +288,5 @@ const Programming = () => (
 	</Layout>
 );
 export default Programming;
+
+export const Head = () => <Metadata />;
