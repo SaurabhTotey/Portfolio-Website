@@ -7,16 +7,28 @@
 	align-items: center;
 }
 
+.prompt {
+	margin: 1%;
+}
+
+.contentContainer {
+	width: 100%;
+	height: 100%;
+}
+
 .footerLinkContainer {
-	display: inline-block;
-	vertical-align: top;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
 }
 
 .footerLink {
 	text-align: center;
 	display: block;
 	width: 100%;
-	padding-top: 3px;
+	height: 50%;
+	padding-top: 0.5em;
 	color: inherit;
 }
 
@@ -28,9 +40,9 @@
 	text-align: center;
 	display: block;
 	width: 100%;
+	height: 50%;
 	padding: 0 4px;
 	margin: 0;
-	overflow-wrap: break-word;
 	font-size: 0.8em;
 }
 

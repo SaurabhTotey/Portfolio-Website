@@ -3,7 +3,10 @@ import Layout from "../components/Layout";
 
 const Music = () => (
 	<Layout>
-		<p>TODO: upload more up-to-date videos of me playing piano and cello, and maybe talk about my music tastes.</p>
+		<p>
+			TODO: This page is under construction! I will later upload samples of my piano and cello playing and/or maybe some
+			arrangements and compositions.
+		</p>
 	</Layout>
 );
 export default Music;

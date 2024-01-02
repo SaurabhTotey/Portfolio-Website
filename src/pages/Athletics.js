@@ -4,8 +4,8 @@ import Layout from "../components/Layout";
 const Athletics = () => (
 	<Layout>
 		<p>
-			TODO: post about my feats (e.g. running path and time, weights), and videos of me doing stuff (e.g. climbing or
-			lifting weights)
+			TODO: This page is under construction! I will later upload videos of me doing things like climbing or lifting
+			weights.
 		</p>
 	</Layout>
 );

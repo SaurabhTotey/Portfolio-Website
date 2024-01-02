@@ -21,7 +21,7 @@ class ResponsiveContainer extends React.Component {
 
 	render() {
 		return (
-			<div className={"responsiveContainer"}>
+			<div className={"responsiveContainer"} style={{ columnGap: this.props.columnGap, rowGap: this.props.rowGap }}>
 				{this.props.children.map((child, index) => (
 					<div
 						className={"responsiveContainerItem"}

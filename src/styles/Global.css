@@ -5,6 +5,7 @@ body {
 	line-height: 1.4;
 	padding-left: 1%;
 	padding-right: 1%;
+	overflow-x: clip;
 	overflow-y: scroll;
 }
 

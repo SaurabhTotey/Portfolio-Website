@@ -2,6 +2,14 @@
 	--transition-delay: 60s;
 }
 
+.photon-part-name {
+	font-weight: bold;
+}
+
+#rice-subtitle {
+	font-size: 0.8em;
+}
+
 #all-philosophy-section-content {
 	display: grid;
 }
