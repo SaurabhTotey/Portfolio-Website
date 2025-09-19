@@ -29,14 +29,14 @@
 		"prop-types": "^15.8",
 		"react": "^18.2",
 		"react-dom": "^18.2",
-		"react-icons": "^4.12"
+		"react-icons": "^5.5"
 	},
 	"devDependencies": {
-		"eslint": "^8.56",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-prettier": "^5.0",
-		"eslint-plugin-react": "^7.33",
-		"prettier": "^3.1",
-		"gh-pages": "^6.1"
+		"eslint": "^9.36",
+		"eslint-config-prettier": "^10.1",
+		"eslint-plugin-prettier": "^5.5",
+		"eslint-plugin-react": "^7.37",
+		"prettier": "^3.6",
+		"gh-pages": "^6.3"
 	}
 }
