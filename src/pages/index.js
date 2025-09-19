@@ -20,7 +20,7 @@ const Index = () => (
 					Hello! I am a homo sapien named Saurabh Totey. Welcome to my little space on the internet. I use the he/him
 					pronouns, and I notate my name as सौरभ तोटे in Devanagari and トテ・ソウラブ in Kana. To pronounce my name, I
 					tell people to concatenate the words &ldquo;dinosaur&rdquo; and &ldquo;rub&rdquo; and then remove the
-					&ldquo;dino&rdquo; prefix.
+					&ldquo;dino&rdquo; prefix, but if that&apos;s still too difficult, &quot;ST&quot; works too!
 				</p>
 				<p>
 					I find philosophy, math, computer science, and physics to be extremely cool and satisfying, but I also

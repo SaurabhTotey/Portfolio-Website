@@ -6,8 +6,8 @@ import "../styles/Footer.css";
 const icons = {
 	email: {
 		icon: FaRegEnvelope,
-		path: "mailto:SaurabhToteyAccount@skiff.com",
-		text: ["Saurabh", "Totey", "[at]", "skiff", ".com"],
+		path: "mailto:SaurabhTotey@proton.me",
+		text: ["Saurabh", "Totey", "@", "proton", ".me"],
 	},
 	github: {
 		icon: FaGithub,

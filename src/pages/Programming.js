@@ -3,148 +3,11 @@ import Layout from "../components/Layout";
 import "../styles/Programming.css";
 import ResponsiveContainer from "../components/ResponsiveContainer";
 import { Metadata } from "../components/Metadata";
+import katex from "katex";
 
 const Programming = () => (
 	<Layout>
-		<p>
-			TODO: this page is still under construction! I&apos;m generally satisfied with the current outline I have in
-			place, but I still have yet to put all the content in place. This page is effectively a blog post about my
-			experience with technology.
-		</p>
-		<h2>Projects</h2>
-		<p>
-			<a href={"https://www.github.com/SaurabhTotey"}>My GitHub</a> has the majority of my projects, but here are some
-			standouts.
-		</p>
-		<h3>Movie Chooser</h3>
-		<p>TODO: I&apos;m still thinking about how best to display this!</p>
-		<h3>Planetary Conquest</h3>
-		<p>TODO: I&apos;m still thinking about how best to display this!</p>
-		<h2>My Setup</h2>
-		<h3>photon</h3>
-		<ResponsiveContainer responsiveWidths={[9, 3]} columnGap={"1em"} rowGap={"1em"}>
-			<div>
-				<p>
-					My computer is named &quot;photon&quot; because it is all white, pretty heavy on the RGB lighting, and, having
-					studied physics in my undergraduate education, I wanted to name it something physicsy. It&apos;s a beefy
-					small-form factor desktop that I built mainly for programming but also for gaming. I wanted it to be portable
-					because I expect to change locations soon. Noise was not something I selected for, but this does end up being
-					way louder than what I&apos;d&apos;ve naïvely expected. Below are its specs.
-				</p>
-				<ul>
-					<li>
-						Case: <span className="photon-part-name">TODO:</span>
-						<br />I chose this case because I wanted a small form factor. Because I could only obtain a white version of
-						this part, I went for an all-white build.
-					</li>
-					<li>
-						Motherboard: <span className="photon-part-name">TODO:</span>
-						<br />I needed a motherboard with the right form factor and built-in Wi-Fi. This one fit the bill and was
-						relatively inexpensive.
-					</li>
-					<li>
-						CPU: <span className="photon-part-name">TODO:</span>
-						<br />I wanted something powerful for gaming and with threads for programming.
-					</li>
-					<li>
-						Memory: <span className="photon-part-name">TODO:</span>
-						<br />
-						32 gigabytes is more than sufficient &mdash; perhaps even luxiorious &mdash; for all my needs. Even when
-						playing RAM-intensive games, I have never come across a situation where 32 gigabytes has been insufficient.
-					</li>
-					<li>
-						Graphics Card: <span className="photon-part-name">TODO:</span>
-						<br />I wanted this mainly for gaming, but I also want to mess around with programming with raytracing.
-						Other comparable (and cheaper) graphics cards are too big for my case. I wanted to avoid going with an
-						Nvidia card out of principle &mdash; especially because I&apos;d be running Linux &mdash; but all AMD cards
-						that I wanted were too big.
-					</li>
-					<li>
-						CPU Cooler: <span className="photon-part-name">TODO:</span>
-						<br />
-						My CPU is practically its own entire volcano, and though I prefer fan cooling, I had not the space for a
-						sufficient fan. Liquid cooling should allow the computer to be more portable though since it&apos;s better
-						mounted.
-					</li>
-					<li>
-						Storage: <span className="photon-part-name">TODO: </span>
-						<br />I probably should&apos;ve opted for double the storage since games can chew through space, and with
-						double the space, I would&apos;ve been able to store more media locally. However, that&apos;s an easy
-						upgrade to do later on.
-					</li>
-					<li>
-						Power Supply: <span className="photon-part-name">TODO:</span>
-						<br />
-						This one can deliver sufficient power, doesn&apos;t have a horrible efficiency rating, and is white.
-					</li>
-				</ul>
-			</div>
-			<p>TODO: put an image or multiple images of photon here (once I clean up the cables 😛)!</p>
-		</ResponsiveContainer>
-		<h3>The Software</h3>
-		<ResponsiveContainer responsiveWidths={[3, 9]} columnGap={"1em"} rowGap={"1em"}>
-			<div>
-				<p>TODO: put an image of my rice here (once I&apos;m ready to call it mostly done)!</p>
-				<p id="rice-subtitle">
-					My background image was obtained from{" "}
-					<a href={"https://www.reddit.com/r/OnePiece/comments/otdqsp/imgur_album_all_one_piece_color_spreads_thru/"}>
-						a Reddit post by /u/ShotBot
-					</a>
-					.
-				</p>
-			</div>
-			<div>
-				<p>
-					I&apos;m running everything on NixOS. I used to dual-boot Arch and Windows on an older computer, but I was
-					unable to install Windows on photon, so now it&apos;s just NixOS. I used to use Windows for gaming and Arch
-					for everything else, but aside from a few hiccups, I&apos;m finding that I can run games on NixOS. NixOS feels
-					like a significant upgrade over Arch. In Arch, any small minute difference could cause my system to be borked
-					(e.g. I change my location or I upgrade packages), and then I&apos;d need to spend a while finding the
-					relevant config file to change and fix. With NixOS, I need not search through the entire system for what is
-					wrong, and I only have to find what relevant part of my configuration is wrong or needs updating.
-				</p>
-				<p>
-					I&apos;m running Hyprland on Wayland with Waybar. I greatly appreciate Hyprland&apos;s emphasis on being
-					visually appealing. Unfortunately, many applications appear like glitchy garbage on Wayland (e.g. Steam,
-					Discord). I hope that this gets better with time, especially as Wayland picks up in use. I use the Alacritty
-					terminal with tmux, and I generally develop on a terminal with NeoVim. In terms of visual style, I like status
-					bars or toolbars to be at the bottom so that the rest of the screen can be dedicated to content. It is for
-					that reason that I have my Waybar at the bottom of the screen and I keep Firefox tabs at the bottom rather
-					than the top.
-				</p>
-				<p>
-					It is very important to me that applications do not show things like &ldquo;Recently Used&rdquo;. I care
-					enough about that that I store my bash history file in the /tmp folder so that it gets deleted on shutdown. If
-					a long command is worth keeping, then I should set up an alias or script for it or store it somewhere so that
-					I make it systematically easier for myself rather than relying on history. Likewise, files should be well
-					organized so I can easily find them rather than relying on the crutch of my history. Plus, I really like the
-					feeling that my system is &ldquo;fresh&rdquo;, and a stored history impedes upon that. In general, I really
-					like things to be very well organized and structured and clean.
-				</p>
-			</div>
-		</ResponsiveContainer>
-		<h2>Programming Languages</h2>
-		Below are my favorite programming languages. I enjoy writing code in these languages.
-		<h3>Rust</h3>
-		<p>
-			I like Rust as a replacement for C and C++. Rust feels nice to use in many ways, and it also is nice to know that
-			the generated software is performant and relatively minimal. I do wish though that it looked a little bit less
-			ugly. Certain syntactical notations (e.g. turbofish) and the extreme use of abbreviations make Rust code always
-			look ugly.
-		</p>
-		<h3>Kotlin</h3>
-		<p>
-			Kotlin is a very nice upgrade over Java. I really like the simplicity that Kotlin allows for. It is a shame that
-			Kotlin is a JVM language though. I dislike the JVM on principle. Though Kotlin has a native compiler and a
-			JavaScript transpiler, from my brief experimentation with them, they don&apos;t really feel all that usable to me.
-		</p>
-		<h3>TypeScript</h3>
-		<p>
-			The proliferation of JavaScript where it shouldn&apos;t be makes me sad, but TypeScript is a nice bandaid for
-			that. Modern JavaScript itself isn&apos;t the worst (I personally much prefer it to Python which is also
-			&lsquo;too prolific&rsquo; in my opinion), but TypeScript is nicer. I really like developing with types as a
-			crutch, and TypeScript is very ergonomic.
-		</p>
+		<p>TODO: this page is still under construction!</p>
 		<h2 id="philosophy-section-title">Programming Philosophy</h2>
 		<div id="all-philosophy-section-content">
 			<div id="normal-philosophy-section-content">
@@ -176,9 +39,11 @@ const Programming = () => (
 							I have worked with a lot of scientific software, and it is unfortunately the worst in this regard.
 							Everything is named with symbols as they appear in formulas and equations. Even if the symbol is
 							well-established within the field (e.g. H for Hamiltonian in certain physics contexts), using the full
-							name eliminates any ambiguity and should be what is done. If I had my way, I&apos;d even call symbols like
-							&pi; or e something like &lsquo;CIRCUMFERENCE_TO_DIAMETER_RATIO&rsquo; and
-							&lsquo;NATURAL_EXPONENTIAL_BASE&rsquo; in code, but I know that that battle&apos;s been lost.
+							name eliminates any ambiguity and should be what is done. If I had my way, I&apos;d even call symbols like{" "}
+							<span dangerouslySetInnerHTML={{ __html: katex.renderToString("\\pi") }} /> or{" "}
+							<span dangerouslySetInnerHTML={{ __html: katex.renderToString("e") }} /> something like
+							&lsquo;CIRCUMFERENCE_TO_DIAMETER_RATIO&rsquo; and &lsquo;NATURAL_EXPONENTIAL_BASE&rsquo; in code, but I
+							know that that battle&apos;s been lost.
 						</p>
 						<h3>Comments Should Answer &lsquo;Why&rsquo; and not &lsquo;What&rsquo;</h3>
 						<p>
