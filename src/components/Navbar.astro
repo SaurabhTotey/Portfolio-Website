@@ -1,0 +1,25 @@
+---
+import "../styles/Navbar.css";
+
+// A map of page names to page paths
+const pages = {
+	Home: "/",
+	Qualifications: "/Qualifications/",
+	Programming: "/Programming/",
+	Music: "/Music/",
+	Athletics: "/Athletics/",
+};
+const currentPath = Astro.url.pathname;
+---
+
+<nav role="navigation" aria-label="Page Navigation">
+	<ul id="navbar">
+		{Object.entries(pages).map(([pageName, path]) => (
+			<li class:list={["navbarItem", { active: currentPath === path }]}>
+				<a class="navbarLink" href={path}>
+					{pageName}
+				</a>
+			</li>
+		))}
+	</ul>
+</nav>

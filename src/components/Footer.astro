@@ -1,0 +1,54 @@
+---
+import EnvelopeIcon from "./icons/EnvelopeIcon.astro";
+import GithubIcon from "./icons/GithubIcon.astro";
+import RedditIcon from "./icons/RedditIcon.astro";
+import ResponsiveContainer from "./ResponsiveContainer.astro";
+import "../styles/Footer.css";
+
+const links = [
+	{
+		name: "email",
+		icon: EnvelopeIcon,
+		path: "mailto:SaurabhTotey@proton.me",
+		text: ["Saurabh", "Totey", "@", "proton", ".me"],
+	},
+	{
+		name: "github",
+		icon: GithubIcon,
+		path: "https://www.github.com/SaurabhTotey",
+		text: ["Saurabh", "Totey"],
+	},
+	{
+		name: "reddit",
+		icon: RedditIcon,
+		path: "https://www.reddit.com/u/SaurabhTotey",
+		text: ["/u/", "Saurabh", "Totey"],
+	},
+];
+const linkWidth = 100 / links.length;
+---
+
+<footer>
+	<ResponsiveContainer widths={[3, 9]}>
+		<div class="promptContainer">
+			<h5 class="prompt">Contact / Follow me:</h5>
+		</div>
+		<div class="contentContainer">
+			{links.map(({ name, icon: Icon, path, text }) => (
+				<div class="footerLinkContainer" style={{ width: `${linkWidth}%` }}>
+					<a class="footerLink" href={path} aria-label={name}>
+						<Icon />
+					</a>
+					<p class="footerLinkText">
+						{text.map((textChunk, i) => (
+							<span>
+								{textChunk}
+								{i !== text.length - 1 && <wbr />}
+							</span>
+						))}
+					</p>
+				</div>
+			))}
+		</div>
+	</ResponsiveContainer>
+</footer>

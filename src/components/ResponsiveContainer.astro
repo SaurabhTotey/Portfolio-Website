@@ -1,0 +1,26 @@
+---
+/**
+ * Lays out its children side by side, or stacked vertically when the screen is narrow.
+ * `widths` gives each child's relative width (e.g. [2, 10] makes the second child five times as wide as the first),
+ * so it must have one entry per child. `columnGap` and `rowGap` are optional CSS lengths.
+ */
+const { widths, columnGap, rowGap } = Astro.props;
+const columns = widths.map((width) => `minmax(0, ${width}fr)`).join(" ");
+---
+
+<div class="responsive-container" style={{ "--columns": columns, columnGap, rowGap }}>
+	<slot />
+</div>
+
+<style>
+	.responsive-container {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+
+	@media (min-width: 900px) {
+		.responsive-container {
+			grid-template-columns: var(--columns);
+		}
+	}
+</style>
