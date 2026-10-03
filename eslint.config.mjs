@@ -1,19 +1,8 @@
 import { defineConfig, globalIgnores } from "eslint/config";
 import react from "eslint-plugin-react";
-import prettier from "eslint-plugin-prettier";
 import globals from "globals";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-	baseDirectory: __dirname,
-	recommendedConfig: js.configs.recommended,
-	allConfig: js.configs.all,
-});
+import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
 export default defineConfig([
 	globalIgnores([
@@ -52,12 +41,7 @@ export default defineConfig([
 		"**/gatsby-config.js",
 	]),
 	{
-		extends: compat.extends("eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"),
-
-		plugins: {
-			react,
-			prettier,
-		},
+		extends: [js.configs.recommended, react.configs.flat.recommended, eslintPluginPrettierRecommended],
 
 		languageOptions: {
 			globals: {
@@ -76,7 +60,7 @@ export default defineConfig([
 
 		settings: {
 			react: {
-				version: "detect",
+				version: "19",
 			},
 		},
 

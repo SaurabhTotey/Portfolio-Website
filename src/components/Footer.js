@@ -39,7 +39,7 @@ function Footer() {
 								{icons[icon].text.map((textChunk, i) => (
 									<span key={i}>
 										{textChunk}
-										{i != icons[icon].text.length - 1 && <wbr />}
+										{i !== icons[icon].text.length - 1 && <wbr />}
 									</span>
 								))}
 							</p>
