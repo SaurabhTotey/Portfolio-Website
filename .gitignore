@@ -56,7 +56,6 @@ typings/
 
 # gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
@@ -70,3 +69,6 @@ yarn-error.log
 
 .idea/
 .mcp.json
+# Astro
+dist/
+.astro/
