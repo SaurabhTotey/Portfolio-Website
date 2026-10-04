@@ -9,11 +9,3 @@ Built with [Astro](https://astro.build). Useful commands:
 
 Deployment is manual: run the "Deploy to GitHub Pages" workflow from the repository's Actions tab. This requires the
 repository's Pages source to be set to "GitHub Actions".
-
-TODO:
-
-- [ ] update pictures!
-  - [ ] reduce icon size
-- [ ] finish pages!!!!
-- [ ] go through and make sure usages of style are necessary and not better served through CSS modules
-- [ ] dark theme (major!)

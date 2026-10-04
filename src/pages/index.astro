@@ -2,33 +2,38 @@
 import Layout from "../layouts/Layout.astro";
 import ResponsiveContainer from "../components/ResponsiveContainer.astro";
 import { Image } from "astro:assets";
-import lunchWithFriend from "../assets/SaurabhToteyLunchWithFriend.png";
+import professionalHeadshot from "../assets/ProfessionalHeadshot.png";
 ---
 
 <Layout>
 	<h2>About Me</h2>
 	<ResponsiveContainer widths={[2, 10]} columnGap="1em" rowGap="1em">
-		<Image src={lunchWithFriend} alt="Saurabh Totey" style="width: 100%; height: auto; background-color: #454545;" />
+		<Image
+			src={professionalHeadshot}
+			alt="Saurabh Totey"
+			style="width: 100%; height: auto; background-color: #454545;"
+		/>
 		<div>
 			<p style={{ marginTop: "0" }}>
-				Hello! I am a homo sapien named Saurabh Totey. Welcome to my little space on the internet. I use the he/him
-				pronouns, and I notate my name as सौरभ तोटे in Devanagari and トテ・ソウラブ in Kana. To pronounce my name, I
-				tell people to concatenate the words &ldquo;dinosaur&rdquo; and &ldquo;rub&rdquo; and then remove the
-				&ldquo;dino&rdquo; prefix, but if that&apos;s still too difficult, &quot;ST&quot; works too!
+				Hello! I am a homo sapien named &ldquo;Saurabh Totey&rdquo; (or &ldquo;सौरभ तोटे&rdquo; or
+				&ldquo;トテ・ソウラブ&rdquo;) that uses he/him pronouns. It is often simpler to refer to me as
+				&ldquo;S.T.&rdquo;, but for those determined to learn how to pronounce my name, my instructions are to
+				concatenate the words &ldquo;dinosaur&rdquo; and &ldquo;rub&rdquo; and then remove the &ldquo;dino&rdquo;
+				prefix!
 			</p>
 			<p>
-				I find philosophy, math, computer science, and physics to be extremely cool and satisfying, but I also generally
-				just love learning about all sorts of things. Being a human, I have a wide variety of hobbies; I enjoy
-				programming, playing musical instruments, learning languages, pushing myself at the gym, dancing, bouldering,
-				running, and travelling, among many other activities. I also spend time reading, watching television series with
-				overarching stories, and playing videogames. I am perpetually aspiring to be my best self, and I hope one day to
-				make a great change in the world.
+				My principal interests are in theoretical quantum computing (algorithms/complexity) and in building software!
 			</p>
 			<p>
-				I&apos;m not really active on social media, and I figure that a website like this can more faithfully showcase
-				who I am. As such, many of these pages are akin to what one may put in a blog. I am *always* open to suggestions
-				or ideas, so please do not hesitate to contact me! Unfortunately, the majority of this website is still
-				in-progress, but I&apos;ll be trying to continually update it and keep it up to date!
+				My fascination in quantum computing stems mainly from the desire to re-interpret natural processes as
+				&ldquo;computations&rdquo; and then see what the various bounds and limits we can apply or impose based off of
+				quantum complexity results. My background particularly is in open and many body systems, partition function
+				estimation, thermal states, and bosonic systems.
+			</p>
+			<p>
+				As for software, I love thinking about how systems work, and software systems run the world! Reasoning logically
+				about how to piece things together to create something great is always a fun challenge! I especially care about
+				correctness, performance, and reliability, which are necessary for so-called &ldquo;good&rdquo; software!
 			</p>
 		</div>
 	</ResponsiveContainer>
