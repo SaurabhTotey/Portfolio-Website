@@ -1,7 +1,6 @@
 #navbar {
 	list-style-type: none;
 	padding: 0;
-	overflow: hidden;
 	border-top: 1px solid #454545;
 	border-bottom: 1px solid #454545;
 }
@@ -23,7 +22,6 @@
 }
 
 .navbarItem {
-	width: 100%;
 	margin: auto;
 }
 
@@ -32,8 +30,11 @@
 }
 
 @media (min-width: 900px) {
+	#navbar {
+		display: flex;
+	}
+
 	.navbarItem {
-		width: 20%;
-		float: left;
+		flex: 1;
 	}
 }
