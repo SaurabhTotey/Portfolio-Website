@@ -2,19 +2,20 @@
 import EnvelopeIcon from "./icons/EnvelopeIcon.astro";
 import GithubIcon from "./icons/GithubIcon.astro";
 import GoogleScholarIcon from "./icons/GoogleScholarIcon.astro";
+import LinkedInIcon from "./icons/LinkedInIcon.astro";
 import RedditIcon from "./icons/RedditIcon.astro";
 import ResponsiveContainer from "./ResponsiveContainer.astro";
 import "../styles/Footer.css";
 
 const links = [
 	{
-		name: "email",
+		name: "Email",
 		icon: EnvelopeIcon,
 		path: "mailto:SaurabhTotey@proton.me",
 		text: ["Saurabh", "Totey", "@", "proton", ".me"],
 	},
 	{
-		name: "github",
+		name: "GitHub",
 		icon: GithubIcon,
 		path: "https://www.github.com/SaurabhTotey",
 		text: ["Saurabh", "Totey"],
@@ -31,6 +32,12 @@ const links = [
 		path: "https://www.reddit.com/u/SaurabhTotey",
 		text: ["/u/", "Saurabh", "Totey"],
 	},
+	{
+		name: "LinkedIn",
+		icon: LinkedInIcon,
+		path: "https://www.linkedin.com/in/SaurabhTotey",
+		text: ["Saurabh","Totey"],
+	}
 ];
 const linkWidth = 100 / links.length;
 ---
